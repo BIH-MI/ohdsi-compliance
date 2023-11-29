@@ -14,25 +14,7 @@
 
 # Inhalt
 
-[1 Zielsetzung [1](#zielsetzung)](#zielsetzung)
-
-[2 Übersicht der Rollen und Rechte pro System
-[1](#übersicht-der-rollen-und-rechte-pro-system)](#übersicht-der-rollen-und-rechte-pro-system)
-
-[3 Prozess zur Berechtigungsbeantragung
-[1](#prozess-zur-berechtigungsbeantragung)](#prozess-zur-berechtigungsbeantragung)
-
-[4 Löschen, Einschränkung oder Entzug von Berechtigungen
-[2](#löschen-einschränkung-oder-entzug-von-berechtigungen)](#löschen-einschränkung-oder-entzug-von-berechtigungen)
-
-[5 Passwortprozess- und Richtlinien
-[2](#passwortprozess--und-richtlinien)](#passwortprozess--und-richtlinien)
-
-[6 Kontrolle von Berechtigungen
-[2](#kontrolle-von-berechtigungen)](#kontrolle-von-berechtigungen)
-
-[7 Namentliche Liste von technisch Administrierenden
-[2](#namentliche-liste-von-technisch-administrierenden)](#namentliche-liste-von-technisch-administrierenden)
+<!-- TOC -->
 
 # Anlagenverzeichnis
 
