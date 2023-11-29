@@ -1,7 +1,3 @@
-# A
-# B
-
-
 <H1> Berechtigungskonzept OHDSI-Forschungsdatenbank </H1>
 
 | Verantwortliche                  |                                 |
@@ -16,7 +12,7 @@
 
 # Inhalt
 
-<!-- TOC -->
+ToDO
 
 # Anlagenverzeichnis
 
