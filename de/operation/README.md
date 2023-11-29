@@ -1,6 +1,4 @@
-**Betriebskonzept:**
-
-**OHDSI-Forschungsdatenbank**
+<H1> OHDSI-Forschungsdatenbank </H1>
 
 | Verantwortliche                   |                                 |
 |-----------------------------------|---------------------------------|
