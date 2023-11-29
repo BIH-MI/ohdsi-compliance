@@ -1,6 +1,8 @@
-**Berechtigungskonzept:**
+# A
+# B
 
-**OHDSI-Forschungsdatenbank**
+
+<H1> Berechtigungskonzept OHDSI-Forschungsdatenbank </H1>
 
 | Verantwortliche                  |                                 |
 |----------------------------------|---------------------------------|
