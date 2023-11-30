@@ -1,4 +1,4 @@
-**Eintrag ins Verfahrensverzeichnis: OHDSI-Implementierung**
+<H1> Eintrag ins Verfahrensverzeichnis: OHDSI-Implementierung </H1>
 
 | Verantwortliche                   |                                 |
 |-----------------------------------|---------------------------------|
