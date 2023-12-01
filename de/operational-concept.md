@@ -68,13 +68,6 @@
 [10 Kontinuierliche Verbesserung
 [6](#kontinuierliche-verbesserung)](#kontinuierliche-verbesserung)
 
-# Anlagenverzeichnis
-
-| Anlagenverzeichnis |                                                                                                                             |
-|--------------------|-----------------------------------------------------------------------------------------------------------------------------|
-| A1                 | Berechtigungskonzept der Forschungsdatenbank OHDSI@\[<span class="mark">Name der Organisation eintragen</span>\].           |
-| A2                 | Informationssicherheitskonzept der Forschungsdatenbank OHDSI@\[<span class="mark">Name der Organisation eintragen</span>\]. |
-
 # Zielsetzung
 
 Das vorliegende Dokument beschreibt alle Maßnahmen zum sicheren Betrieb
@@ -115,7 +108,7 @@ Patientinnen und Patienten strikt gewahrt bleibt. Neben den genannten
 Netzwerken werden die Technologien von OHDSI zunehmend auch in weiteren
 Projekten eingesetzt und bspw. im Rahmen von EU-Förderungen als
 Grundlage empfohlen (für mehr Details zur OHDSI-Methodik, Netzwerken und
-Tools siehe \[1\]).
+Tools siehe [\[1\]](#ref1)).
 
 Ohne die Durchführung der in diesem Dokument beschriebenen
 Verarbeitungstätigkeit ist die wissenschaftliche Sekundärnutzung von
@@ -357,7 +350,7 @@ A = Administrative Rechte, S = Schreibberechtigung, L = Leseberechtigung
 
 <span class="mark">\[Bitte beschreiben Sie hier den
 Nutzerverwaltungsprozess in Ihrer Organisation. Beziehen Sie sich auf
-die Schritte zur Nutzerfreigabe, wie sie in Anlage A1 detailliert sind,
+die Schritte zur Nutzerfreigabe, wie sie in [\[2\]](#ref2)  detailliert sind,
 und passen Sie diese an Ihre spezifischen Anforderungen an. Erwähnen
 Sie, wie Personen für die fachliche Administration benannt werden, wie
 Berechtigungen erteilt werden, und wie Anträge auf Nutzung der
@@ -368,7 +361,7 @@ dass die beschriebenen Prozesse den Anforderungen Ihrer Organisation
 entsprechen.\]</span>
 
 Zur Nutzerfreigabe ist pro Datensatz ein Prozess vorgesehen, der in
-Anlage A1 genauer beschrieben ist. Zusammenfassend:
+[\[2\]](#ref2) genauer beschrieben ist. Zusammenfassend:
 
 1.  Die Leitung der Fachabteilung benennt eine oder mehrere Personen für
     die fachliche Administration.
@@ -505,5 +498,7 @@ werden bei Bedarf in diesem Dokument ergänzt.
 
 # Referenzen
 
-\[1\] Observational Health Data Sciences and Informatics, The Book of
-OHDSI, 2020.
+<a id="ref1">\[1\]</a> [Observational Health Data Sciences and Informatics, The Book of
+OHDSI, 2021.](https://ohdsi.github.io/TheBookOfOhdsi/)
+
+<a id="ref2">\[2\]</a> [Berechtigungskonzept der Forschungsdatenbank OHDSI@\[Name der Organisation eintragen\]](./access-management-concept.md).
