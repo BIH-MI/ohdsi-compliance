@@ -131,4 +131,4 @@ Administrierenden statt.
   - <span class="mark">\[…\]</span>
 
 # Referenzen
-<a id="ref1">\[1\]</a> [Standardprozess für Einrichtung von Zugängen zur OHDSI-Forschungsdatenbank](./access-management-concept.md)  
+<a id="ref1">\[1\]</a> [Standardprozess für Einrichtung von Zugängen zur OHDSI-Forschungsdatenbank](./access-control-concept.md)  
