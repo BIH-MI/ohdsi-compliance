@@ -259,8 +259,8 @@ beispielsweise ein Neustart des Betriebssystems.\]</span>
 
 ### ATLAS
 
-<img src="./media/image1.png" style="width:3.5625in;height:1.80139in"
-alt="Software Tools – OHDSI" />ATLAS ist eine Web-Anwendung, die eine
+![Software Tools – OHDSI](./media/image1.png)  
+ATLAS ist eine Web-Anwendung, die eine
 Möglichkeit bietet grafisch Datenanalysen durchzuführen (siehe
 Abbildung 1) und mit einem Browser aufgerufen werden kann. Der Zugriff
 auf die Daten ist über einen persönlichen Account sowie eine
@@ -270,7 +270,7 @@ verschlüsselte Verbindung geschützt. Für Details zu Atlas siehe \[1\].
 
 Zugriff auf die Daten ist ebenfalls mittels der Programmiersprache R
 möglich. OHDSI stellt hierfür eine Vielzahl von Softwarebibliotheken zur
-Verfügung
+Verfügung:
 
 - HADES ist eine Sammlung von R-Paketen, die Funktionen bieten, die
   zusammen verwendet werden können, um eine vollständige
@@ -480,10 +480,10 @@ administrierenden Mitarbeiterinnen und Mitarbeiter.
 
 # Externe Projektmitarbeiter
 
-<span class="mark">\[\[Bitte geben Sie hier an, ob und zu welchem Zweck,
+<span class="mark">[Bitte geben Sie hier an, ob und zu welchem Zweck,
 externe Projektmitarbeiter in die Installation, Einrichtung oder den
 Betrieb der Forschungsdatenbank eingebunden sind. Nachfolgend befindet
-sich ein Beispiel.\]</span>
+sich ein Beispiel.]</span>
 
 Die Installation und Einrichtung der Forschungsdatenbank findet im
 Rahmen des Pilotprojekts unter Einbezug von externen Mitarbeitern statt.
