@@ -1,18 +1,139 @@
-## Section 1
-This is the content of Section 1.
+<H1> Standardprozess für die Bereitstellung von Zugängen zur OHDSI-
+Forschungsdatenbank </H1>
 
-## Section 2
-This is the content of Section 2 with an anchor.
-[Jump to Section 2](#my-anchor)
+| Verantwortliche                  |                                 |
+|----------------------------------|---------------------------------|
+| Durchführungsverantwortliche(r): | <span class="mark">\[…\]</span> |
+| Fachliche(r) Verantwortliche(r): | <span class="mark">\[…\]</span> |
+| Erstellung durch:                | <span class="mark">\[…\]</span> |
+
+| Berichtsversion: | <span class="mark">\[…\]</span>      |
+|------------------|--------------------------------------|
+| Stand:           | <span class="mark">TT.MM.YYYY</span> |
+
+# Inhalt
+
+[1 Zielsetzung [1](#zielsetzung)](#zielsetzung)
+
+[2 Prozesse auf Seiten der Fachabteilung
+[1](#prozesse-auf-seiten-der-fachabteilung)](#prozesse-auf-seiten-der-fachabteilung)
+
+[2.1 Nominierung von fachlich Administrierenden
+[1](#nominierung-von-fachlich-administrierenden)](#nominierung-von-fachlich-administrierenden)
+
+[2.2 Einrichten von Zugängen
+[2](#einrichten-von-zugängen)](#einrichten-von-zugängen)
+
+[2.3 Regelmäßige Kontrolle der Zugänge
+[2](#regelmäßige-kontrolle-der-zugänge)](#regelmäßige-kontrolle-der-zugänge)v
+
+[3 Beantragung eines Zugangs durch Forschende
+[2](#beantragung-eines-zugangs-durch-forschende)](#beantragung-eines-zugangs-durch-forschende)
+
+[4 Best Practices [2](#best-practices)](#best-practices)
 
 
-Proin suscipit elit dolor. Sed commodo commodo quam in ullamcorper. Sed facilisis sed justo nec varius. Curabitur eu urna est. Aenean fringilla nisi orci, vel pellentesque odio tincidunt quis. Donec id eros auctor, lacinia velit vitae, maximus eros. In hac habitasse platea dictumst. Duis fringilla orci ut ex hendrerit, ut porttitor massa egestas. Nunc vulputate risus nisl, sit amet sagittis dui sollicitudin at. Pellentesque a varius metus, sit amet posuere nulla. Curabitur congue lacus ut libero malesuada laoreet. Phasellus metus purus, faucibus eu laoreet nec, pellentesque non mi. Praesent consectetur libero magna, vel cursus velit sodales sit amet. Vestibulum fermentum, arcu in laoreet consectetur, enim risus cursus dolor, ac lacinia felis turpis quis nunc. Suspendisse varius sapien et mauris sodales, eu lobortis lacus auctor.
+# Zielsetzung
 
-Nulla in enim bibendum velit ullamcorper varius. Aliquam egestas orci eu urna bibendum, a venenatis felis auctor. Phasellus rhoncus mauris nunc, vel gravida lacus dapibus quis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec suscipit lobortis urna, sodales fringilla nisi vehicula at. Etiam pulvinar tortor in sollicitudin consequat. Vestibulum ac luctus lacus. Sed tristique metus efficitur laoreet sodales. Aenean euismod vehicula nibh id lacinia. Donec eleifend urna a dictum rhoncus.
+Die OHDSI-Forschungsdatenbank bietet Forschenden eine Möglichkeit auf
+standardisierte, organisations-intern konsolidierte, medizinische
+Beobachtungsdaten für Forschungszwecke zuzugreifen. Es werden Datensätze
+für <span class="mark">\[Anzahl\]</span> Krankheitsentitäten in der
+Datenbank vorgehalten. Diese stammen aus:
 
-Etiam varius augue ac libero elementum, vitae bibendum libero faucibus. Praesent a dui tortor. In euismod risus id erat cursus, blandit efficitur lorem mollis. Sed quis malesuada lectus, finibus tincidunt mi. Proin in ligula quam. Donec sodales imperdiet laoreet. Vestibulum varius quam sed augue tincidunt porttitor. Proin tincidunt laoreet libero aliquam molestie. Etiam pretium lorem laoreet feugiat ullamcorper. In hac habitasse platea dictumst. Nunc dapibus leo nec vehicula mattis. Etiam in nisi vel neque ultricies maximus. Donec interdum mauris sed odio suscipit pretium.
+- <span class="mark">\[Bereich/(Fach-)Abteilung/Organisation/etc.
+  1\]</span>
 
-Etiam rutrum massa a velit placerat scelerisque. Maecenas tincidunt nec augue vitae fermentum. Aliquam a sapien non mi imperdiet rutrum. Ut nibh elit, dapibus eu dolor vitae, lacinia varius neque. Ut sit amet porttitor felis, at interdum dolor. Maecenas suscipit imperdiet eleifend. Ut blandit orci eget nisi ultricies, non pretium diam maximus. In sit amet metus at quam facilisis iaculis. Nulla at fringilla diam. 
+- <span class="mark">\[Bereich/(Fach-)Abteilung/Organisation/etc.
+  2\]</span>
+
+- <span class="mark">\[…\]</span>
+
+Das vorliegende Dokument soll (1) Prozesse für die Beantragung eines
+Zugangs durch Forschende (siehe Kapitel 3) sowie (2) Prozesse auf Seiten
+der Leitung <span class="mark">\[des/des
+Bereiches/(Fach-)Abteilung/Organisation/etc.\]</span> (siehe Kapitel 2)
+darstellen.
+
+<span class="mark">\[**Alle hier beschriebenen Prozesse müssen genau
+geprüft und nach Bedarf angepasst werden!**\]</span>
+
+# Prozesse auf Seiten der Fachabteilung
+
+## Nominierung von fachlich Administrierenden
+
+Um beispielsweise die Freigabe von Nutzern umzusetzen, müssen durch die
+Leitung <span class="mark">\[des/des
+Bereiches/(Fach-)Abteilung/Organisation/etc.\]</span> entsprechende
+fachliche Administrierende nominiert werden. Zu diesem Zweck fülle die
+Leitung und die zukünftige fachlich administrierende Person das entsprechende Formular [2] aus und senden es an die technische Administration, die
+den Zugang einrichtet.
+
+## Einrichten von Zugängen
+
+Nach Erhalt eines freigegebenen Antrags auf Zugang zur Forschungsdatenbank [\[1\]](#ref1)  richtet eine fachliche administrierende Person die Zugänge
+auf den betreffenden Datensatz der OHDSI- Forschungsdatenbank ein.
+Technische Schulung und Unterstützung hierzu kann die technische
+Administration bieten.
+
+## Regelmäßige Kontrolle der Zugänge
+
+Zweimal pro Jahr kontrollieren die fachlich Administrierenden
+<span class="mark">\[ggf.: einer (Fach-)Abteilung\]</span> die aktiven
+Zugänge zur OHDSI-Forschungsdatenbank und entfernen nicht mehr benötige
+Zugänge entsprechend. Analog prüft die Leitung
+<span class="mark">\[des/des
+Bereiches/(Fach-)Abteilung/Organisation/etc.\]</span> einmal im Jahr die
+nominierten fachlich Administrierenden.
+
+# Beantragung eines Zugangs durch Forschende
+
+Um eine Studie mit der Datenbank durchführen zu können ist zunächst die
+Zustimmung der betroffenen Leitung einzuholen. Im Anschluss daran sind
+die üblichen Voraussetzungen für die Durchführung einer retrospektiven
+Studie zu schaffen (u.a. Ethikantrag, Abstimmung mit den
+Datenschutz-Funktionen).
+
+Zur Gewährung eines Zugangs zur Gesundheitsdatenbank ist folgender
+Prozess vorgesehen:
+
+1.  Die forschende Person stellt mittels des entsprechenden Formulars [\[1\]](#ref1)
+    einen Antrag auf Nutzung der Forschungsdatenbank bei der Leitung der
+    Fachabteilung.
+
+2.  Die Leitung der Fachabteilung gibt diesen Antrag mittels
+    Unterschrift frei.
+
+3.  Die forschende Person leitet den freigegebenen Antrag an die
+    fachliche Administration weiter.
+
+4.  Die fachliche Administration gewährt der forschenden Person Zugriff
+    auf die Forschungsdatenbank.
+
+Eine Nutzerfreigabe kann immer nur bis zu einem im Antrag definierten
+Ablaufdatum geschehen. Dieses ist auf maximal
+<span class="mark">\[6\]</span> Monate terminiert. Weiterhin findet eine
+regelmäßige Überprüfung der zugelassenen Personen durch die fachliche
+Administration statt.
+
+# Best Practices
+
+<span class="mark">\[Bitte beschreiben Sie die Best Practices, die
+während des gesamten Forschungsprojektes befolgt werden sollten. Betonen
+Sie beispielsweise die Bedeutung der Einhaltung der Regeln und
+Empfehlungen der Guten Wissenschaftlichen Praxis sowie des
+Datenschutzes. Nachfolgend finden Sie ein Beispiel.\]</span>
+
+Während des gesamten Forschungsprojektes sind die Regeln und
+Empfehlungen der Guten Wissenschaftliche Praxis und des Datenschutzes zu
+beachten. Entsprechende Maßnahmen sind im Studienprotokoll bzw.
+Ethikantrag darzulegen. Die Verantwortung für Maßnahmen, bspw. zur
+Archivierung von Forschungsergebnissen oder zugehöriger Primärdaten,
+liegt bei den Forschenden.
+
+# Referenzen
 
 
-<a id="my-anchor">content</a>
+<a id="ref1">\[1\] Antrag auf Gewährung eines Zugriffs zur OHDSI-Forschungsdatenbank</a>
+[2] Nominierung von fachlich Administrierenden für die OHDSI-Forschungsdatenbank
+
