@@ -132,7 +132,5 @@ Archivierung von Forschungsergebnissen oder zugehöriger Primärdaten,
 liegt bei den Forschenden.
 
 # Referenzen
-
-
 <a id="ref1">\[1\]</a> Antrag auf Gewährung eines Zugriffs zur OHDSI-Forschungsdatenbank  
-<a id="ref2">\[1\]</a> Nominierung von fachlich Administrierenden für die OHDSI-Forschungsdatenbank  
+<a id="ref2">\[2\]</a> Nominierung von fachlich Administrierenden für die OHDSI-Forschungsdatenbank  
