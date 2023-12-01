@@ -12,13 +12,7 @@
 
 # Inhalt
 
-ToDO
-
-# Anlagenverzeichnis
-
-| Anlagenverzeichnis |                                                                            |
-|--------------------|----------------------------------------------------------------------------|
-| A1                 | Standardprozess für Einrichtung von Zugängen zur OHDSI-Forschungsdatenbank |
+ToDo
 
 # Zielsetzung
 
@@ -55,12 +49,12 @@ Leseberechtigung*
 # Prozess zur Berechtigungsbeantragung
 
 <span class="mark">\[Bitte beschreiben Sie den Prozess der
-Berechtigungsbeantragung, wie er in Anlage A1 detailliert ist, in
+Berechtigungsbeantragung, wie er in [\[1\]](#ref1) detailiert beschrieben ist, in
 zusammengefasster Form. Nachfolgend befindet sich ein Beispielprozess,
 der nach Bedarf angepasst werden kann.\]</span>
 
-Zur Nutzerfreigabe ist pro Datensatz ein Prozess vorgesehen, der in
-Anlage A1 genauer beschrieben ist. Zusammenfassend:
+Zur Nutzerfreigabe ist pro Datensatz ein Prozess vorgesehen, der in [\[1\]](#ref1) 
+ genauer beschrieben ist. Zusammenfassend:
 
 1.  <span class="mark">\[Eine berechtigte Person (z.B. die Leitung der
     Fachabteilung)\]</span> benennt eine oder mehrere Personen für die
@@ -135,3 +129,6 @@ Administrierenden statt.
   - <span class="mark">\[Name und Kontaktdetails\]</span>
 
   - <span class="mark">\[…\]</span>
+
+# Referenzen
+<a id="ref1">\[1\]</a> [Standardprozess für Einrichtung von Zugängen zur OHDSI-Forschungsdatenbank](./access-management-concept.md)  
