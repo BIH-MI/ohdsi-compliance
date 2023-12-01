@@ -25,19 +25,13 @@ Forschungsdatenbank </H1>
 [2](#einrichten-von-zugängen)](#einrichten-von-zugängen)
 
 [2.3 Regelmäßige Kontrolle der Zugänge
-[2](#regelmäßige-kontrolle-der-zugänge)](#regelmäßige-kontrolle-der-zugänge)
+[2](#regelmäßige-kontrolle-der-zugänge)](#regelmäßige-kontrolle-der-zugänge)v
 
 [3 Beantragung eines Zugangs durch Forschende
 [2](#beantragung-eines-zugangs-durch-forschende)](#beantragung-eines-zugangs-durch-forschende)
 
 [4 Best Practices [2](#best-practices)](#best-practices)
 
-# Anlagenverzeichnis
-
-| Anlagenverzeichnis |                                                                              |
-|--------------------|------------------------------------------------------------------------------|
-| A1                 | Antrag auf Gewährung eines Zugriffs zur OHDSI-Forschungsdatenbank            |
-| A2                 | Nominierung von fachlich Administrierenden für die OHDSI-Forschungsdatenbank |
 
 # Zielsetzung
 
@@ -71,15 +65,13 @@ geprüft und nach Bedarf angepasst werden!**\]</span>
 Um beispielsweise die Freigabe von Nutzern umzusetzen, müssen durch die
 Leitung <span class="mark">\[des/des
 Bereiches/(Fach-)Abteilung/Organisation/etc.\]</span> entsprechende
-fachliche Administrierende nominiert werden. Zu diesem Zweck füllt die
-Leitung und die zukünftige fachlich administrierende Person das Formular
-der Anlage A2 aus und senden es an die technische Administration, die
+fachliche Administrierende nominiert werden. Zu diesem Zweck fülle die
+Leitung und die zukünftige fachlich administrierende Person das entsprechende Formular[\[1\]](#ref1) aus und senden es an die technische Administration, die
 den Zugang einrichtet.
 
 ## Einrichten von Zugängen
 
-Nach Erhalt eines freigegebenen Dokumentes des Typs der Anlage A1 (siehe
-Abschnitt 3) richtet eine fachliche administrierende Person die Zugänge
+Nach Erhalt eines freigegebenen Antrags auf Zugang zur Forschungsdatenbank[\[2\]](#ref2)  richtet eine fachliche administrierende Person die Zugänge
 auf den betreffenden Datensatz der OHDSI- Forschungsdatenbank ein.
 Technische Schulung und Unterstützung hierzu kann die technische
 Administration bieten.
@@ -105,7 +97,7 @@ Datenschutz-Funktionen).
 Zur Gewährung eines Zugangs zur Gesundheitsdatenbank ist folgender
 Prozess vorgesehen:
 
-1.  Die forschende Person stellt mittels des Formulars aus Anlage A1
+1.  Die forschende Person stellt mittels des entsprechenden Formulars[\[2\]](#ref2)
     einen Antrag auf Nutzung der Forschungsdatenbank bei der Leitung der
     Fachabteilung.
 
@@ -138,3 +130,7 @@ beachten. Entsprechende Maßnahmen sind im Studienprotokoll bzw.
 Ethikantrag darzulegen. Die Verantwortung für Maßnahmen, bspw. zur
 Archivierung von Forschungsergebnissen oder zugehöriger Primärdaten,
 liegt bei den Forschenden.
+
+# Referenzen
+<a id="ref1">\[1\]</a> Antrag auf Gewährung eines Zugriffs zur OHDSI-Forschungsdatenbank  
+<a id="ref2">\[2\]</a> Nominierung von fachlich Administrierenden für die OHDSI-Forschungsdatenbank  
