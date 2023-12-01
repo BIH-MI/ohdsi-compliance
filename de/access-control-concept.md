@@ -66,7 +66,7 @@ Um beispielsweise die Freigabe von Nutzern umzusetzen, müssen durch die
 Leitung <span class="mark">\[des/des
 Bereiches/(Fach-)Abteilung/Organisation/etc.\]</span> entsprechende
 fachliche Administrierende nominiert werden. Zu diesem Zweck fülle die
-Leitung und die zukünftige fachlich administrierende Person das entsprechende Formular [\[2\]](#ref2) aus und senden es an die technische Administration, die
+Leitung und die zukünftige fachlich administrierende Person das entsprechende Formular [\[1\]](#ref2)aus und senden es an die technische Administration, die
 den Zugang einrichtet.
 
 ## Einrichten von Zugängen
