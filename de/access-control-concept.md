@@ -66,12 +66,12 @@ Um beispielsweise die Freigabe von Nutzern umzusetzen, müssen durch die
 Leitung <span class="mark">\[des/des
 Bereiches/(Fach-)Abteilung/Organisation/etc.\]</span> entsprechende
 fachliche Administrierende nominiert werden. Zu diesem Zweck fülle die
-Leitung und die zukünftige fachlich administrierende Person das entsprechende Formular [\[1\]](#ref2)aus und senden es an die technische Administration, die
+Leitung und die zukünftige fachlich administrierende Person das entsprechende Formular[\[1\]](#ref1) aus und senden es an die technische Administration, die
 den Zugang einrichtet.
 
 ## Einrichten von Zugängen
 
-Nach Erhalt eines freigegebenen Antrags auf Zugang zur Forschungsdatenbank [\[1\]](#ref1)  richtet eine fachliche administrierende Person die Zugänge
+Nach Erhalt eines freigegebenen Antrags auf Zugang zur Forschungsdatenbank[\[2\]](#ref2)  richtet eine fachliche administrierende Person die Zugänge
 auf den betreffenden Datensatz der OHDSI- Forschungsdatenbank ein.
 Technische Schulung und Unterstützung hierzu kann die technische
 Administration bieten.
@@ -97,7 +97,7 @@ Datenschutz-Funktionen).
 Zur Gewährung eines Zugangs zur Gesundheitsdatenbank ist folgender
 Prozess vorgesehen:
 
-1.  Die forschende Person stellt mittels des entsprechenden Formulars [\[1\]](#ref1)
+1.  Die forschende Person stellt mittels des entsprechenden Formulars[\[2\]](#ref2)
     einen Antrag auf Nutzung der Forschungsdatenbank bei der Leitung der
     Fachabteilung.
 
