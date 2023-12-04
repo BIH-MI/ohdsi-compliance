@@ -452,19 +452,6 @@ Auftragsdatenverarbeiter auch die Angabe des Speicherorts der Daten, der
 Hintergrund/Zweck der Verarbeitung. Die Beschreibung kann in Form einer
 Liste oder in tabellarischer Form erfolgen.\]</span>
 
-# Datenübermittlung an Drittländer
-
-\[ \] Nein (weiter mit Punkt 5)
-
-\[ \] Ja (bitte sämtliche Datenübermittlungen benennen/beschreiben)
-
-<span class="mark">\[Hier sind sämtliche Datenübermittlungen detailliert
-aufzulisten. Zu den relevanten Informationen gehören beispielsweise
-neben der Benennung des Drittlandes auch die Angabe der Datenkategorie
-sowie eine Beschreibung, wie die Daten übermittelt werden. Die
-Beschreibung kann in Form einer Liste oder in tabellarischer Form
-erfolgen.\]</span>
-
 # Speicherung, Löschung und Weitergabe von Daten
 
 ## Speicherort, Speicherdauer und Löschung der Daten
