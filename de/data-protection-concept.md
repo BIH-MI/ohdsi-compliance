@@ -507,6 +507,16 @@ Ja (bitte Tabelle ausfüllen)
 
 # Wahrung der Betroffenenrechte
 
+Patienten haben in der Regel eine Reihe von Rechten bezüglich ihrer 
+persönlichen Daten, die in unterschiedlichen rechtlichen Rahmenwerken 
+verankert sind. Im Kontext der Datenschutz-Grundverordnung (DSGVO) 
+werden diese Rechte spezifisch ausgestaltet, um einen adäquaten Schutz 
+persönlicher Daten im Bereich der medizinischen Forschung und 
+Krankenversorgung zu gewährleisten. Im Folgenden wird beschrieben, wie diese
+Rechte in der Praxis, insbesondere im Hinblick auf die Verarbeitung
+und Nutzung personenbezogener Daten in unserer Forschungsdatenbank, 
+umgesetzt werden.
+
 <span class="mark">\[Hier beschreiben, wie Patientinnen und Patienten
 ihre Betroffenenrechte geltend machen können, bspw. Verweis auf
 Richtlinien und Informationsquellen und/oder verantwortliche Rollen,
@@ -518,26 +528,26 @@ Forschungsdatenbank wiederspiegeln. Nur in der Forschungsdatenbank
 gelöschte Einträge werden mit einem Flag auf Basis des Pseudonyms
 versehen, so dass diese nicht erneut geladen werden.
 
-## Information des Betroffenen (Art. 12 ff. DS-GVO)
+## Information des Betroffenen
 
 <span class="mark">\[Hier sollte beschrieben werden, wie die
 Organisation Patientinnen und Patienten über die Verarbeitung ihrer
-personenbezogenen Daten informiert. Es kann beispielsweise auf
-Informationsbroschüren, Aufklärungsgespräche oder Datenschutzerklärungen
-verwiesen werden. Nachfolgend ein Beispiel.\]</span>
+personenbezogenen Daten gem. Art. 12 ff. DS-GVO informiert. Es kann 
+beispielsweise auf Informationsbroschüren, Aufklärungsgespräche oder 
+Datenschutzerklärungen verwiesen werden. Nachfolgend ein Beispiel.\]</span>
 
 Die Patientinnen und Patienten werden im Rahmen der
 Patienteninformationen zur stationären und ambulanten Behandlung über
 retrospektive Studien der Organisation informiert.
 
-## Widerruf der Einwilligung (Art. 7 Abs. 3 DS-GVO)
+## Widerruf der Einwilligung
 
 <span class="mark">\[In diesem Abschnitt ist darzulegen, wie Betroffene
-ihre Einwilligung zur Datenverarbeitung widerrufen können. Wenn die
-Datenverarbeitung nicht auf Einwilligung beruht, sollte dies klar
-dargestellt und die zugrunde liegende rechtliche Basis erläutert werden.
-Andernfalls sollten die Schritte zum Widerruf der Einwilligung sowie die
-Konsequenzen dieses Widerrufs klar und verständlich beschrieben werden.
+ihre Einwilligung zur Datenverarbeitung gem. Art. 7 Abs. 3 DS-GVO widerrufen 
+können. Wenn die Datenverarbeitung nicht auf Einwilligung beruht, sollte 
+dies klar dargestellt und die zugrunde liegende rechtliche Basis erläutert 
+werden. Andernfalls sollten die Schritte zum Widerruf der Einwilligung sowie 
+die Konsequenzen dieses Widerrufs klar und verständlich beschrieben werden.
 Nachfolgend je ein Beispiel.\]</span>
 
 Beispiel 1: Nicht zutreffend, da die Datenverarbeitung auf Basis einer
@@ -552,13 +562,13 @@ unserer Webseite im Impressum\]</span> zu finden. Nach Eingang des
 Widerrufs wird die Verarbeitung der Daten, die auf der Einwilligung
 beruht, umgehend eingestellt.
 
-## Auskunftsrecht (Art. 15 DS-GVO)
+## Auskunftsrecht
 
 <span class="mark">\[Es sollte beschrieben werden, wie Betroffene ihr
-Recht auf Auskunft über die sie betreffenden personenbezogenen Daten
-ausüben können, einschließlich der Kontaktdaten der zuständigen Stellen
-(z.B. Datenschutzbeauftragter) und des Verfahrens zur Antragstellung.
-Nachfolgend ein Beispiel.\]</span>
+Recht auf Auskunft gem. Art. 15 DS-GVO über die sie betreffenden 
+personenbezogenen Daten ausüben können, einschließlich der Kontaktdaten
+der zuständigen Stellen (z.B. Datenschutzbeauftragter) und des Verfahrens 
+zur Antragstellung. Nachfolgend ein Beispiel.\]</span>
 
 Im Fall eines Auskunftsersuchens können sich die Betroffenen direkt an
 die behördliche Datenschutzbeauftragte wenden. Darüber hinaus steht u.a.
@@ -568,12 +578,12 @@ Datenschutzbeauftragte in Abstimmung mit dem
 Durchführungsverantwortlichen innerhalb der gesetzlich vorgeschrieben
 Frist erteilt.
 
-## Recht auf Berichtigung (Art. 16 DS-GVO)
+## Recht auf Berichtigung
 
 <span class="mark">\[Dieser Punkt sollte erläutern, wie Betroffene die
-Berichtigung unrichtiger Daten beantragen können, sowie die Prozesse,
-die die Organisation zur Sicherstellung der Richtigkeit der Daten
-etabliert hat. Es könnte unter anderem beispielsweise beschrieben
+Berichtigung unrichtiger Daten gem. Art. 16 DS-GVO beantragen können, 
+sowie die Prozesse, die die Organisation zur Sicherstellung der Richtigkeit
+der Daten etabliert hat. Es könnte unter anderem beispielsweise beschrieben
 werden, wie Fehler in den Daten korrigiert werden können, beispielsweise
 durch ein internes Antragsverfahren oder automatische Systeme zur
 Datenaktualisierung. Nachfolgend ein Beispiel.\]</span>
@@ -581,11 +591,11 @@ Datenaktualisierung. Nachfolgend ein Beispiel.\]</span>
 Berichtigungen in den Quellsystemen ändern über die Synchronisation
 automatisch die Daten in der Forschungsdatenbank.
 
-## Recht auf Löschung (Art. 17 DS-GVO)
+## Recht auf Löschung
 
 <span class="mark">\[Hier wird erwartet, dass die Umstände, unter denen
-Betroffene die Löschung ihrer Daten beantragen können, sowie die
-Prozesse der Organisation zur Löschung der Daten, einschließlich
+Betroffene die Löschung ihrer Daten gem. Art. 17 DS-GVO beantragen können, 
+sowie die Prozesse der Organisation zur Löschung der Daten, einschließlich
 etwaiger Aufbewahrungsfristen, dargelegt werden. Nachfolgend ein
 Beispiel.\]</span>
 
@@ -598,12 +608,12 @@ Quellsystemen über die Synchronisation automatisch die Daten in der
 Forschungsdatenbank löschen. Es gelten die in Kapitel 4.1 genannten
 Aufbewahrungsfristen.
 
-## Recht auf Einschränkung der Verarbeitung (Art. 18 DS-GVO)
+## Recht auf Einschränkung der Verarbeitung
 
 <span class="mark">\[In diesem Abschnitt sollte beschrieben werden, ob
-und wie Betroffene eine Einschränkung der Verarbeitung ihrer Daten
-beantragen können und unter welchen Bedingungen dies möglich ist.
-Nachfolgend ein Beispiel.\]</span>
+und wie Betroffene eine Einschränkung der Verarbeitung ihrer Daten gem.
+Art. 18 DS-GVO beantragen können und unter welchen Bedingungen dies 
+möglich ist. Nachfolgend ein Beispiel.\]</span>
 
 Die betroffenen Personen haben jederzeit die Möglichkeit, die
 Einschränkung der Verarbeitung ihrer Daten im Einzelfall zu verlangen.
@@ -613,12 +623,12 @@ Falle einer Einschränkung in den Quellsystemen wirkt diese sich über die
 Synchronisation automatisch auf die Daten in der Forschungsdatenbank
 aus.
 
-## Recht auf Datenübertragbarkeit (Art. 20 DS-GVO)
+## Recht auf Datenübertragbarkeit
 
 <span class="mark">\[Dieser Teil sollte darlegen, wie Betroffene ihr
-Recht auf Übertragung ausüben können, einschließlich der Verfahren zur
-Anforderung und Bereitstellung dieser Daten. Nachfolgend ein
-Beispiel.\]</span>
+Recht auf Übertragung gem. Art. 20 DS-GVO ausüben können, einschließlich
+der Verfahren zur Anforderung und Bereitstellung dieser Daten. 
+Nachfolgend ein Beispiel.\]</span>
 
 Im Fall eines berechtigten Herausgabeverlangens können die zu einer
 Person verarbeiteten Daten gedruckt und als formales Schreiben
@@ -628,11 +638,11 @@ technischen Format vorliegen, semantisch jedoch mit den Daten in den
 Quellsystemen übereinstimmen, so dass diese auch als Quelle für eine
 Übertragung der Daten genutzt werden können.
 
-## Widerspruchsrecht (Art. 21 DS-GVO)
+## Widerspruchsrecht
 
 <span class="mark">\[Hier sollte erläutert werden, ob und wenn ja, wie
-Betroffene Widerspruch gegen die Verarbeitung ihrer Daten einlegen
-können, einschließlich der Bedingungen, unter denen ein solcher
+Betroffene Widerspruch gegen die Verarbeitung ihrer Daten gem. Art. 21 DS-GVO
+einlegen können, einschließlich der Bedingungen, unter denen ein solcher
 Widerspruch möglich ist, und der Schritte, die die Organisation in
 Reaktion darauf unternimmt. Nachfolgend ein Beispiel.\]</span>
 
