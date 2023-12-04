@@ -509,7 +509,7 @@ Ja (bitte Tabelle ausfüllen)
 
 Patienten haben in der Regel eine Reihe von Rechten bezüglich ihrer 
 persönlichen Daten, die in unterschiedlichen rechtlichen Rahmenwerken 
-verankert sind. Im Kontext der Datenschutz-Grundverordnung (DSGVO) 
+verankert sind. Im Kontext der Datenschutz-Grundverordnung (DS-GVO) 
 werden diese Rechte spezifisch ausgestaltet, um einen adäquaten Schutz 
 persönlicher Daten im Bereich der medizinischen Forschung und 
 Krankenversorgung zu gewährleisten. Im Folgenden wird beschrieben, wie diese
