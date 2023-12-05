@@ -164,7 +164,7 @@ finden sich in \[1\].
 
 **Fachliche Verantwortliche und Kontakte**
 
-- <span class="mark">\[Name und Kontaktdaten der fachlich verantwortlichen Person\] für Krankheitsgruppe 1</span>.
+- <span class="mark">\[Name und Kontaktdaten der fachlich verantwortlichen Person\] für Krankheitsgruppe \[X\]</span>.
 
 - <span class="mark">\[…\]</span>.
 
