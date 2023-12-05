@@ -1,9 +1,9 @@
 <H1> Eintrag ins Verfahrensverzeichnis: OHDSI-Implementierung </H1>
 
-| Verantwortliche                   |                                 |
-|-----------------------------------|---------------------------------|
-| Fachliche(r) Verantwortliche(r):  | <span class="mark">\[…\]</span> |
-| Technische(r) Verantwortliche(r): | <span class="mark">\[…\]</span> |
+Verantwortlich(e):  
+Autor(en):  
+Version:  
+Datum:  
 
 # Inhaltsverzeichnis
 
