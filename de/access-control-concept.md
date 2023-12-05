@@ -33,18 +33,18 @@ Beobachtungsdaten für Forschungszwecke zuzugreifen. Es werden Datensätze
 für <span class="mark">\[Anzahl\]</span> Krankheitsentitäten in der
 Datenbank vorgehalten. Diese stammen aus:
 
-- <span class="mark">\[Bereich/(Fach-)Abteilung/Organisation/etc.
+- <span class="mark">\[Bereich/Krankheitsgruppe/Organisation/etc.
   1\]</span>
 
-- <span class="mark">\[Bereich/(Fach-)Abteilung/Organisation/etc.
+- <span class="mark">\[Bereich/Krankheitsgruppe/Organisation/etc.
   2\]</span>
 
 - <span class="mark">\[…\]</span>
 
 Das vorliegende Dokument soll (1) Prozesse für die Beantragung eines
 Zugangs durch Forschende (siehe Kapitel 3) sowie (2) Prozesse auf Seiten
-der Leitung <span class="mark">\[des/des
-Bereiches/(Fach-)Abteilung/Organisation/etc.\]</span> (siehe Kapitel 2)
+der fachlich Verantwortlichen <span class="mark">\[des/des
+Bereiches/Krankheitsgruppe/Organisation/etc.\]</span> (siehe Kapitel 2)
 darstellen.
 
 <span class="mark">\[**Alle hier beschriebenen Prozesse müssen genau
@@ -55,7 +55,7 @@ geprüft und nach Bedarf angepasst werden!**\]</span>
 # Beantragung eines Zugangs durch Forschende
 
 Um eine Studie mit der Datenbank durchführen zu können ist zunächst die
-Zustimmung der betroffenen Leitung einzuholen. Im Anschluss daran sind
+Zustimmung der betroffenen fachliche Verantwortlichen einzuholen. Im Anschluss daran sind
 die üblichen Voraussetzungen für die Durchführung einer retrospektiven
 Studie zu schaffen (u.a. Ethikantrag, Abstimmung mit den
 Datenschutz-Funktionen).
@@ -64,10 +64,9 @@ Zur Gewährung eines Zugangs zur Gesundheitsdatenbank ist folgender
 Prozess vorgesehen:
 
 1.  Die forschende Person stellt mittels des entsprechenden Formulars[\[2\]](#ref2)
-    einen Antrag auf Nutzung der Forschungsdatenbank bei der Leitung der
-    Fachabteilung.
+    einen Antrag auf Nutzung der Forschungsdatenbank bei der fachlich verantwortlichen Person
 
-2.  Die Leitung der Fachabteilung gibt diesen Antrag mittels
+2.  Die  fachlich verantwortliche Person der Fachabteilung gibt diesen Antrag mittels
     Unterschrift frei.
 
 3.  Die forschende Person leitet den freigegebenen Antrag an die Administration weiter.
