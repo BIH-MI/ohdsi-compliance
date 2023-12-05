@@ -1,15 +1,9 @@
 <H1> Betriebskonzept </H1>
 
-| Verantwortliche                   |                                 |
-|-----------------------------------|---------------------------------|
-| Durchführungsverantwortliche(r):  | <span class="mark">\[…\]</span> |
-| Fachliche(r) Verantwortliche(r):  | <span class="mark">\[…\]</span> |
-| Technische(r) Verantwortliche(r): | <span class="mark">\[…\]</span> |
-| Erstellung durch:                 | <span class="mark">\[…\]</span> |
-
-| Berichtsversion: | <span class="mark">\[…\]</span>      |
-|------------------|--------------------------------------|
-| Stand:           | <span class="mark">TT.MM.YYYY</span> |
+Verantwortlich(e):  
+Autor(en):  
+Version:  
+Datum:  
 
 # Inhalt
 
