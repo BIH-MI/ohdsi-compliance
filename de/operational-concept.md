@@ -481,7 +481,6 @@ werden bei Bedarf in diesem Dokument ergänzt.
 
 # Referenzen
 
-<a id="ref1">\[1\]</a> [Observational Health Data Sciences and Informatics, The Book of
-OHDSI, 2021.](https://ohdsi.github.io/TheBookOfOhdsi/)
+\[1\] Observational Health Data Sciences and Informatics, The Book of OHDSI, 2021.https://ohdsi.github.io/TheBookOfOhdsi/.
 
-<a id="ref2">\[2\]</a> [Berechtigungskonzept der Forschungsdatenbank OHDSI@\[Name der Organisation eintragen\]](./access-management-concept.md).
+\[2\] Berechtigungskonzept der Forschungsdatenbank OHDSI@\[Name der Organisation eintragen\].
