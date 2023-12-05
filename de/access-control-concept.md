@@ -43,7 +43,7 @@ Datenbank vorgehalten. Diese stammen aus:
 
 Das vorliegende Dokument soll (1) Prozesse für die Beantragung eines
 Zugangs durch Forschende (siehe Kapitel 3) sowie (2) Prozesse auf Seiten
-der fachlich Verantwortlichen <span class="mark">\[des/des
+der fachlich verantwortlichen Person <span class="mark">\[des/des
 Bereiches/Krankheitsgruppe/Organisation/etc.\]</span> (siehe Kapitel 2)
 darstellen.
 
@@ -63,8 +63,8 @@ Datenschutz-Funktionen).
 Zur Gewährung eines Zugangs zur Gesundheitsdatenbank ist folgender
 Prozess vorgesehen:
 
-1.  Die forschende Person stellt mittels des entsprechenden Formulars[\[2\]](#ref2)
-    einen Antrag auf Nutzung der Forschungsdatenbank bei der fachlich verantwortlichen Person
+1.  Die forschende Person stellt mittels des entsprechenden Formulars[\[1\]](#ref1)
+    einen Antrag auf Nutzung der Forschungsdatenbank bei der fachlich verantwortlichen Person (siehe [\[2\]](#ref2)).
 
 2.  Die  fachlich verantwortliche Person der Fachabteilung gibt diesen Antrag mittels
     Unterschrift frei.
@@ -103,4 +103,4 @@ liegt bei den Forschenden.
 
 # Referenzen
 <a id="ref1">\[1\]</a> Antrag auf Gewährung eines Zugriffs zur OHDSI-Forschungsdatenbank  
-<a id="ref2">\[2\]</a> Nominierung von fachlich Administrierenden für die OHDSI-Forschungsdatenbank  
+<a id="ref2">\[2\]</a> Betriebskonzept
