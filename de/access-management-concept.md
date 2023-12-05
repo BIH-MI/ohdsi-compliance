@@ -35,11 +35,11 @@ definierten Rollen und Rechten stehen.\]</span>
 *A = Administrative Rechte, S = Schreibberechtigung, L =
 Leseberechtigung*
 
-| **Nr.** | **Zugriffsberechtigung und Zweck**                                         | <span class="mark">\[Technisch Administrierende\]</span> | <span class="mark">\[Fachlich Administrierende\]</span> | <span class="mark">\[Forschende\]</span> |
-|---------|----------------------------------------------------------------------------|----------------------------------------------------------|---------------------------------------------------------|------------------------------------------|
-| 1       | <span class="mark">\[Zugriff auf OHDSI-Daten; Zweck: Datenanalyse\]</span> | <span class="mark">\[…\]</span>                          | <span class="mark">\[…\]</span>                         | <span class="mark">\[…\]</span>          |
-| 2       | <span class="mark">\[Zugriff auf … \]</span>                               | <span class="mark">\[…\]</span>                          | <span class="mark">\[…\]</span>                         | <span class="mark">\[…\]</span>          |
-| 3       | <span class="mark">\[Zugriff auf … \]</span>                               | <span class="mark">\[…\]</span>                          | <span class="mark">\[…\]</span>                         | <span class="mark">\[…\]</span>          |
+| **Nr.** | **Zugriffsberechtigung und Zweck**                                         | <span class="mark">\[Administrierende\]</span> | <span class="mark">\[Forschende\]</span> |
+|---------|----------------------------------------------------------------------------|------------------------------------------------|------------------------------------------|
+| 1       | <span class="mark">\[Zugriff auf OHDSI-Daten; Zweck: Datenanalyse\]</span> | <span class="mark">\[…\]</span>                | <span class="mark">\[…\]</span>          |
+| 2       | <span class="mark">\[Zugriff auf … \]</span>                               | <span class="mark">\[…\]</span>                | <span class="mark">\[…\]</span>          |
+| 3       | <span class="mark">\[Zugriff auf … \]</span>                               | <span class="mark">\[…\]</span>                | <span class="mark">\[…\]</span>          |
 
 # Prozess zur Berechtigungsbeantragung
 
@@ -51,33 +51,23 @@ der nach Bedarf angepasst werden kann.\]</span>
 Zur Nutzerfreigabe ist pro Datensatz ein Prozess vorgesehen, der in [\[1\]](#ref1) 
  genauer beschrieben ist. Zusammenfassend:
 
-1.  <span class="mark">\[Eine berechtigte Person (z.B. die Leitung der
-    Fachabteilung)\]</span> benennt eine oder mehrere Personen für die
-    fachliche Administration.
-
-2.  Die technische Administration gewährt den benannten Personen die
-    Berechtigungen für die fachliche Administration.
-
-3.  Forschende Personen stellen einen Antrag auf Nutzung der
+1.  Forschende Personen stellen einen Antrag auf Nutzung der
     Forschungsdatenbank bei der Leitung der Fachabteilung.
 
-4.  <span class="mark">\[Eine berechtigte Person (z.B. die Leitung der
+1.  <span class="mark">\[Eine berechtigte Person (z.B. die Leitung der
     Fachabteilung)\]</span> gibt diesen Antrag frei, nachdem Ethikvotum
     und Abstimmung mit den Datenschutzfunktionen erfolgt sind.
 
-5.  Die forschende Person leitet den freigegebenen Antrag an die
-    fachliche Administration weiter.
+1.  Die forschende Person leitet den freigegebenen Antrag an die Administration weiter.
 
-6.  Die fachliche Administration gewährt der forschenden Person Zugriff
-    auf die Forschungsdatenbank.
+1.  Die Administration gewährt der forschenden Person Zugriff auf die Forschungsdatenbank.
 
 Dabei findet eine Mandantentrennung statt. Dies bedeutet, dass
 Forschende einer Fachabteilung ausschließlich Zugang zu Daten dieser
 Fachabteilung erhalten. Eine Nutzerfreigabe kann immer nur bis zu einem
 im Antrag definierten Ablaufdatum geschehen. Der Nutzungszeitraum pro
 Studie ist auf maximal 6 Monate beschränkt. Weiterhin findet eine
-regelmäßige Überprüfung der zugelassenen Personen durch die fachliche
-Administration statt.
+regelmäßige Überprüfung der zugelassenen Personen durch die Administration statt.
 
 # Löschen, Einschränkung oder Entzug von Berechtigungen
 
@@ -87,13 +77,8 @@ auf die Zugriffsberechtigungen erfolgt. Nachfolgend befindet sich ein
 Beispielprozess.\]</span>
 
 Bei Abschluss einer Studie erfolgt eine Information durch die
-Studienleitung an den/die fachlich Administrierende. Dieser/diese
-entzieht den Forschenden die entsprechende Berechtigung. Bei Austritt
-oder Wechsel eines/einer fachlich Administrierenden informiert die
-<span class="mark">\[Eine berechtigte Person (z.B. die Leitung der
-Fachabteilung)\]</span> die technisch Administrierenden, welche den
-Austritt bzw. Wechsel prüfen und die Berechtigungen einschränken oder
-anpassen.
+Studienleitung an den/die Administrierende. Dieser/diese
+entzieht den Forschenden die entsprechende Berechtigung.
 
 #  Passwortprozess- und Richtlinien
 
@@ -101,7 +86,7 @@ anpassen.
 Kennwortvergabe und -änderung für forschende Personen. Nachfolgend
 befindet sich ein Beispielprozess.\]</span>
 
-Die fachlich Administrierenden vergeben ein Initialkennwort für eine
+Die Administrierenden vergeben ein Initialkennwort für eine
 forschende Person. Dieses Kennwort muss bei der ersten Nutzung durch die
 forschende Person geändert werden. Bei der Änderung werden Nutzer auf
 die Passwortrichtlinien der Organisation hingewiesen.
@@ -113,13 +98,11 @@ regelmäßige Kontrolle der Berechtigungen der forschenden Personen.
 Nachfolgend befindet sich ein Beispielprozess.\]</span>
 
 Es findet zweimal pro Jahr eine Prüfung der Accounts der Forschenden
-durch die fachlichen Administrierenden und einmal pro Jahr eine Prüfung
-der Accounts der fachlich Administrierenden durch die technisch
-Administrierenden statt.
+durch die Administrierenden statt.
 
-# Namentliche Liste von technisch Administrierenden
+# Namentliche Liste von Administrierenden
 
-- Anlage 1 – Liste von technisch Administrierenden
+- Anlage 1 – Liste von Administrierenden
 
   - <span class="mark">\[Name und Kontaktdetails\]</span>
 
