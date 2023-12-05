@@ -216,7 +216,7 @@ ihre Rollen zu beschreiben. Dazu gehören bspw.:</span>
 
 - <span class="mark">Klinische Partner und ihre Rollen. Diese haben
   häufig die Hoheit über die Verwendung der Daten in der
-  Forschungsdatenbank</span>
+  Forschungsdatenbank. Hier ist insbesondere zu beachten, dass Daten unterschiedlicher Bereiche wie etwa Krankheitsgruppen in einer OHDSI-Installation gespeichert werden können. Ein Zugriff soll dann getrennt pro Bereich erfolgen</span>
 
 - <span class="mark">Auftragnehmer und ihre Rollen.\]</span>
 
@@ -371,7 +371,7 @@ Diagrams* zu empfehlen, nachfolgend ein grobes Beispiel: \>\>\></span>
 
 <img src="./media/linddun-data-flow-1.png" style="width:6.3in;height:2.40069in" />
 
-Die Grafik illustriert, dass für jeden der Krankheitsgruppen ein
+Die Grafik illustriert, dass für jeden der semantisch getrennten Daten (im Beispiel drei Krankheitsgruppen) ein
 getrennter Verarbeitungsprozess stattfindet. Auch in der Nutzung der
 Forschungsdatenbank findet eine Mandantentrennung statt, so dass
 berechtigte Forschende nur Zugriff auf Daten jeweils einer
