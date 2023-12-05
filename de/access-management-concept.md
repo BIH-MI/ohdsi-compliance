@@ -52,10 +52,9 @@ Zur Nutzerfreigabe ist pro Datensatz ein Prozess vorgesehen, der in [\[1\]](#ref
  genauer beschrieben ist. Zusammenfassend:
 
 1.  Forschende Personen stellen einen Antrag auf Nutzung der
-    Forschungsdatenbank bei der Leitung der Fachabteilung.
+    Forschungsdatenbank bei der  fachlich verantwortlichen Person.
 
-1.  <span class="mark">\[Eine berechtigte Person (z.B. die Leitung der
-    Fachabteilung)\]</span> gibt diesen Antrag frei, nachdem Ethikvotum
+1.  <span class="mark">\[Eine berechtigte Person (z.B. die  fachlich verantwortlichen Person)\]</span> gibt diesen Antrag frei, nachdem Ethikvotum
     und Abstimmung mit den Datenschutzfunktionen erfolgt sind.
 
 1.  Die forschende Person leitet den freigegebenen Antrag an die Administration weiter.
