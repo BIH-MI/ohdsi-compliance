@@ -51,10 +51,9 @@ der nach Bedarf angepasst werden kann.\]</span>
 Zur Nutzerfreigabe ist pro Datensatz ein Prozess vorgesehen, der in [\[1\]](#ref1) 
  genauer beschrieben ist. Zusammenfassend:
 
-1.  Forschende Personen stellen einen Antrag auf Nutzung der
-    Forschungsdatenbank bei der  fachlich verantwortlichen Person.
+1.  Forschende Personen stellen einen Antrag auf Nutzung der Forschungsdatenbank bei der  fachlich verantwortlichen Person (siehe [\[2\]](#ref2)).
 
-1.  <span class="mark">\[Eine für den Datensatz/Krankheitsgruppe etc. zuständige fachlich verantwortlichen Person)\]</span> gibt diesen Antrag frei, nachdem Ethikvotum
+1.  Die fachlich verantwortlichen Person) gibt diesen Antrag frei, nachdem Ethikvotum
     und Abstimmung mit den Datenschutzfunktionen erfolgt sind.
 
 1.  Die forschende Person leitet den freigegebenen Antrag an die Administration weiter.
@@ -108,4 +107,5 @@ durch die Administrierenden statt.
   - <span class="mark">\[…\]</span>
 
 # Referenzen
-<a id="ref1">\[1\]</a> [Standardprozess für Einrichtung von Zugängen zur OHDSI-Forschungsdatenbank](./access-control-concept.md)  
+<a id="ref1">\[1\]</a> [Standardprozess für Einrichtung von Zugängen zur OHDSI-Forschungsdatenbank](./access-control-concept.md) 
+<a id="ref2">\[2\]</a> Betriebskonzept
