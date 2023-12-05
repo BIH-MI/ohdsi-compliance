@@ -1,4 +1,4 @@
-<H1> Betriebskonzept </H1>
+f<H1> Betriebskonzept </H1>
 
 Verantwortlich(e):  
 Autor(en):  
@@ -284,8 +284,7 @@ beim Betrieb der Forschungsdatenbank:
 
 <span class="mark">\[Hier sind die Zugriffsberechtigungen der jeweiligen
 Rollen pro System detailliert zu definieren. Die Rollen umfassen in der
-Regel den Technischen und den Fachlichen Administrierenden sowie den
-Forschenden. Die Berechtigungen umfassen die Administrative Rechte, die
+Regel den Administrierenden sowie den Forschenden. Die Berechtigungen umfassen die Administrative Rechte, die
 Schreib- sowie die Leseberechtigung. Die Beschreibung kann
 beispielsweise in Form einer Kreuzmatrix oder einer einfachen Auflistung
 geschehen.\]</span>
@@ -346,8 +345,7 @@ A = Administrative Rechte, S = Schreibberechtigung, L = Leseberechtigung
 Nutzerverwaltungsprozess in Ihrer Organisation. Beziehen Sie sich auf
 die Schritte zur Nutzerfreigabe, wie sie in [\[2\]](#ref2)  detailliert sind,
 und passen Sie diese an Ihre spezifischen Anforderungen an. Erwähnen
-Sie, wie Personen für die fachliche Administration benannt werden, wie
-Berechtigungen erteilt werden, und wie Anträge auf Nutzung der
+Sie, wie Berechtigungen erteilt werden, und wie Anträge auf Nutzung der
 Forschungsdatenbank gestellt und freigegeben werden. Gehen Sie auch auf
 die Mandantentrennung ein, die Grenzen des Nutzungszeitraums und die
 regelmäßige Überprüfung der Zugangsberechtigungen. Achten Sie darauf,
@@ -357,12 +355,6 @@ entsprechen.\]</span>
 Zur Nutzerfreigabe ist pro Datensatz ein Prozess vorgesehen, der in
 [\[2\]](#ref2) genauer beschrieben ist. Zusammenfassend:
 
-1.  Die Leitung der Fachabteilung benennt eine oder mehrere Personen für
-    die fachliche Administration.
-
-2.  Die technische Administration gewährt den benannten Personen die
-    Berechtigungen für die fachliche Administration.
-
 3.  Forschende Personen stellen einen Antrag auf Nutzung der
     Forschungsdatenbank bei der Leitung der Fachabteilung.
 
@@ -370,10 +362,9 @@ Zur Nutzerfreigabe ist pro Datensatz ein Prozess vorgesehen, der in
     Ethikvotum und Abstimmung mit den Datenschutzfunktionen erfolgt
     sind.
 
-5.  Die forschende Person leitet den freigegebenen Antrag an die
-    fachliche Administration weiter.
+5.  Die forschende Person leitet den freigegebenen Antrag an die Administration weiter.
 
-6.  Die fachliche Administration gewährt der forschenden Person Zugriff
+6.  Die Administration gewährt der forschenden Person Zugriff
     auf die Forschungsdatenbank.
 
 Dabei findet eine Mandantentrennung statt. Dies bedeutet, dass
@@ -381,8 +372,7 @@ Forschende einer Fachabteilung ausschließlich Zugang zu Daten dieser
 Fachabteilung erhalten. Eine Nutzerfreigabe kann immer nur bis zu einem
 im Antrag definierten Ablaufdatum geschehen. Der Nutzungszeitraum pro
 Studie ist auf maximal 6 Monate beschränkt. Weiterhin findet eine
-regelmäßige Überprüfung der zugelassenen Personen durch die fachliche
-Administration statt.
+regelmäßige Überprüfung der zugelassenen Personen durch die Administration statt.
 
 # Backup
 
@@ -436,7 +426,7 @@ Nutzer über solche Änderungen, einschließlich der Fristen für die
 Ankündigung. Nachfolgend befindet sich ein Beispiel.\]</span>
 
 Es wird angestrebt, dass ein Zugriff auf die Forschungsdatenbank für
-Nutzung und fachliche Administration mindestens von Montag bis Freitag
+Nutzung und Administration mindestens von Montag bis Freitag
 von 08:00-20:00 Uhr möglich ist. Geplante Abweichungen von dieser
 Verfügbarkeitsregel für beispielsweise Wartungsarbeiten werden
 mindestens eine Woche vorher an alle registrierten User bekannt gegeben.
