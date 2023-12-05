@@ -13,9 +13,6 @@ Datum:
 [2 Prozesse auf Seiten der Fachabteilung
 [1](#prozesse-auf-seiten-der-fachabteilung)](#prozesse-auf-seiten-der-fachabteilung)
 
-[2.1 Nominierung von fachlich Administrierenden
-[1](#nominierung-von-fachlich-administrierenden)](#nominierung-von-fachlich-administrierenden)
-
 [2.2 Einrichten von Zugängen
 [2](#einrichten-von-zugängen)](#einrichten-von-zugängen)
 
@@ -53,33 +50,7 @@ darstellen.
 <span class="mark">\[**Alle hier beschriebenen Prozesse müssen genau
 geprüft und nach Bedarf angepasst werden!**\]</span>
 
-# Prozesse auf Seiten der Fachabteilung
-
-## Nominierung von fachlich Administrierenden
-
-Um beispielsweise die Freigabe von Nutzern umzusetzen, müssen durch die
-Leitung <span class="mark">\[des/des
-Bereiches/(Fach-)Abteilung/Organisation/etc.\]</span> entsprechende
-fachliche Administrierende nominiert werden. Zu diesem Zweck fülle die
-Leitung und die zukünftige fachlich administrierende Person das entsprechende Formular[\[1\]](#ref1) aus und senden es an die technische Administration, die
-den Zugang einrichtet.
-
-## Einrichten von Zugängen
-
-Nach Erhalt eines freigegebenen Antrags auf Zugang zur Forschungsdatenbank[\[2\]](#ref2)  richtet eine fachliche administrierende Person die Zugänge
-auf den betreffenden Datensatz der OHDSI- Forschungsdatenbank ein.
-Technische Schulung und Unterstützung hierzu kann die technische
-Administration bieten.
-
-## Regelmäßige Kontrolle der Zugänge
-
-Zweimal pro Jahr kontrollieren die fachlich Administrierenden
-<span class="mark">\[ggf.: einer (Fach-)Abteilung\]</span> die aktiven
-Zugänge zur OHDSI-Forschungsdatenbank und entfernen nicht mehr benötige
-Zugänge entsprechend. Analog prüft die Leitung
-<span class="mark">\[des/des
-Bereiches/(Fach-)Abteilung/Organisation/etc.\]</span> einmal im Jahr die
-nominierten fachlich Administrierenden.
+# Prozesse
 
 # Beantragung eines Zugangs durch Forschende
 
@@ -99,17 +70,22 @@ Prozess vorgesehen:
 2.  Die Leitung der Fachabteilung gibt diesen Antrag mittels
     Unterschrift frei.
 
-3.  Die forschende Person leitet den freigegebenen Antrag an die
-    fachliche Administration weiter.
+3.  Die forschende Person leitet den freigegebenen Antrag an die Administration weiter.
 
-4.  Die fachliche Administration gewährt der forschenden Person Zugriff
+4.  Die Administration gewährt der forschenden Person Zugriff
     auf die Forschungsdatenbank.
 
 Eine Nutzerfreigabe kann immer nur bis zu einem im Antrag definierten
 Ablaufdatum geschehen. Dieses ist auf maximal
-<span class="mark">\[6\]</span> Monate terminiert. Weiterhin findet eine
-regelmäßige Überprüfung der zugelassenen Personen durch die fachliche
-Administration statt.
+<span class="mark">\[6\]</span> Monate terminiert.
+
+## Regelmäßige Kontrolle der Zugänge
+
+Zweimal pro Jahr kontrollieren die Administrierenden
+<span class="mark">\[ggf.: einer (Fach-)Abteilung\]</span> die aktiven
+Zugänge zur OHDSI-Forschungsdatenbank und entfernen nicht mehr benötige
+Zugänge entsprechend.
+
 
 # Best Practices
 
