@@ -30,25 +30,23 @@ Datum:
 Die OHDSI-Forschungsdatenbank bietet Forschenden eine Möglichkeit auf
 standardisierte, organisations-intern konsolidierte, medizinische
 Beobachtungsdaten für Forschungszwecke zuzugreifen. Es werden Datensätze
-für <span class="mark">\[Anzahl\]</span> Krankheitsentitäten in der
+für \[Anzahl\] Krankheitsentitäten in der
 Datenbank vorgehalten. Diese stammen aus:
 
-- <span class="mark">\[Bereich/Krankheitsgruppe/Organisation/etc.
-  1\]</span>
+- \[Bereich/Krankheitsgruppe/Organisation/etc. 1\]
 
-- <span class="mark">\[Bereich/Krankheitsgruppe/Organisation/etc.
-  2\]</span>
+- \[Bereich/Krankheitsgruppe/Organisation/etc. 2\]
 
-- <span class="mark">\[…\]</span>
+- \[…\]
 
 Das vorliegende Dokument soll (1) Prozesse für die Beantragung eines
 Zugangs durch Forschende (siehe Kapitel 3) sowie (2) Prozesse auf Seiten
-der fachlich verantwortlichen Person <span class="mark">\[des/des
-Bereiches/Krankheitsgruppe/Organisation/etc.\]</span> (siehe Kapitel 2)
+der fachlich verantwortlichen Person \[des/des
+Bereiches/Krankheitsgruppe/Organisation/etc.\] (siehe Kapitel 2)
 darstellen.
 
-<span class="mark">\[**Alle hier beschriebenen Prozesse müssen genau
-geprüft und nach Bedarf angepasst werden!**\]</span>
+\[**Alle hier beschriebenen Prozesse müssen genau
+geprüft und nach Bedarf angepasst werden!**\]
 
 # Prozesse
 
@@ -63,8 +61,8 @@ Datenschutz-Funktionen).
 Zur Gewährung eines Zugangs zur Gesundheitsdatenbank ist folgender
 Prozess vorgesehen:
 
-1.  Die forschende Person stellt mittels des entsprechenden Formulars[\[1\]](#ref1)
-    einen Antrag auf Nutzung der Forschungsdatenbank bei der fachlich verantwortlichen Person (siehe [\[2\]](#ref2)).
+1.  Die forschende Person stellt mittels des entsprechenden Formulars[\[1\]](
+    einen Antrag auf Nutzung der Forschungsdatenbank bei der fachlich verantwortlichen Person (siehe [\[2\]].
 
 2.  Die  fachlich verantwortliche Person der Fachabteilung gibt diesen Antrag mittels
     Unterschrift frei.
@@ -102,5 +100,5 @@ Archivierung von Forschungsergebnissen oder zugehöriger Primärdaten,
 liegt bei den Forschenden.
 
 # Referenzen
-<a id="ref1">\[1\]</a> Antrag auf Gewährung eines Zugriffs zur OHDSI-Forschungsdatenbank  
-<a id="ref2">\[2\]</a> Betriebskonzept
+\[1\]</a> Antrag auf Gewährung eines Zugriffs zur OHDSI-Forschungsdatenbank  
+\[2\]</a> Betriebskonzept
