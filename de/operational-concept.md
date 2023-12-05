@@ -1,4 +1,4 @@
-f<H1> Betriebskonzept </H1>
+<H1> Betriebskonzept </H1>
 
 Verantwortlich(e):  
 Autor(en):  
