@@ -1,4 +1,4 @@
-<H1> Betriebskonzept </H1>
+# Betriebskonzept
 
 Verantwortlich(e):  
 Autor(en):  
@@ -66,7 +66,7 @@ Datum:
 
 Das vorliegende Dokument beschreibt alle Maßnahmen zum sicheren Betrieb
 der unten beschriebenen Forschungsdatenbank in
-<span class="mark">\[…\]</span> - im Folgenden „die Organisation“
+\[…\] - im Folgenden „die Organisation“
 genannt.
 
 # Überblick
@@ -120,10 +120,10 @@ einer großen Chance und erleidet Wettbewerbsnachteile.
 
 ## Systemüberblick
 
-<span class="mark">\[Bitte beschreiben Sie die grobe Struktur der
+\[Bitte beschreiben Sie die grobe Struktur der
 (geplanten) Forschungsdatenbank. Nachfolgend wird ein Beispiel
 beschrieben, welches übernommen oder entsprechend angepasst werden
-kann.\]</span>
+kann.\]
 
 Die Forschungsdatenbank ähnelt einem „Data Warehouse“, da Daten aus
 Quellsystemen transformiert und repliziert geladen werden, um sie für
@@ -133,11 +133,11 @@ Forschungsdatenbank Daten enthält statt, so dass Forschende immer nur
 Zugriff auf Daten einer Krankheitsgruppe haben.
 
 Sämtliche Komponenten der Datenbank sind Open Source Software und werden
-auf <span class="mark">\[Installationsort beschreiben/benennen\]</span>
-installiert. Dieser ist unter dem Domainnamen <span class="mark">\[Name
-der Domain\]</span> zu erreichen. Die Komponenten sind im Einzelnen:
+auf \[Installationsort beschreiben/benennen\]
+installiert. Dieser ist unter dem Domainnamen \[Name
+der Domain\] zu erreichen. Die Komponenten sind im Einzelnen:
 
-- <span class="mark">\[Name des Datenbanksystems\]</span>
+- \[Name des Datenbanksystems\]
   Datenbankserver
 
 - OHDSI-ETL-Tools zur Transformation und zum Laden der Daten
@@ -154,25 +154,25 @@ finden sich in \[1\].
 **Technische Verantwortliche und Kontakte**
 
 - Technischer Verantwortlicher für die OHDSI-Installation:
-  <span class="mark">\[Name und Kontaktdaten\]</span>.
+  \[Name und Kontaktdaten\].
 
 - Technischer Verantwortlicher für die genutzte IT-Infrastruktur:
-  <span class="mark">\[Name und Kontaktdaten\]</span>.
+  \[Name und Kontaktdaten\].
 
-- Administration und Betrieb: <span class="mark">\[Name und
-  Kontaktdaten\]</span>.
+- Administration und Betrieb: \[Name und
+  Kontaktdaten\].
 
 **Fachliche Verantwortliche und Kontakte**
 
-- <span class="mark">\[Name und Kontaktdaten der fachlich verantwortlichen Person\] für Krankheitsgruppe \[X\]</span>.
+- \[Name und Kontaktdaten der fachlich verantwortlichen Person\] für Krankheitsgruppe \[X\].
 
-- <span class="mark">\[…\]</span>.
+- \[…\].
 
 ## Schnittstellen
 
-<span class="mark">\[Bitte beschreiben Sie die Schnittstellen des
+\[Bitte beschreiben Sie die Schnittstellen des
 (geplanten) Systems. Nachfolgend werden zwei Haupt-Schnittstellen
-beschrieben, über welche das System in der Regel verfügt.\]</span>
+beschrieben, über welche das System in der Regel verfügt.\]
 
 Das System verfügt über zwei Schnittstellen:
 
@@ -193,12 +193,12 @@ Das System verfügt über zwei Schnittstellen:
 
 Der genutzte Server erfüllt die Systemvoraussetzungen:
 
-- <span class="mark">\[Spezifikation des Servers und
-  Betriebssystems\]</span>
+- \[Spezifikation des Servers und
+  Betriebssystems\]
 
-- <span class="mark">\[z.B. 8-Kerne-CPU\]</span>
+- \[z.B. 8-Kerne-CPU\]
 
-- <span class="mark">\[z.B. 16 GB RAM\]</span>
+- \[z.B. 16 GB RAM\]
 
 Die Installation findet in Form von Docker mittels *Docker Compose*
 statt. Weiterhin relevant für die Installation ist die Nutzung von
@@ -208,14 +208,14 @@ deaktiviert.
 
 ### Software Updates
 
-<span class="mark">\[Bitte beschreiben Sie den Prozess für
+\[Bitte beschreiben Sie den Prozess für
 Software-Updates in Ihrem System. Erwähnen Sie beispielsweise, ob und
 wenn ja, wie oft das Betriebssystem automatisch nach Updates sucht (z.B.
 alle 24 Stunden) und wie Security Patches eingespielt werden. Klären
 Sie, ob und wie manuelle Updates durchgeführt werden und in welchen
 Abständen der Softwarestand des Servers überprüft wird. Geben Sie an, ob
 diese Prüfungen automatisiert oder manuell erfolgen und wer für die
-Durchführung verantwortlich ist.\]</span>
+Durchführung verantwortlich ist.\]
 
 Das Betriebssystem ist so konfiguriert, dass alle 24 Stunden eine
 Prüfung auf und ggf. ein einspielen von Security Patches stattfindet.
@@ -224,22 +224,22 @@ Softwarestand des Servers wird regelmäßig manuell geprüft.
 
 ### Releasewechsel
 
-<span class="mark">\[Bitte beschreiben Sie den geplanten Prozess für
+\[Bitte beschreiben Sie den geplanten Prozess für
 Releasewechsel, einschließlich der OHDSI-Komponenten und der Datenbank.
 Falls aktuell kein Releasewechsel geplant ist, geben Sie dies an und
 erläutern Sie, unter welchen Umständen ein Update erforderlich sein
 könnte. Beschreiben Sie auch, wie solche Updates durchgeführt werden,
-beispielsweise ob diese manuell oder automatisch erfolgen.\]</span>
+beispielsweise ob diese manuell oder automatisch erfolgen.\]
 
 ### Starten und Stoppen der Komponenten
 
-<span class="mark">\[Bitte erläutern Sie hier das Verfahren zum Starten
+\[Bitte erläutern Sie hier das Verfahren zum Starten
 und Stoppen der relevanten Komponenten. Zum Beispiel kann Docker Compose
 verwendet werden. Geben Sie die genauen Befehle an, die ausgeführt
 werden müssen, wie „docker compose up“ zum Starten und „docker compose
 down“ zum Stoppen der Komponenten. Fügen Sie auch zusätzliche Schritte
 hinzu, die nach dem Starten oder Stoppen erfolgen sollten, wie
-beispielsweise ein Neustart des Betriebssystems.\]</span>
+beispielsweise ein Neustart des Betriebssystems.\]
 
 ## Clients
 
@@ -278,69 +278,27 @@ geschützt. Für allgemeine Details zu den Tools siehe \[1\].
 
 ## Rollen
 
-Es existieren <span class="mark">\[Anzahl der Rollen\]</span> Rollen
+Es existieren \[Anzahl der Rollen\] Rollen
 beim Betrieb der Forschungsdatenbank:
 
-<span class="mark">\[Hier sind die Zugriffsberechtigungen der jeweiligen
+\[Hier sind die Zugriffsberechtigungen der jeweiligen
 Rollen pro System detailliert zu definieren. Die Rollen umfassen in der
 Regel den Administrierenden sowie den Forschenden. Die Berechtigungen umfassen die Administrative Rechte, die
 Schreib- sowie die Leseberechtigung. Die Beschreibung kann
 beispielsweise in Form einer Kreuzmatrix oder einer einfachen Auflistung
-geschehen.\]</span>
+geschehen.\]
 
 A = Administrative Rechte, S = Schreibberechtigung, L = Leseberechtigung
 
-<table>
-<colgroup>
-<col style="width: 6%" />
-<col style="width: 57%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><strong>Nr.</strong></th>
-<th><strong>Zugriffsberechtigung und Zweck</strong></th>
-<th><blockquote>
-<p><mark>[Rolle 1]</mark></p>
-</blockquote></th>
-<th><blockquote>
-<p><mark>[Rolle 2]</mark></p>
-</blockquote></th>
-<th><blockquote>
-<p><mark>[Rolle 3]</mark></p>
-</blockquote></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>1</td>
-<td><mark>[Zugriff auf OHDSI-Daten; Zweck: Datenanalyse]</mark></td>
-<td><mark>[…]</mark></td>
-<td><mark>[…]</mark></td>
-<td><mark>[…]</mark></td>
-</tr>
-<tr class="even">
-<td>2</td>
-<td><mark>[Zugriff auf … ]</mark></td>
-<td><mark>[…]</mark></td>
-<td><mark>[…]</mark></td>
-<td><mark>[…]</mark></td>
-</tr>
-<tr class="odd">
-<td>3</td>
-<td><mark>[Zugriff auf … ]</mark></td>
-<td><mark>[…]</mark></td>
-<td><mark>[…]</mark></td>
-<td><mark>[…]</mark></td>
-</tr>
-</tbody>
-</table>
+| Nr. | Zugriffsberechtigung und Zweck                   |        \[Rolle 1\]     |        \[Rolle 2\]     |        \[Rolle 3\]     | 
+|-----|--------------------------------------------------|------------------------|------------------------|------------------------|
+|  1  | \[Zugriff auf OHDSI-Daten; Zweck: Datenanalyse\] | […\]                   | […\]                   |  […\]                  |
+|  2  | \[Zugriff auf … \]                               | […\]                   | […\]                   |  […\]                  |
+|  3  | \[Zugriff auf … \]      | […\]                   | […\]                   | […\]                   |  […\]                  |
 
 ## Nutzerverwaltungsprozess
 
-<span class="mark">\[Bitte beschreiben Sie hier den
+\[Bitte beschreiben Sie hier den
 Nutzerverwaltungsprozess in Ihrer Organisation. Beziehen Sie sich auf
 die Schritte zur Nutzerfreigabe, wie sie in [\[2\]](#ref2)  detailliert sind,
 und passen Sie diese an Ihre spezifischen Anforderungen an. Erwähnen
@@ -349,7 +307,7 @@ Forschungsdatenbank gestellt und freigegeben werden. Gehen Sie auch auf
 die Mandantentrennung ein, die Grenzen des Nutzungszeitraums und die
 regelmäßige Überprüfung der Zugangsberechtigungen. Achten Sie darauf,
 dass die beschriebenen Prozesse den Anforderungen Ihrer Organisation
-entsprechen.\]</span>
+entsprechen.\]
 
 Zur Nutzerfreigabe ist pro Datensatz ein Prozess vorgesehen, der in
 [\[2\]](#ref2) genauer beschrieben ist. Zusammenfassend:
@@ -375,18 +333,18 @@ regelmäßige Überprüfung der zugelassenen Personen durch die Administration s
 
 # Backup
 
-<span class="mark">\[Bitte beschreiben Sie hier Ihren Backup-Prozess.
+\[Bitte beschreiben Sie hier Ihren Backup-Prozess.
 Erwähnen Sie, wie oft Backups erstellt werden (z.B. alle 12 Stunden) und
 wie lange diese aufbewahrt werden (z.B. 30 Tage). Erklären Sie, welche
 Systeme oder Daten gesichert werden und welche nicht. Beschreiben Sie
 auch die Archivierung von Forschungsdaten und wie diese von den
 Forschenden durchgeführt wird. Nachfolgend befindet sich ein
-Beispiel.\]</span>
+Beispiel.\]
 
-Alle <span class="mark">\[Hier Backup-Zyklus eintragen\]</span> Stunden
+Alle \[Hier Backup-Zyklus eintragen\] Stunden
 findet ein automatisches Backup des Servers durch die zentrale
 Infrastruktur statt. Die erstellten Backups werden
-<span class="mark">\[Hier Speicherdauer eintragen\]</span> Tage
+\[Hier Speicherdauer eintragen\] Tage
 vorgehalten. Für die medizinischen Daten sind die Quellsysteme führend.
 Diese werden dort gesichert. Deshalb ist eine Sicherung im Rahmen der
 Forschungsdatenbank nicht notwendig. Die Forschungsdatenbank ist
@@ -398,12 +356,12 @@ Angebote der Organisation.
 
 # Wiederanlaufplan
 
-<span class="mark">\[Bitte beschreiben Sie den Wiederanlaufplan für Ihr
+\[Bitte beschreiben Sie den Wiederanlaufplan für Ihr
 System im Falle eines unerwarteten Ausfalls. Erklären Sie, welche
 Schritte unternommen werden müssen, um die Systemkomponenten wieder in
 Betrieb zu nehmen. Beschreiben Sie auch die Maßnahmen, die bei Fehlern
 zu ergreifen sind (z.B. Wiedereinspielen von Backups, Neustarten des
-ETL-Prozesses). Nachfolgend befindet sich ein Beispiel.\]</span>
+ETL-Prozesses). Nachfolgend befindet sich ein Beispiel.\]
 
 Im Falle eines unerwarteten Systemausfalls müssen die Komponenten
 zunächst mit „docker compose up“ gestartet werden. Der Startprozess
@@ -416,13 +374,13 @@ medizinischen Daten beziehen.
 
 # Verfügbarkeit
 
-<span class="mark">\[Bitte definieren Sie hier die angestrebte
+\[Bitte definieren Sie hier die angestrebte
 Verfügbarkeit Ihrer Forschungsdatenbank. Geben Sie die geplanten
 Zugriffszeiten an. Erläutern Sie auch, wie mit geplanten Abweichungen
 von diesem Zeitplan umgegangen wird, etwa bei Wartungsarbeiten.
 Beschreiben Sie das Verfahren zur Benachrichtigung der registrierten
 Nutzer über solche Änderungen, einschließlich der Fristen für die
-Ankündigung. Nachfolgend befindet sich ein Beispiel.\]</span>
+Ankündigung. Nachfolgend befindet sich ein Beispiel.\]
 
 Es wird angestrebt, dass ein Zugriff auf die Forschungsdatenbank für
 Nutzung und Administration mindestens von Montag bis Freitag
@@ -434,12 +392,12 @@ mindestens eine Woche vorher an alle registrierten User bekannt gegeben.
 
 ## Automatisch
 
-<span class="mark">\[Bitte beschreiben Sie die automatisierten
+\[Bitte beschreiben Sie die automatisierten
 Tätigkeiten, die regelmäßig in Ihrem System ausgeführt werden.
-Nachfolgend befindet sich ein Beispiel.\]</span>
+Nachfolgend befindet sich ein Beispiel.\]
 
 Als regelmäßige, automatisierte Tätigkeit existiert lediglich ein
-ETL-Prozess <span class="mark">\[Falls zutreffend: je Mandant\]</span>.
+ETL-Prozess \[Falls zutreffend: je Mandant\].
 Dieser lädt die angelieferten Daten, transformiert sie und lädt sie in
 die Forschungsdatenbank. Eine Steuerung erfolgt über das Betriebssystem
 der Forschungsdatenbank. Ein Ansteuern durch eine externe
@@ -447,35 +405,35 @@ Arbeitsvorbereitung/Job-Control ist nicht notwendig.
 
 ## Manuell
 
-<span class="mark">\[Bitte beschreiben Sie die manuellen Tätigkeiten,
+\[Bitte beschreiben Sie die manuellen Tätigkeiten,
 die regelmäßig in Ihrem System ausgeführt werden. Nachfolgend befindet
-sich ein Beispiel.\]</span>
+sich ein Beispiel.\]
 
 Es erfolgt eine Regelmäßige Prüfung des Systems manuell durch die
 administrierenden Mitarbeiterinnen und Mitarbeiter.
 
 # Externe Projektmitarbeiter
 
-<span class="mark">[Bitte geben Sie hier an, ob und zu welchem Zweck,
+[Bitte geben Sie hier an, ob und zu welchem Zweck,
 externe Projektmitarbeiter in die Installation, Einrichtung oder den
 Betrieb der Forschungsdatenbank eingebunden sind. Nachfolgend befindet
-sich ein Beispiel.]</span>
+sich ein Beispiel.]
 
 Die Installation und Einrichtung der Forschungsdatenbank findet im
 Rahmen des Pilotprojekts unter Einbezug von externen Mitarbeitern statt.
 Hierbei werden sämtliche Vorgaben der Organisation bezüglich der
 Einbindung externer Mitarbeiter eingehalten (siehe auch
-<span class="mark">\[…\]</span>).
+\[…\]).
 
 # Kontinuierliche Verbesserung
 
-<span class="mark">\[Hier wird ein grober Ansatz zur kontinuierlichen
+\[Hier wird ein grober Ansatz zur kontinuierlichen
 Verbesserung der Forschungsdatenbank skizziert. Falls sich die
 Forschungsdatenbank noch im Aufbau befindet, können künftig weitere
 Informationen bei Bedarf in diesem Dokument ergänzt werden. Nachfolgend
-befindet sich ein Beispiel.\]</span>
+befindet sich ein Beispiel.\]
 
-Die Forschungsdatenbank OHDSI@<span class="mark">\[...\]</span> befindet
+Die Forschungsdatenbank OHDSI@\[...\] befindet
 sich erst im Aufbau. Weitere Informationen zu Konfiguration und Betrieb
 werden bei Bedarf in diesem Dokument ergänzt.
 
