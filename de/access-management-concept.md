@@ -87,7 +87,7 @@ befindet sich ein Beispielprozess.\]
 Die Administrierenden vergeben ein Initialkennwort für eine
 forschende Person. Dieses Kennwort muss bei der ersten Nutzung durch die
 forschende Person geändert werden. Bei der Änderung werden Nutzer auf
-die Passwortrichtlinien der Organisation hingewiesen \[3\].
+die Passwortrichtlinien der Organisation hingewiesen \[3\]. \[Alternativ kann eine Integration von OHDSI in die organisationsweite  AAI in Betracht gezogen werden\].
 
 # Kontrolle von Berechtigungen
 
