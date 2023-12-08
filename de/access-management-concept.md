@@ -87,7 +87,7 @@ befindet sich ein Beispielprozess.\]
 Die Administrierenden vergeben ein Initialkennwort für eine
 forschende Person. Dieses Kennwort muss bei der ersten Nutzung durch die
 forschende Person geändert werden. Bei der Änderung werden Nutzer auf
-die Passwortrichtlinien der Organisation hingewiesen.
+die Passwortrichtlinien der Organisation hingewiesen \[3\].
 
 # Kontrolle von Berechtigungen
 
@@ -107,5 +107,6 @@ durch die Administrierenden statt.
   - \[…\]
 
 # Referenzen
-\[1\] Standardprozess für Einrichtung von Zugängen zur OHDSI-Forschungsdatenbank
+\[1\] Standardprozess für Einrichtung von Zugängen zur OHDSI-Forschungsdatenbank  
 \[2\] Betriebskonzept  
+\[3\] Passwortrichtlinien
