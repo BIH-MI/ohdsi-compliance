@@ -290,11 +290,11 @@ geschehen.\]
 
 A = Administrative Rechte, S = Schreibberechtigung, L = Leseberechtigung
 
-| Nr. | Zugriffsberechtigung und Zweck                   |        \[Rolle 1\]     |        \[Rolle 2\]     |        \[Rolle 3\]     | 
-|-----|--------------------------------------------------|------------------------|------------------------|------------------------|
-|  1  | \[Zugriff auf OHDSI-Daten; Zweck: Datenanalyse\] | […\]                   | […\]                   |  […\]                  |
-|  2  | \[Zugriff auf … \]                               | […\]                   | […\]                   |  […\]                  |
-|  3  | \[Zugriff auf … \]      | […\]                   | […\]                   | […\]                   |  […\]                  |
+| Nr. | Zugriffsberechtigung und Zweck                   |    System   |        \[Rolle 1\]     |        \[Rolle 2\]     |        \[Rolle 3\]     | 
+|-----|--------------------------------------------------|-------------|------------------------|------------------------|------------------------|
+|  1  | \[Zugriff auf OHDSI-Daten; Zweck: Datenanalyse\] | […\]        |[…\]                    | […\]                   |  […\]                  |
+|  2  | \[Zugriff auf … \]                               | […\]        |[…\]                    | […\]                   |  […\]                  |
+|  3  | \[Zugriff auf … \]      | […\]                   | […\]        |[…\]                    | […\]                   |  […\]                  |
 
 ## Nutzerverwaltungsprozess
 
