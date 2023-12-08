@@ -24,29 +24,29 @@ der Vertraulichkeit und Integrität der Daten führen.
 
 # Übersicht der Rollen und Rechte pro System
 
-<span class="mark">\[Hier sind die Zugriffsberechtigungen der jeweiligen
+\[Hier sind die Zugriffsberechtigungen der jeweiligen
 Rollen pro System detailliert zu definieren. Wichtig ist zu beachten,
 dass alle nachfolgenden Prozesse (z.B. in Bezug auf die
 Berechtigungsvergabe und Passwortmanagement) auf den hier definierten
 Rollen und Berechtigungen aufbauen. Die Prozesse müssen zwar je nach
 Bedarf angepasst werden, jedoch auch stets im Einklang mit den hier
-definierten Rollen und Rechten stehen.\]</span>
+definierten Rollen und Rechten stehen.\]
 
 *A = Administrative Rechte, S = Schreibberechtigung, L =
 Leseberechtigung*
 
-| **Nr.** | **Zugriffsberechtigung und Zweck**                                         | <span class="mark">\[Administrierende\]</span> | <span class="mark">\[Forschende\]</span> |
-|---------|----------------------------------------------------------------------------|------------------------------------------------|------------------------------------------|
-| 1       | <span class="mark">\[Zugriff auf OHDSI-Daten; Zweck: Datenanalyse\]</span> | <span class="mark">\[…\]</span>                | <span class="mark">\[…\]</span>          |
-| 2       | <span class="mark">\[Zugriff auf … \]</span>                               | <span class="mark">\[…\]</span>                | <span class="mark">\[…\]</span>          |
-| 3       | <span class="mark">\[Zugriff auf … \]</span>                               | <span class="mark">\[…\]</span>                | <span class="mark">\[…\]</span>          |
+| **Nr.** | **Zugriffsberechtigung und Zweck**                                         | \[Administrierende\] | \[Forschende\] |
+|---------|----------------------------------------------------------------------------|----------------------|----------------|
+| 1       | \[Zugriff auf OHDSI-Daten; Zweck: Datenanalyse\] | \[…\]                | \[…\]          |
+| 2       | \[Zugriff auf … \]                               | \[…\]                | \[…\]          |
+| 3       | \[Zugriff auf … \]                               | \[…\]                | \[…\]          |
 
 # Prozess zur Berechtigungsbeantragung
 
-<span class="mark">\[Bitte beschreiben Sie den Prozess der
+\[Bitte beschreiben Sie den Prozess der
 Berechtigungsbeantragung, wie er in [\[1\]] detailiert beschrieben ist, in
 zusammengefasster Form. Nachfolgend befindet sich ein Beispielprozess,
-der nach Bedarf angepasst werden kann.\]</span>
+der nach Bedarf angepasst werden kann.\]
 
 Zur Nutzerfreigabe ist pro Datensatz ein Prozess vorgesehen, der in [\[1\]] 
  genauer beschrieben ist. Zusammenfassend:
@@ -69,10 +69,10 @@ regelmäßige Überprüfung der zugelassenen Personen durch die Administration s
 
 # Löschen, Einschränkung oder Entzug von Berechtigungen
 
-<span class="mark">\[Bitte beschreiben Sie den Prozess, der nach dem
+\[Bitte beschreiben Sie den Prozess, der nach dem
 Abschluss einer Studie oder bei Änderungen im Studienpersonal in Bezug
 auf die Zugriffsberechtigungen erfolgt. Nachfolgend befindet sich ein
-Beispielprozess.\]</span>
+Beispielprozess.\]
 
 Bei Abschluss einer Studie erfolgt eine Information durch die
 Studienleitung an den/die Administrierende. Dieser/diese
@@ -80,9 +80,9 @@ entzieht den Forschenden die entsprechende Berechtigung.
 
 #  Passwortprozess- und Richtlinien
 
-<span class="mark">\[Bitte beschreiben Sie den Prozess der
+\[Bitte beschreiben Sie den Prozess der
 Kennwortvergabe und -änderung für forschende Personen. Nachfolgend
-befindet sich ein Beispielprozess.\]</span>
+befindet sich ein Beispielprozess.\]
 
 Die Administrierenden vergeben ein Initialkennwort für eine
 forschende Person. Dieses Kennwort muss bei der ersten Nutzung durch die
@@ -91,9 +91,9 @@ die Passwortrichtlinien der Organisation hingewiesen.
 
 # Kontrolle von Berechtigungen
 
-<span class="mark">\[Bitte beschreiben Sie den Prozess für die
+\[Bitte beschreiben Sie den Prozess für die
 regelmäßige Kontrolle der Berechtigungen der forschenden Personen.
-Nachfolgend befindet sich ein Beispielprozess.\]</span>
+Nachfolgend befindet sich ein Beispielprozess.\]
 
 Es findet zweimal pro Jahr eine Prüfung der Accounts der Forschenden
 durch die Administrierenden statt.
@@ -102,10 +102,10 @@ durch die Administrierenden statt.
 
 - Anlage 1 – Liste von Administrierenden
 
-  - <span class="mark">\[Name und Kontaktdetails\]</span>
+  - \[Name und Kontaktdetails\]
 
-  - <span class="mark">\[…\]</span>
+  - \[…\]
 
 # Referenzen
-\[1\]</a> [Standardprozess für Einrichtung von Zugängen zur OHDSI-Forschungsdatenbank](./access-control-concept.md) 
-\[2\]</a> Betriebskonzept
+\[1\] Standardprozess für Einrichtung von Zugängen zur OHDSI-Forschungsdatenbank
+\[2\] Betriebskonzept  
