@@ -74,23 +74,23 @@ Prozess vorgesehen:
 
 Eine Nutzerfreigabe kann immer nur bis zu einem im Antrag definierten
 Ablaufdatum geschehen. Dieses ist auf maximal
-<span class="mark">\[6\]</span> Monate terminiert.
+\[6\] Monate terminiert.
 
 ## Regelmäßige Kontrolle der Zugänge
 
 Zweimal pro Jahr kontrollieren die Administrierenden
-<span class="mark">\[ggf.: einer (Fach-)Abteilung\]</span> die aktiven
+\[ggf.: einer (Fach-)Abteilung\] die aktiven
 Zugänge zur OHDSI-Forschungsdatenbank und entfernen nicht mehr benötige
 Zugänge entsprechend.
 
 
 # Best Practices
 
-<span class="mark">\[Bitte beschreiben Sie die Best Practices, die
+\[Bitte beschreiben Sie die Best Practices, die
 während des gesamten Forschungsprojektes befolgt werden sollten. Betonen
 Sie beispielsweise die Bedeutung der Einhaltung der Regeln und
 Empfehlungen der Guten Wissenschaftlichen Praxis sowie des
-Datenschutzes. Nachfolgend finden Sie ein Beispiel.\]</span>
+Datenschutzes. Nachfolgend finden Sie ein Beispiel.\]
 
 Während des gesamten Forschungsprojektes sind die Regeln und
 Empfehlungen der Guten Wissenschaftliche Praxis und des Datenschutzes zu
