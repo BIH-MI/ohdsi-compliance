@@ -149,7 +149,7 @@ Die Bewertung der Risiken wird auf Ebene der wesentlichen durch die
 Lösung unterstützen fachlichen Tätigkeiten, wie in Abbildung 1
 dargestellt, vorgenommen. <span class="mark">\[Hier ist kurz zu
 beschreiben, welche Daten in der Datenbank verarbeitet werden
-sollen.\]</span>. Da die Schritte für jeden der nach Krankheitsgruppen
+sollen.\]</span>. Da die Schritte für jeden der nach fachlich verantwortlichen Einrichtungen
 getrennten Verarbeitungsprozesse sich nur in Details wie Beispielweise
 Transformationsregeln unterscheiden, werden sie im Folgenden gemeinsam
 beschrieben: (1) der Prozess der Datentransformation und des Datenladens
