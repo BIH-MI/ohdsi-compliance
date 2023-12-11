@@ -128,7 +128,7 @@ kann.\]
 Die Forschungsdatenbank ähnelt einem „Data Warehouse“, da Daten aus
 Quellsystemen transformiert und repliziert geladen werden, um sie für
 Auswertungen verfügbar zu machen. [\Es ist möglich die OHDSI-Installation in Form einer
-Mandantentrennung zu zu betreiben. Dann findet eine Trennung nach verantwortlichen Einrichtungen statt. Forschende haben dann immer nur Zugriff auf Daten einer verantwortlichen Einrichtung. Falls dies zutrifft, kann dies hier erwähnt werden.\]
+Mandantentrennung zu zu betreiben. Dann findet eine Trennung nach fachlich verantwortlichen Einrichtungen statt. Forschende haben dann immer nur Zugriff auf Daten einer fachlich verantwortlichen Einrichtung. Falls dies zutrifft, kann dies hier erwähnt werden.\]
 
 Sämtliche Komponenten der Datenbank sind Open Source Software und werden
 auf \[Installationsort beschreiben/benennen\]
@@ -162,7 +162,7 @@ finden sich in \[1\].
 
 **Fachliche Verantwortliche und Kontakte**
 
-- \[Name und Kontaktdaten der fachlich verantwortlichen Person\] für verantwortlichen Einrichtung \[X\].
+- \[Name und Kontaktdaten der fachlich verantwortlichen Person\] für fachlich verantwortlichen Einrichtung \[X\].
 
 - \[…\].
 
@@ -325,7 +325,7 @@ Zur Nutzerfreigabe ist pro Datensatz ein Prozess vorgesehen, der in
     auf die Forschungsdatenbank.
 
 [\Es ist möglich die OHDSI-Installation in Form einer
-Mandantentrennung zu zu betreiben. Dann findet eine Trennung nach verantwortlichen Einrichtungen statt. Forschende haben dann immer nur Zugriff auf Daten einer verantwortlichen Einrichtung. Falls dies zutrifft, kann dies hier erwähnt werden.\]
+Mandantentrennung zu zu betreiben. Dann findet eine Trennung nach fachlich verantwortlichen Einrichtungen statt. Forschende haben dann immer nur Zugriff auf Daten einer fahlich verantwortlichen Einrichtung. Falls dies zutrifft, kann dies hier erwähnt werden.\]
 Eine Nutzerfreigabe kann immer nur bis zu einem
 im Antrag definierten Ablaufdatum geschehen. Der Nutzungszeitraum pro
 Studie ist auf maximal 6 Monate beschränkt. Weiterhin findet eine
