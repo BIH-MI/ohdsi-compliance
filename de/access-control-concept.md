@@ -30,12 +30,12 @@ Datum:
 Die OHDSI-Forschungsdatenbank bietet Forschenden eine Möglichkeit auf
 standardisierte, organisations-intern konsolidierte, medizinische
 Beobachtungsdaten für Forschungszwecke zuzugreifen. Es werden Datensätze
-für \[Anzahl\] Krankheitsentitäten in der
+für \[Anzahl\] verantwortliche Einrichtungen in der
 Datenbank vorgehalten. Diese stammen aus:
 
-- \[Bereich/Krankheitsgruppe/Organisation/etc. 1\]
+- \[Verantwortliche Einrichtungen  1\]
 
-- \[Bereich/Krankheitsgruppe/Organisation/etc. 2\]
+- \[Verantwortliche Einrichtungen  2 falls zutreffend\]
 
 - \[…\]
 
