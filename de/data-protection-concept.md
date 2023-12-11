@@ -443,11 +443,22 @@ empfehlen, nachfolgend ein grobes Beispiel: \>\>\></span>
 
 <span class="mark">\[Im Falle einer Auftragsdatenverarbeitung sind
 hier sämtliche Auftragsdatenverarbeiter detailliert aufzulisten. 
+Beipiele für  Auftragsdatenverarbeiter sind: 
+- **Firmen für Infrastrukturwartung**: Unternehmen, die für die regelmäßige
+  Wartung und Instandhaltung der IT-Infrastruktur, einschließlich Server
+  und Netzwerkkomponenten, zuständig sind.
+- **KMUs für Mapping und Datenintegration**: Kleinere und mittlere Unternehmen,
+  die spezialisiert sind auf das Mapping von Daten in die erforderlichen
+  Formate und die Integration verschiedener Datenquellen in die Forschungsdatenbank.
+- **Dienstleister für den Betrieb der Datenbank**: Unternehmen, die für
+  den reibungslosen Betrieb der Forschungsdatenbank verantwortlich sind,
+  einschließlich der Gewährleistung von Zugriffsberechtigungen und Datenaktualisierungen.
+
 Zu den relevanten Informationen gehören beispielsweise neben der 
-Bezeichnung (Name des Unternehmens, der Institution oder Organisation
-Firmennamen des Auftragsdatenverarbeiter auch die Angabe des Speicherorts 
-der Daten, der Hintergrund/Zweck der Verarbeitung. Die Beschreibung 
-kann in Form einer Liste oder in tabellarischer Form erfolgen.\]</span>
+Bezeichnung (Name des Unternehmens, der Institution oder Organisation)
+auch die Angabe des Speicherorts der Daten, der Hintergrund/Zweck der 
+Verarbeitung. Die Beschreibung kann in Form einer Liste oder in 
+tabellarischer Form erfolgen.\]</span>
 
 # Speicherung, Löschung und Weitergabe von Daten
 
