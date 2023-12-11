@@ -216,7 +216,7 @@ ihre Rollen zu beschreiben. Dazu gehören bspw.:</span>
 
 - <span class="mark">Klinische Partner und ihre Rollen. Diese haben
   häufig die Hoheit über die Verwendung der Daten in der
-  Forschungsdatenbank. Hier ist insbesondere zu beachten, dass Daten unterschiedlicher fachlicher Einrichtungen in einer OHDSI-Installation gespeichert werden können. Ein Zugriff soll dann getrennt pro Bereich erfolgen</span>
+  Forschungsdatenbank. Hier ist insbesondere zu beachten, dass Daten unterschiedlicher fachlich verantwortlicher Einrichtungen in einer OHDSI-Installation gespeichert werden können. Ein Zugriff soll dann getrennt pro Bereich erfolgen</span>
 
 - <span class="mark">Auftragnehmer und ihre Rollen.\]</span>
 
@@ -371,10 +371,10 @@ Diagrams* zu empfehlen, nachfolgend ein grobes Beispiel: \>\>\></span>
 
 <img src="./media/linddun-data-flow-1.png" style="width:6.3in;height:2.40069in" />
 
-Die Grafik illustriert, dass für jeden der semantisch getrennten Daten (im Beispiel drei fachliche Einrichtungen) ein
+Die Grafik illustriert, dass für jeden der semantisch getrennten Daten (im Beispiel drei fachlich verantwortliche Einrichtungen) ein
 getrennter Verarbeitungsprozess stattfindet. Auch in der Nutzung der
 Forschungsdatenbank findet eine Mandantentrennung statt, so dass
-berechtigte Forschende nur Zugriff auf Daten jeweils einer
+berechtigte Forschende nur Zugriff auf Daten jeweils einer fachlich
 fachlichen Einrichtung erhalten (näheres siehe die Anlage A4). Da die Schritte
 für jeden der Verarbeitungsprozesse sich nur in Details wie
 Beispielweise Transformationsregeln unterscheiden, werden sie im
