@@ -300,7 +300,7 @@ A = Administrative Rechte, S = Schreibberechtigung, L = Leseberechtigung
 
 \[Bitte beschreiben Sie hier den
 Nutzerverwaltungsprozess in Ihrer Organisation. Beziehen Sie sich auf
-die Schritte zur Nutzerfreigabe, wie sie in [\[3\]] detailliert sind,
+die Schritte zur Nutzerfreigabe, wie sie in \[3\] detailliert sind,
 und passen Sie diese an Ihre spezifischen Anforderungen an. Erwähnen
 Sie, wie Berechtigungen erteilt werden, und wie Anträge auf Nutzung der
 Forschungsdatenbank gestellt und freigegeben werden. Gehen Sie, falls zutreffend auch auf
@@ -310,7 +310,7 @@ dass die beschriebenen Prozesse den Anforderungen Ihrer Organisation
 entsprechen.\]
 
 Zur Nutzerfreigabe ist pro Datensatz ein Prozess vorgesehen, der in
-[\[3\]] genauer beschrieben ist. Zusammenfassend:
+\[3\] genauer beschrieben ist. Zusammenfassend:
 
 3.  Forschende Personen stellen einen Antrag auf Nutzung der
     Forschungsdatenbank bei der fachlich verantwortlichen Person.
