@@ -1,4 +1,4 @@
-<H1> Berechtigungskonzept OHDSI-Forschungsdatenbank </H1>
+# Berechtigungskonzept OHDSI-Forschungsdatenbank
 
 Verantwortlich(e):  
 Autor(en):  
@@ -30,16 +30,17 @@ dass alle nachfolgenden Prozesse (z.B. in Bezug auf die
 Berechtigungsvergabe und Passwortmanagement) auf den hier definierten
 Rollen und Berechtigungen aufbauen. Die Prozesse müssen zwar je nach
 Bedarf angepasst werden, jedoch auch stets im Einklang mit den hier
-definierten Rollen und Rechten stehen.\]
+definierten Rollen und Rechten stehen. Die nachfolgende Tabelle ist als Beispiel zu vestehen\]
 
 *A = Administrative Rechte, S = Schreibberechtigung, L =
 Leseberechtigung*
 
-| **Nr.** | **Zugriffsberechtigung und Zweck**                                         | \[Administrierende\] | \[Forschende\] |
-|---------|----------------------------------------------------------------------------|----------------------|----------------|
-| 1       | \[Zugriff auf OHDSI-Daten; Zweck: Datenanalyse\] | \[…\]                | \[…\]          |
-| 2       | \[Zugriff auf … \]                               | \[…\]                | \[…\]          |
-| 3       | \[Zugriff auf … \]                               | \[…\]                | \[…\]          |
+| Nr.     | System | Zugriffsberechtigung und Zweck                                          | \[Administrierende\] | \[Forschende\] |
+|---------|--------|-------------------------------------------------------------------------|----------------------|----------------|
+| 1       | OHDSI  |   Zugriff auf OHDSI-Daten; Zweck: Datenanalyse                          | (A/S/L)              | A/S/L          |
+| 2       | OHDSI  | Zugriff auf OHDSI-Accountverwaltung                                     | A/S/L                | -              |
+| 3       | OHDSI  | Zugriff auf Betriebssystem                                              | A/S/L                | -              |
+| 4       |\[...\] | \[Zugriff auf … \]                                                      | \[…\]                | \[…\]          |
 
 # Prozess zur Berechtigungsbeantragung
 
