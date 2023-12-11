@@ -421,13 +421,13 @@ jeweiligen zugriffberechtigten Personen(-gruppe) auflisten.\]</span>
 
 | Nr.                         | Hardware                                 | Zugriffsberechtigte (gem. 1.6 Beteiligte Personengruppen) |
 |-----------------------------|------------------------------------------|-----------------------------------------------------------|
-| <span class="mark">1</span> | <span class="mark">\[Hardware 1\]</span> |                                                           |
+| <span class="mark">1</span> | <span class="mark">\[z.B. Server für Forschungsdatenbank\]</span> | <span class="mark">\[z.B. Administrirende\]</span>                                                         |
 | <span class="mark">2</span> | <span class="mark">\[Hardware 2\]</span> |                                                           |
 | <span class="mark">3</span> | <span class="mark">\[Hardware 3\]</span> |                                                           |
 
 | Nr.                         | Software                                 | Zugriffsberechtigte (gem. 1.6 Beteiligte Personengruppen) |
 |-----------------------------|------------------------------------------|-----------------------------------------------------------|
-| <span class="mark">1</span> | <span class="mark">\[Software 1\]</span> |                                                           |
+| <span class="mark">1</span> | <span class="mark">\[z.B. OHDSI-Forschungssoftware\]</span> | <span class="mark">\[z.B. Forschende\]</span>                                                          |
 | <span class="mark">2</span> | <span class="mark">\[Software 2\]</span> |                                                           |
 | <span class="mark">3</span> | <span class="mark">\[Software 3\]</span> |                                                           |
 
