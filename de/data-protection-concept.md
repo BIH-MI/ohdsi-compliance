@@ -441,16 +441,13 @@ empfehlen, nachfolgend ein grobes Beispiel: \>\>\></span>
 
 # Auftragsdatenverarbeitung
 
-\[ \] Nein (weiter mit Punkt 4)
-
-\[ \] Ja (bitte sämtliche Auftragsdatenverarbeiter benennen/beschreiben)
-
-<span class="mark">\[Hier sind sämtliche Auftragsdatenverarbeiter
-detailliert aufzulisten. Zu den relevanten Informationen gehören
-beispielsweise neben der Bezeichnung/dem Firmennamen des
-Auftragsdatenverarbeiter auch die Angabe des Speicherorts der Daten, der
-Hintergrund/Zweck der Verarbeitung. Die Beschreibung kann in Form einer
-Liste oder in tabellarischer Form erfolgen.\]</span>
+<span class="mark">\[Im Falle einer Auftragsdatenverarbeitung sind
+hier sämtliche Auftragsdatenverarbeiter detailliert aufzulisten. 
+Zu den relevanten Informationen gehören beispielsweise neben der 
+Bezeichnung (Name des Unternehmens, der Institution oder Organisation
+Firmennamen des Auftragsdatenverarbeiter auch die Angabe des Speicherorts 
+der Daten, der Hintergrund/Zweck der Verarbeitung. Die Beschreibung 
+kann in Form einer Liste oder in tabellarischer Form erfolgen.\]</span>
 
 # Speicherung, Löschung und Weitergabe von Daten
 
@@ -469,28 +466,25 @@ angegeben\]</span>
 
 ### Empfänger innerhalb der Organisation
 
-Nein (weiter mit Punkt 5.2.2)
-
-Ja (bitte Tabelle ausfüllen)
-
-<span class="mark">\[Folgende Tabelleninhalten sind beispielhaft
-angegeben\]</span>
+<span class="mark">\[Falls Daten an Empfänger innerhalb der
+Organisation weitergegeben werden, dann bitte folgende Tabelle 
+befüllen.\]</span>.
 
 | Datenkategorie (gem. 1.7 Beteiligte Daten/Datenkategorie) | Angabe des Empfängers                     | Angabe des Zwecks und der entsprechenden Rechtsgrundlage |
 |-----------------------------------------------------------|-------------------------------------------|----------------------------------------------------------|
-| <span class="mark">\[Datenkategorie 1\]</span>            | <span class="mark">\[Empfänger 1\]</span> | <span class="mark">\[Entwicklung, gem. § xy\]</span>     |
-| <span class="mark">\[Datenkategorie 2\]</span>            | <span class="mark">\[Empfänger 2\]</span> | <span class="mark">\[Administration, gem. § xy\]</span>  |
+| <span class="mark">\[Datenkategorie 1\]</span>            | <span class="mark">\[Abteilung XY\]</span> | <span class="mark">\[Entwicklung, gem. § xy\]</span>     |
+| <span class="mark">\[Datenkategorie 2\]</span>            | <span class="mark">\[Bereich XY\]</span> | <span class="mark">\[Administration, gem. § xy\]</span>  |
 
 ### Empfänger außerhalb der Organisation 
 
-Nein (weiter mit Punkt 6)
-
-Ja (bitte Tabelle ausfüllen)
+<span class="mark">\[Falls Daten an Empfänger außerhalb der
+Organisation weitergegeben werden, dann bitte folgende Tabelle 
+befüllen.\]</span>.
 
 | Datenkategorie (gem. 1.7 Beteiligte Daten/Datenkategorie) | Angabe des Empfängers                     | Angabe des Zwecks und der entsprechenden Rechtsgrundlage |
 |-----------------------------------------------------------|-------------------------------------------|----------------------------------------------------------|
-| <span class="mark">\[Datenkategorie 1\]</span>            | <span class="mark">\[Empfänger 1\]</span> | <span class="mark">\[Entwicklung, gem. § xy\]</span>     |
-| <span class="mark">\[Datenkategorie 2\]</span>            | <span class="mark">\[Empfänger 2\]</span> | <span class="mark">\[Administration, gem. § xy\]</span>  |
+| <span class="mark">\[Datenkategorie 1\]</span>            | <span class="mark">\[Unternehmen XY\]</span> | <span class="mark">\[Entwicklung, gem. § xy\]</span>     |
+| <span class="mark">\[Datenkategorie 2\]</span>            | <span class="mark">\[Institut XY\]</span> | <span class="mark">\[Administration, gem. § xy\]</span>  |
 
 # Wahrung der Betroffenenrechte
 
