@@ -127,10 +127,8 @@ kann.\]
 
 Die Forschungsdatenbank ähnelt einem „Data Warehouse“, da Daten aus
 Quellsystemen transformiert und repliziert geladen werden, um sie für
-Auswertungen verfügbar zu machen. Weiterhin findet eine
-Mandantentrennung in die verschiedene Krankheitsgruppen über die die
-Forschungsdatenbank Daten enthält statt, so dass Forschende immer nur
-Zugriff auf Daten einer Krankheitsgruppe haben.
+Auswertungen verfügbar zu machen. [\Es ist möglich die OHDSI-Installation in Form einer
+Mandantentrennung zu zu betreiben. Dann findet eine Trennung nach verantwortlichen Einrichtungen statt. Forschende haben dann immer nur Zugriff auf Daten einer verantwortlichen Einrichtung. Falls dies zutrifft, kann dies hier erwähnt werden.\]
 
 Sämtliche Komponenten der Datenbank sind Open Source Software und werden
 auf \[Installationsort beschreiben/benennen\]
@@ -164,7 +162,7 @@ finden sich in \[1\].
 
 **Fachliche Verantwortliche und Kontakte**
 
-- \[Name und Kontaktdaten der fachlich verantwortlichen Person\] für Krankheitsgruppe \[X\].
+- \[Name und Kontaktdaten der fachlich verantwortlichen Person\] für verantwortlichen Einrichtung \[X\].
 
 - \[…\].
 
@@ -305,7 +303,7 @@ Nutzerverwaltungsprozess in Ihrer Organisation. Beziehen Sie sich auf
 die Schritte zur Nutzerfreigabe, wie sie in [\[2\]](#ref2)  detailliert sind,
 und passen Sie diese an Ihre spezifischen Anforderungen an. Erwähnen
 Sie, wie Berechtigungen erteilt werden, und wie Anträge auf Nutzung der
-Forschungsdatenbank gestellt und freigegeben werden. Gehen Sie auch auf
+Forschungsdatenbank gestellt und freigegeben werden. Gehen Sie, falls zutreffend auch auf
 die Mandantentrennung ein, die Grenzen des Nutzungszeitraums und die
 regelmäßige Überprüfung der Zugangsberechtigungen. Achten Sie darauf,
 dass die beschriebenen Prozesse den Anforderungen Ihrer Organisation
@@ -326,9 +324,9 @@ Zur Nutzerfreigabe ist pro Datensatz ein Prozess vorgesehen, der in
 6.  Die Administration gewährt der forschenden Person Zugriff
     auf die Forschungsdatenbank.
 
-Dabei findet eine Mandantentrennung statt. Dies bedeutet, dass
-Forschende eines Bereiches ausschließlich Zugang zu Daten dieses
-Bereichs erhalten. Eine Nutzerfreigabe kann immer nur bis zu einem
+[\Es ist möglich die OHDSI-Installation in Form einer
+Mandantentrennung zu zu betreiben. Dann findet eine Trennung nach verantwortlichen Einrichtungen statt. Forschende haben dann immer nur Zugriff auf Daten einer verantwortlichen Einrichtung. Falls dies zutrifft, kann dies hier erwähnt werden.\]
+Eine Nutzerfreigabe kann immer nur bis zu einem
 im Antrag definierten Ablaufdatum geschehen. Der Nutzungszeitraum pro
 Studie ist auf maximal 6 Monate beschränkt. Weiterhin findet eine
 regelmäßige Überprüfung der zugelassenen Personen durch die Administration statt.
