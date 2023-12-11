@@ -312,7 +312,7 @@ welche Art von Aufgaben hier aufgeführt werden sollen.\]</span>
 
 | Nr.                             | Bezeichnung der Personengruppe                 | Rolle in der Verarbeitungstätigkeit                                          |
 |---------------------------------|------------------------------------------------|------------------------------------------------------------------------------|
-| <span class="mark">1</span>     | <span class="mark">\[Personengruppe 1\]</span> | <span class="mark">\[z.B. Systemdesign, Datenpflege\]</span>                 |
+| <span class="mark">1</span>     | <span class="mark">\[z.B. Administrierende\]</span> | <span class="mark">\[z.B. Systemdesign, Datenpflege\]</span>                 |
 | <span class="mark">2</span>     | <span class="mark">\[Personengruppe 2\]</span> | <span class="mark">\[z.B. Datenanalyse, Berichterstattung\]</span>           |
 | <span class="mark">3</span>     | <span class="mark">\[Personengruppe 3\]</span> | <span class="mark">\[z.B. Zugriffsverwaltung, Administration\]</span>        |
 | <span class="mark">4</span>     | <span class="mark">\[Personengruppe 4\]</span> | <span class="mark">\[z.B. Datenbereitstellung, Teilnahme an Studien\]</span> |
@@ -338,7 +338,7 @@ Abschließend muss die rechtliche Grundlage für den Umgang mit diesen
 Daten dargelegt werden, um Konformität mit geltenden Datenschutzvorgaben
 sicherzustellen.\]</span>
 
-1.  <span class="mark">\[Datenkategorie 1\]</span>
+1.  <span class="mark">\[z.B. Stammdaten\]</span>
 
     1.  <span class="mark">\[Beschreibung/Details/Spezifikation/Beispiele\]</span>
 
@@ -469,7 +469,7 @@ angegeben\]</span>
 
 | Datenkategorie (gem. 1.7 Beteiligte Daten/Datenkategorie) | Angabe des Speicherorts                | Angabe der Speicherdauer und der entsprechenden Rechtsgrundlage | Beschreibung der Löschung                                              |
 |-----------------------------------------------------------|----------------------------------------|-----------------------------------------------------------------|------------------------------------------------------------------------|
-| <span class="mark">\[Datenkategorie 1\]</span>            | <span class="mark">\[Server 1\]</span> | <span class="mark">\[gem. Projektdauer\]</span>                 | <span class="mark">\[regelmäßige automatische Löschung aus DB\]</span> |
+| <span class="mark">\[z.B. Stammdaten\]</span>            | <span class="mark">\[Server 1\]</span> | <span class="mark">\[gem. Projektdauer\]</span>                 | <span class="mark">\[regelmäßige automatische Löschung aus DB\]</span> |
 | <span class="mark">\[Datenkategorie 2\]</span>            | <span class="mark">\[Server 2\]</span> | <span class="mark">\[gem. Projektdauer\]</span>                 | <span class="mark">\[regelmäßige automatische Löschung aus DB\]</span> |
 | <span class="mark">\[Datenkategorie 3\]</span>            | <span class="mark">\[Server 3\]</span> | <span class="mark">\[gem. Projektdauer\]</span>                 | <span class="mark">\[regelmäßige manuelle Löschung aus DB\]</span>     |
 
@@ -483,8 +483,8 @@ befüllen.\]</span>.
 
 | Datenkategorie (gem. 1.7 Beteiligte Daten/Datenkategorie) | Angabe des Empfängers                     | Angabe des Zwecks und der entsprechenden Rechtsgrundlage |
 |-----------------------------------------------------------|-------------------------------------------|----------------------------------------------------------|
-| <span class="mark">\[Datenkategorie 1\]</span>            | <span class="mark">\[Abteilung XY\]</span> | <span class="mark">\[Entwicklung, gem. § xy\]</span>     |
-| <span class="mark">\[Datenkategorie 2\]</span>            | <span class="mark">\[Bereich XY\]</span> | <span class="mark">\[Administration, gem. § xy\]</span>  |
+| <span class="mark">\[z.B. Stammdaten\]</span>            | <span class="mark">\[z.B. Abteilung XY\]</span> | <span class="mark">\[z.B. Entwicklung, gem. § xy\]</span>     |
+| <span class="mark">\[Datenkategorie 2\]</span>            | <span class="mark">\[Empfänger 2\]</span> | <span class="mark">\[Zweck 2, gem. § xy\]</span>  |
 
 ### Empfänger außerhalb der Organisation 
 
@@ -494,8 +494,8 @@ befüllen.\]</span>.
 
 | Datenkategorie (gem. 1.7 Beteiligte Daten/Datenkategorie) | Angabe des Empfängers                     | Angabe des Zwecks und der entsprechenden Rechtsgrundlage |
 |-----------------------------------------------------------|-------------------------------------------|----------------------------------------------------------|
-| <span class="mark">\[Datenkategorie 1\]</span>            | <span class="mark">\[Unternehmen XY\]</span> | <span class="mark">\[Entwicklung, gem. § xy\]</span>     |
-| <span class="mark">\[Datenkategorie 2\]</span>            | <span class="mark">\[Institut XY\]</span> | <span class="mark">\[Administration, gem. § xy\]</span>  |
+| <span class="mark">\[Stammdaten\]</span>            | <span class="mark">\[z.B. Unternehmen XY\]</span> | <span class="mark">\[Entwicklung, gem. § xy\]</span>     |
+| <span class="mark">\[Datenkategorie 2\]</span>            | <span class="mark">\[Empfänger 2\]</span> | <span class="mark">\[Administration, gem. § xy\]</span>  |
 
 # Wahrung der Betroffenenrechte
 
