@@ -62,8 +62,8 @@ Zur Nutzerfreigabe ist pro Datensatz ein Prozess vorgesehen, der in [\[1\]]
 1.  Die Administration gewährt der forschenden Person Zugriff auf die Forschungsdatenbank.
 
 Dabei findet eine Mandantentrennung statt. Dies bedeutet, dass
-Forschende einer Fachabteilung ausschließlich Zugang zu Daten dieser
-Fachabteilung erhalten. Eine Nutzerfreigabe kann immer nur bis zu einem
+Forschende eines Bereiches ausschließlich Zugang zu Daten dieses
+Bereichs erhalten. Eine Nutzerfreigabe kann immer nur bis zu einem
 im Antrag definierten Ablaufdatum geschehen. Der Nutzungszeitraum pro
 Studie ist auf maximal 6 Monate beschränkt. Weiterhin findet eine
 regelmäßige Überprüfung der zugelassenen Personen durch die Administration statt.
