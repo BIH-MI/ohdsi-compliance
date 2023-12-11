@@ -424,12 +424,14 @@ jeweiligen zugriffberechtigten Personen(-gruppe) auflisten.\]</span>
 | <span class="mark">1</span> | <span class="mark">\[z.B. Server für Forschungsdatenbank\]</span> | <span class="mark">\[z.B. Administrirende\]</span>                                                         |
 | <span class="mark">2</span> | <span class="mark">\[Hardware 2\]</span> |                                                           |
 | <span class="mark">3</span> | <span class="mark">\[Hardware 3\]</span> |                                                           |
+| <span class="mark">\[...\]</span> | <span class="mark">\[...\]</span> |                                                           |
 
 | Nr.                         | Software                                 | Zugriffsberechtigte (gem. 1.6 Beteiligte Personengruppen) |
 |-----------------------------|------------------------------------------|-----------------------------------------------------------|
 | <span class="mark">1</span> | <span class="mark">\[z.B. OHDSI-Forschungssoftware\]</span> | <span class="mark">\[z.B. Forschende\]</span>                                                          |
 | <span class="mark">2</span> | <span class="mark">\[Software 2\]</span> |                                                           |
 | <span class="mark">3</span> | <span class="mark">\[Software 3\]</span> |                                                           |
+| <span class="mark">\[...\]</span> | <span class="mark">\[...\]</span> |                                                           |
 
 ## Datenfluss-Diagramm
 
@@ -472,6 +474,7 @@ angegeben\]</span>
 | <span class="mark">\[z.B. Stammdaten\]</span>            | <span class="mark">\[Server 1\]</span> | <span class="mark">\[gem. Projektdauer\]</span>                 | <span class="mark">\[regelmäßige automatische Löschung aus DB\]</span> |
 | <span class="mark">\[Datenkategorie 2\]</span>            | <span class="mark">\[Server 2\]</span> | <span class="mark">\[gem. Projektdauer\]</span>                 | <span class="mark">\[regelmäßige automatische Löschung aus DB\]</span> |
 | <span class="mark">\[Datenkategorie 3\]</span>            | <span class="mark">\[Server 3\]</span> | <span class="mark">\[gem. Projektdauer\]</span>                 | <span class="mark">\[regelmäßige manuelle Löschung aus DB\]</span>     |
+| <span class="mark">\[...\]</span>            | <span class="mark">\[...\]</span> | <span class="mark">\[...\]</span>                 | <span class="mark">\[...\]</span>     |
 
 ## Empfänger der Daten
 
@@ -485,6 +488,7 @@ befüllen.\]</span>.
 |-----------------------------------------------------------|-------------------------------------------|----------------------------------------------------------|
 | <span class="mark">\[z.B. Stammdaten\]</span>            | <span class="mark">\[z.B. Abteilung XY\]</span> | <span class="mark">\[z.B. Entwicklung, gem. § xy\]</span>     |
 | <span class="mark">\[Datenkategorie 2\]</span>            | <span class="mark">\[Empfänger 2\]</span> | <span class="mark">\[Zweck 2, gem. § xy\]</span>  |
+| <span class="mark">\[...\]</span>            | <span class="mark">\[...\]</span> | <span class="mark">\[...\]</span>  |
 
 ### Empfänger außerhalb der Organisation 
 
@@ -495,7 +499,8 @@ befüllen.\]</span>.
 | Datenkategorie (gem. 1.7 Beteiligte Daten/Datenkategorie) | Angabe des Empfängers                     | Angabe des Zwecks und der entsprechenden Rechtsgrundlage |
 |-----------------------------------------------------------|-------------------------------------------|----------------------------------------------------------|
 | <span class="mark">\[Stammdaten\]</span>            | <span class="mark">\[z.B. Unternehmen XY\]</span> | <span class="mark">\[Entwicklung, gem. § xy\]</span>     |
-| <span class="mark">\[Datenkategorie 2\]</span>            | <span class="mark">\[Empfänger 2\]</span> | <span class="mark">\[Administration, gem. § xy\]</span>  |
+| <span class="mark">\[Datenkategorie 2\]</span>            | <span class="mark">\[Empfänger 2\]</span> | <span class="mark">\[Zweck 2, gem. § xy\]</span>  |
+| <span class="mark">\[...\]</span>            | <span class="mark">\[...\]</span> | <span class="mark">\[...\]</span>  |
 
 # Wahrung der Betroffenenrechte
 
