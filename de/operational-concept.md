@@ -218,7 +218,7 @@ Durchführung verantwortlich ist.\]
 Das Betriebssystem ist so konfiguriert, dass alle 24 Stunden eine
 Prüfung auf und ggf. ein einspielen von Security Patches stattfindet.
 Software Updates drüber hinaus finden nach Bedarf manuell statt. Der
-Softwarestand des Servers wird regelmäßig manuell geprüft.
+Softwarestand des Servers wird einmal im Quartal manuell geprüft.
 
 ### Releasewechsel
 
