@@ -64,8 +64,7 @@ Prozess vorgesehen:
 1.  Die forschende Person stellt mittels des entsprechenden Formulars[\[1\]](
     einen Antrag auf Nutzung der Forschungsdatenbank bei der fachlich verantwortlichen Person (siehe [\[2\]].
 
-2.  Die  fachlich verantwortliche Person der Fachabteilung gibt diesen Antrag mittels
-    Unterschrift frei.
+2.  Die  fachlich verantwortliche Person gibt diesen Antrag mittels Unterschrift frei.
 
 3.  Die forschende Person leitet den freigegebenen Antrag an die Administration weiter.
 
