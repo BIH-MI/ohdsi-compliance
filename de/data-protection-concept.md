@@ -375,7 +375,7 @@ Die Grafik illustriert, dass für jeden der semantisch getrennten Daten (im Beis
 getrennter Verarbeitungsprozess stattfindet. Auch in der Nutzung der
 Forschungsdatenbank findet eine Mandantentrennung statt, so dass
 berechtigte Forschende nur Zugriff auf Daten jeweils einer fachlich
-fachlichen Einrichtung erhalten (näheres siehe die Anlage A4). Da die Schritte
+verantwortlichen Einrichtung erhalten (näheres siehe die Anlage A4). Da die Schritte
 für jeden der Verarbeitungsprozesse sich nur in Details wie
 Beispielweise Transformationsregeln unterscheiden, werden sie im
 Folgenden gemeinsam beschrieben.
