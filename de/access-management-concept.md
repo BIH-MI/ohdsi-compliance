@@ -88,7 +88,7 @@ befindet sich ein Beispielprozess.\]
 Die Administrierenden vergeben ein Initialkennwort für eine
 forschende Person. Dieses Kennwort muss bei der ersten Nutzung durch die
 forschende Person geändert werden. Bei der Änderung werden Nutzer auf
-die Passwortrichtlinien der Organisation hingewiesen \[3\]. \[Alternativ kann eine Integration von OHDSI in die organisationsweite  AAI in Betracht gezogen werden\].
+die Passwortrichtlinien der Organisation hingewiesen \[3\]. \[Alternativ kann eine Integration von OHDSI in die organisationsweite  AAI in Betracht gezogen werden. Siehe die entsprechende Dokumentation \[4\]\].
 
 # Kontrolle von Berechtigungen
 
@@ -110,4 +110,5 @@ durch die Administrierenden statt.
 # Referenzen
 \[1\] Standardprozess für Einrichtung von Zugängen zur OHDSI-Forschungsdatenbank  
 \[2\] Betriebskonzept  
-\[3\] Passwortrichtlinien
+\[3\] \[ Verweis auf Passwortrichtlinien der Organisation\]
+\[4\] Sicherheitskonfiguration von OHDSI WebAPI. https://github.com/OHDSI/webapi-wiki/blob/master/Security-Configuration.md
