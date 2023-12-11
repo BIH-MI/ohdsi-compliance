@@ -349,7 +349,7 @@ vorgehalten. Für die medizinischen Daten sind die Quellsysteme führend.
 Diese werden dort gesichert. Deshalb ist eine Sicherung im Rahmen der
 Forschungsdatenbank nicht notwendig. Die Forschungsdatenbank ist
 lediglich für die Nutzerverwaltung und Konfiguration führend. Hier ist
-ein Backup von 30 Tagen ausreichend, so dass kein weiteres Backup
+ein Backup von \[ Tage z.B. 30\] Tagen ausreichend, so dass kein weiteres Backup
 notwendig ist. Eine Archivierung der für Forschungszwecke genutzten
 Daten erfolgt separat durch die Forschenden unter Nutzung anderer
 Angebote der Organisation.
