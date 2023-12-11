@@ -102,7 +102,7 @@ Patientinnen und Patienten strikt gewahrt bleibt. Neben den genannten
 Netzwerken werden die Technologien von OHDSI zunehmend auch in weiteren
 Projekten eingesetzt und bspw. im Rahmen von EU-Förderungen als
 Grundlage empfohlen (für mehr Details zur OHDSI-Methodik, Netzwerken und
-Tools siehe [\[1\]](#ref1)).
+Tools siehe [\[1\]).
 
 Ohne die Durchführung der in diesem Dokument beschriebenen
 Verarbeitungstätigkeit ist die wissenschaftliche Sekundärnutzung von
@@ -188,8 +188,9 @@ Das System verfügt über zwei Schnittstellen:
 ## Server
 
 ### Installation
-
-Der genutzte Server erfüllt die Systemvoraussetzungen:
+\[Es vesteht die Möglichkeit die Software nativ oder in Form der Broadsea-Paketierung mittels Docker Compose zu installieren. Im Folgendem wird von letzterem ausgegangen\]
+ Die Installation findet in Form des Broadsea-Paketierung \[2\] mittels *Docker Compose* statt.
+Der genutzte Server erfüllt die in \[2\] beschriebenen Systemvoraussetzungen:
 
 - \[Spezifikation des Servers und
   Betriebssystems\]
@@ -198,8 +199,7 @@ Der genutzte Server erfüllt die Systemvoraussetzungen:
 
 - \[z.B. 16 GB RAM\]
 
-Die Installation findet in Form von Docker mittels *Docker Compose*
-statt. Weiterhin relevant für die Installation ist die Nutzung von
+ Weiterhin relevant für die Installation ist die Nutzung von
 Zertifikaten, um verschlüsselte Verbindungen jederzeit zu gewährleisten.
 Kanäle, die unverschlüsselte Kommunikation bieten (z.B. HTTP) werden
 deaktiviert.
@@ -300,7 +300,7 @@ A = Administrative Rechte, S = Schreibberechtigung, L = Leseberechtigung
 
 \[Bitte beschreiben Sie hier den
 Nutzerverwaltungsprozess in Ihrer Organisation. Beziehen Sie sich auf
-die Schritte zur Nutzerfreigabe, wie sie in [\[2\]](#ref2)  detailliert sind,
+die Schritte zur Nutzerfreigabe, wie sie in [\[3\]] detailliert sind,
 und passen Sie diese an Ihre spezifischen Anforderungen an. Erwähnen
 Sie, wie Berechtigungen erteilt werden, und wie Anträge auf Nutzung der
 Forschungsdatenbank gestellt und freigegeben werden. Gehen Sie, falls zutreffend auch auf
@@ -310,7 +310,7 @@ dass die beschriebenen Prozesse den Anforderungen Ihrer Organisation
 entsprechen.\]
 
 Zur Nutzerfreigabe ist pro Datensatz ein Prozess vorgesehen, der in
-[\[2\]](#ref2) genauer beschrieben ist. Zusammenfassend:
+[\[3\]] genauer beschrieben ist. Zusammenfassend:
 
 3.  Forschende Personen stellen einen Antrag auf Nutzung der
     Forschungsdatenbank bei der fachlich verantwortlichen Person.
@@ -441,4 +441,6 @@ werden bei Bedarf in diesem Dokument ergänzt.
 
 \[1\] Observational Health Data Sciences and Informatics, The Book of OHDSI, 2021.https://ohdsi.github.io/TheBookOfOhdsi/.
 
-\[2\] Berechtigungskonzept der Forschungsdatenbank OHDSI@\[Name der Organisation eintragen\].
+\[2\] OHDSI-Broadsea Dokumentation. https://github.com/OHDSI/Broadsea.
+
+\[3\] Berechtigungskonzept der Forschungsdatenbank OHDSI@\[Name der Organisation eintragen\].
