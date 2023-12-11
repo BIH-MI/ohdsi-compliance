@@ -7,7 +7,7 @@ Datum:
 
 # Inhaltsverzeichnis
 
-[1 Überblick und Zweck [2](#überblick-und-zweck)](#überblick-und-zweck)
+[Überblick und Zweck](#überblick-und-zweck)
 
 [1.1 Zweck dieses Dokumentes
 [2](#zweck-dieses-dokumentes)](#zweck-dieses-dokumentes)
