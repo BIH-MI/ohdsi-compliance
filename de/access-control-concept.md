@@ -30,12 +30,12 @@ Datum:
 Die OHDSI-Forschungsdatenbank bietet Forschenden eine Möglichkeit auf
 standardisierte, organisations-intern konsolidierte, medizinische
 Beobachtungsdaten für Forschungszwecke zuzugreifen. Es werden Datensätze
-für \[Anzahl\] verantwortliche Einrichtungen in der
+für \[Anzahl\] fachlich verantwortliche Einrichtungen in der
 Datenbank vorgehalten. Diese stammen aus:
 
-- \[Verantwortliche Einrichtungen  1\]
+- \[Fachlich verantwortliche Einrichtungen  1\]
 
-- \[Verantwortliche Einrichtungen  2 falls zutreffend\]
+- \[Fachlich verantwortliche Einrichtungen  2 falls zutreffend\]
 
 - \[…\]
 
