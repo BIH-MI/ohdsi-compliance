@@ -127,7 +127,7 @@ kann.\]
 
 Die Forschungsdatenbank ähnelt einem „Data Warehouse“, da Daten aus
 Quellsystemen transformiert und repliziert geladen werden, um sie für
-Auswertungen verfügbar zu machen. [\Es ist möglich die OHDSI-Installation in Form einer
+Auswertungen verfügbar zu machen. \[Es ist möglich die OHDSI-Installation in Form einer
 Mandantentrennung zu zu betreiben. Dann findet eine Trennung nach fachlich verantwortlichen Einrichtungen statt. Forschende haben dann immer nur Zugriff auf Daten einer fachlich verantwortlichen Einrichtung. Falls dies zutrifft, kann dies hier erwähnt werden.\]
 
 Sämtliche Komponenten der Datenbank sind Open Source Software und werden
@@ -324,7 +324,7 @@ Zur Nutzerfreigabe ist pro Datensatz ein Prozess vorgesehen, der in
 6.  Die Administration gewährt der forschenden Person Zugriff
     auf die Forschungsdatenbank.
 
-[\Es ist möglich die OHDSI-Installation in Form einer
+\[Es ist möglich die OHDSI-Installation in Form einer
 Mandantentrennung zu zu betreiben. Dann findet eine Trennung nach fachlich verantwortlichen Einrichtungen statt. Forschende haben dann immer nur Zugriff auf Daten einer fahlich verantwortlichen Einrichtung. Falls dies zutrifft, kann dies hier erwähnt werden.\]
 Eine Nutzerfreigabe kann immer nur bis zu einem
 im Antrag definierten Ablaufdatum geschehen. Der Nutzungszeitraum pro
