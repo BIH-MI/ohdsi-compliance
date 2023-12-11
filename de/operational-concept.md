@@ -227,17 +227,19 @@ Releasewechsel, einschließlich der OHDSI-Komponenten und der Datenbank.
 Falls aktuell kein Releasewechsel geplant ist, geben Sie dies an und
 erläutern Sie, unter welchen Umständen ein Update erforderlich sein
 könnte. Beschreiben Sie auch, wie solche Updates durchgeführt werden,
-beispielsweise ob diese manuell oder automatisch erfolgen.\]
+beispielsweise ob diese manuell oder automatisch erfolgen. Der folgende Text ist als Beispiel zu sehen.\]
+
+Ein Releasewechsel der OHDSI-Komponenten und der Datenbank ist auf absehbare Zeit nicht geplant. Selbiges gilt für das Betriebssystem. Falls ein Releasewechsel notwendig wird, wird das entsprechende Update manuell eingespielt.
 
 ### Starten und Stoppen der Komponenten
 
 \[Bitte erläutern Sie hier das Verfahren zum Starten
 und Stoppen der relevanten Komponenten. Zum Beispiel kann Docker Compose
 verwendet werden. Geben Sie die genauen Befehle an, die ausgeführt
-werden müssen, wie „docker compose up“ zum Starten und „docker compose
-down“ zum Stoppen der Komponenten. Fügen Sie auch zusätzliche Schritte
+werden müssen. Fügen Sie auch zusätzliche Schritte
 hinzu, die nach dem Starten oder Stoppen erfolgen sollten, wie
-beispielsweise ein Neustart des Betriebssystems.\]
+beispielsweise ein Neustart des Betriebssystems. Der folgende Text ist als Beispiel bei einer docker-basierten Installation zu sehen.\]
+Für ein Starten und Stoppen der Komponenten muss Docker Compose mittels „docker compose up“ bzw. „docker compose down“ ausgeführt werden. Im Anschluss kann beispielsweise das Betriebssystem neu gestartet werden.
 
 ## Clients
 
