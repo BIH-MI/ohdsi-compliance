@@ -313,9 +313,9 @@ Zur Nutzerfreigabe ist pro Datensatz ein Prozess vorgesehen, der in
 [\[2\]](#ref2) genauer beschrieben ist. Zusammenfassend:
 
 3.  Forschende Personen stellen einen Antrag auf Nutzung der
-    Forschungsdatenbank bei der Leitung der Fachabteilung.
+    Forschungsdatenbank bei der fachlich verantwortlichen Person.
 
-4.  Die Leitung der Fachabteilung gibt diesen Antrag frei, nachdem
+4.  Die fachlich verantwortliche Person gibt diesen Antrag frei, nachdem
     Ethikvotum und Abstimmung mit den Datenschutzfunktionen erfolgt
     sind.
 
@@ -325,8 +325,8 @@ Zur Nutzerfreigabe ist pro Datensatz ein Prozess vorgesehen, der in
     auf die Forschungsdatenbank.
 
 Dabei findet eine Mandantentrennung statt. Dies bedeutet, dass
-Forschende einer Fachabteilung ausschließlich Zugang zu Daten dieser
-Fachabteilung erhalten. Eine Nutzerfreigabe kann immer nur bis zu einem
+Forschende eines Bereiches ausschließlich Zugang zu Daten dieses
+Bereichs erhalten. Eine Nutzerfreigabe kann immer nur bis zu einem
 im Antrag definierten Ablaufdatum geschehen. Der Nutzungszeitraum pro
 Studie ist auf maximal 6 Monate beschränkt. Weiterhin findet eine
 regelmäßige Überprüfung der zugelassenen Personen durch die Administration statt.
