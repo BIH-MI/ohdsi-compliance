@@ -442,7 +442,7 @@ tabellarischer Form erfolgen._]
 | [_z.B. Stammdaten_]            | [_Server 1_] | [_gem. Projektdauer_]                 | [_regelmäßige automatische Löschung aus DB_] |
 | [_Datenkategorie 2_]            | [_Server 2_] | [_gem. Projektdauer_]                 | [_regelmäßige automatische Löschung aus DB_] |
 | [_Datenkategorie 3_]            | [_Server 3_] | [_gem. Projektdauer_]                 | [_regelmäßige manuelle Löschung aus DB_]     |
-| [_..._]            | [_..._] | [_..._]               | <[_..._]     |
+| [_..._]            | [_..._] | [_..._]               | [_..._]     |
 
 ## Empfänger der Daten
 
