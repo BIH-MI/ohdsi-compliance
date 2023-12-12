@@ -625,6 +625,7 @@ Löschung).
 
 [1] Observational Health Data Sciences and Informatics, The Book of
 OHDSI, 2020.
+
 [2] Deng, M., Wuyts, K., Scandariato, R., Preneel, B., & Joosen, W. (2011). 
 A privacy threat analysis framework: supporting the elicitation and fulfillment
 of privacy requirements. Requirements Engineering, 16(1), 3-32.
