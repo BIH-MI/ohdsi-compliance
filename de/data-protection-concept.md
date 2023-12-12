@@ -334,9 +334,20 @@ Einwilligung basiert hier Details nennen_]
 
 ## Grafische Darstellung der Verarbeitungstätigkeit
 
-[_Hier die Verarbeitungstätigkeit grafisch skizzieren, bspw. ist die 
-Darstellung mithilfe eines LINDDUN Data Flow Diagrams zu empfehlen, 
-nachfolgend ein grobes Beispiel:_]
+[_Hier die Verarbeitungstätigkeit grafisch skizzieren, bspw. hierfür
+eignet sich die Nutzung eines LINDDUN Data Flow Diagrams._
+
+_Ein LINDDUN-Diagramm ist eine spezialisierte Form eines Datenflussdiagramms, 
+das speziell für die Analyse und Visualisierung von Datenschutzrisiken in 
+Softwarearchitekturen entwickelt wurde. Es identifiziert systematisch 
+Datenschutzbedrohungen und Schwachstellen, indem es die Datenflüsse zwischen 
+verschiedenen Komponenten eines Systems abbildet. Die Verwendung eines 
+LINDDUN-Diagramms ist empfehlenswert, da es dabei hilft, Datenschutzaspekte 
+frühzeitig während der Systementwicklung zu berücksichtigen und effektive 
+Gegenmaßnahmen zu planen. Dies trägt wesentlich zur Einhaltung von 
+Datenschutzvorschriften und zur Erhöhung des Vertrauens der Nutzer in das System bei.
+Weitere Informationen finden Sie unter [2].
+Nachfolgend ein Beispiel:_]
 
 <img src="./media/linddun-data-flow-1.png" style="width:6.3in;height:2.40069in" />
 
@@ -617,5 +628,8 @@ Löschung).
 
 # Referenzen
 
-\[1\] Observational Health Data Sciences and Informatics, The Book of
+[1] Observational Health Data Sciences and Informatics, The Book of
 OHDSI, 2020.
+[2] Deng, M., Wuyts, K., Scandariato, R., Preneel, B., & Joosen, W. (2011). 
+A privacy threat analysis framework: supporting the elicitation and fulfillment
+of privacy requirements. Requirements Engineering, 16(1), 3-32.
