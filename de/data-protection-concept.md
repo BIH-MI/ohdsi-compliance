@@ -453,21 +453,20 @@ dann bitte folgende Tabelle befüllen._]
 
 | Datenkategorie (gem. 1.7 Beteiligte Daten/Datenkategorie) | Angabe des Empfängers                     | Angabe des Zwecks und der entsprechenden Rechtsgrundlage |
 |-----------------------------------------------------------|-------------------------------------------|----------------------------------------------------------|
-| <span class="mark">\[z.B. Stammdaten\]</span>            | <span class="mark">\[z.B. Abteilung XY\]</span> | <span class="mark">\[z.B. Entwicklung, gem. § xy\]</span>     |
-| <span class="mark">\[Datenkategorie 2\]</span>            | <span class="mark">\[Empfänger 2\]</span> | <span class="mark">\[Zweck 2, gem. § xy\]</span>  |
-| <span class="mark">\[...\]</span>            | <span class="mark">\[...\]</span> | <span class="mark">\[...\]</span>  |
+| [_z.B. Stammdaten_]            | [_z.B. Abteilung XY_] | [_z.B. Entwicklung, gem. § xy_]     |
+| [_Datenkategorie 2_]            | [_Empfänger 2_] | [_Zweck 2, gem. § xy_]  |
+| [_..._]            | [_..._] | [_..._]  |
 
 ### Empfänger außerhalb der Organisation 
 
-<span class="mark">\[Falls Daten an Empfänger außerhalb der
-Organisation weitergegeben werden, dann bitte folgende Tabelle 
-befüllen.\]</span>.
+[_Falls Daten an Empfänger außerhalb der Organisation weitergegeben werden, 
+dann bitte folgende Tabelle befüllen._]
 
 | Datenkategorie (gem. 1.7 Beteiligte Daten/Datenkategorie) | Angabe des Empfängers                     | Angabe des Zwecks und der entsprechenden Rechtsgrundlage |
 |-----------------------------------------------------------|-------------------------------------------|----------------------------------------------------------|
-| <span class="mark">\[z.B. Stammdaten\]</span>            | <span class="mark">\[z.B. Unternehmen XY\]</span> | <span class="mark">\[Entwicklung, gem. § xy\]</span>     |
-| <span class="mark">\[Datenkategorie 2\]</span>            | <span class="mark">\[Empfänger 2\]</span> | <span class="mark">\[Zweck 2, gem. § xy\]</span>  |
-| <span class="mark">\[...\]</span>            | <span class="mark">\[...\]</span> | <span class="mark">\[...\]</span>  |
+| [_z.B. Stammdaten_]            | [_z.B. Unternehmen XY_] | [_Entwicklung, gem. § xy_]     |
+| [_Datenkategorie 2_]            | [_Empfänger 2_] | [_Zweck 2, gem. § xy_]  |
+| [_..._]            | [_..._] | [_..._]  |
 
 # Wahrung der Betroffenenrechte
 
@@ -481,10 +480,10 @@ Rechte in der Praxis, insbesondere im Hinblick auf die Verarbeitung
 und Nutzung personenbezogener Daten in unserer Forschungsdatenbank, 
 umgesetzt werden.
 
-<span class="mark">\[Hier beschreiben, wie Patientinnen und Patienten
+[_Hier beschreiben, wie Patientinnen und Patienten
 ihre Betroffenenrechte geltend machen können, bspw. Verweis auf
 Richtlinien und Informationsquellen und/oder verantwortliche Rollen,
-Ansprechpartner etc.\]</span>. Die Umsetzung der Betroffenenrechte ist
+Ansprechpartner etc._]. Die Umsetzung der Betroffenenrechte ist
 in der Forschungsdatenbank durch jeweils berechtigte Nutzende technisch
 möglich. Zu beachten ist, dass sich alle Änderungen in den Quellsystemen
 durch die Synchronisation automatisch in den Daten in der
@@ -494,11 +493,11 @@ versehen, so dass diese nicht erneut geladen werden.
 
 ## Information des Betroffenen
 
-<span class="mark">\[Hier sollte beschrieben werden, wie die
+[_Hier sollte beschrieben werden, wie die
 Organisation Patientinnen und Patienten über die Verarbeitung ihrer
 personenbezogenen Daten gem. Art. 12 ff. DS-GVO informiert. Es kann 
 beispielsweise auf Informationsbroschüren, Aufklärungsgespräche oder 
-Datenschutzerklärungen verwiesen werden. Nachfolgend ein Beispiel.\]</span>
+Datenschutzerklärungen verwiesen werden. Nachfolgend ein Beispiel._]
 
 Die Patientinnen und Patienten werden im Rahmen der
 Patienteninformationen zur stationären und ambulanten Behandlung über
@@ -506,13 +505,13 @@ retrospektive Studien der Organisation informiert.
 
 ## Widerruf der Einwilligung
 
-<span class="mark">\[In diesem Abschnitt ist darzulegen, wie Betroffene
+[_In diesem Abschnitt ist darzulegen, wie Betroffene
 ihre Einwilligung zur Datenverarbeitung gem. Art. 7 Abs. 3 DS-GVO widerrufen 
 können. Wenn die Datenverarbeitung nicht auf Einwilligung beruht, sollte 
 dies klar dargestellt und die zugrunde liegende rechtliche Basis erläutert 
 werden. Andernfalls sollten die Schritte zum Widerruf der Einwilligung sowie 
 die Konsequenzen dieses Widerrufs klar und verständlich beschrieben werden.
-Nachfolgend je ein Beispiel.\]</span>
+Nachfolgend je ein Beispiel._]
 
 Beispiel 1: Nicht zutreffend, da die Datenverarbeitung auf Basis einer
 gesetzlichen Grundlage erfolgt (s.o.).
@@ -521,18 +520,18 @@ Beispiel 2: Der Betroffene kann seine Einwilligung zur Datenverarbeitung
 gemäß Art. 7 Abs. 3 DS-GVO jederzeit widerrufen. Dies berührt nicht die
 Rechtmäßigkeit der Verarbeitung bis zum Widerruf. Zum Widerrufen muss
 der Betroffene eine formlose Mitteilung per E-Mail oder Post an uns
-senden. Die notwendigen Kontaktdaten sind <span class="mark">\[z.B. auf
-unserer Webseite im Impressum\]</span> zu finden. Nach Eingang des
+senden. Die notwendigen Kontaktdaten sind [_z.B. auf
+unserer Webseite im Impressum_] zu finden. Nach Eingang des
 Widerrufs wird die Verarbeitung der Daten, die auf der Einwilligung
 beruht, umgehend eingestellt.
 
 ## Auskunftsrecht
 
-<span class="mark">\[Es sollte beschrieben werden, wie Betroffene ihr
+[_Es sollte beschrieben werden, wie Betroffene ihr
 Recht auf Auskunft gem. Art. 15 DS-GVO über die sie betreffenden 
 personenbezogenen Daten ausüben können, einschließlich der Kontaktdaten
 der zuständigen Stellen (z.B. Datenschutzbeauftragter) und des Verfahrens 
-zur Antragstellung. Nachfolgend ein Beispiel.\]</span>
+zur Antragstellung. Nachfolgend ein Beispiel._]
 
 Im Fall eines Auskunftsersuchens können sich die Betroffenen direkt an
 die behördliche Datenschutzbeauftragte wenden. Darüber hinaus steht u.a.
@@ -544,24 +543,24 @@ Frist erteilt.
 
 ## Recht auf Berichtigung
 
-<span class="mark">\[Dieser Punkt sollte erläutern, wie Betroffene die
+[_Dieser Punkt sollte erläutern, wie Betroffene die
 Berichtigung unrichtiger Daten gem. Art. 16 DS-GVO beantragen können, 
 sowie die Prozesse, die die Organisation zur Sicherstellung der Richtigkeit
 der Daten etabliert hat. Es könnte unter anderem beispielsweise beschrieben
 werden, wie Fehler in den Daten korrigiert werden können, beispielsweise
 durch ein internes Antragsverfahren oder automatische Systeme zur
-Datenaktualisierung. Nachfolgend ein Beispiel.\]</span>
+Datenaktualisierung. Nachfolgend ein Beispiel._]
 
 Berichtigungen in den Quellsystemen ändern über die Synchronisation
 automatisch die Daten in der Forschungsdatenbank.
 
 ## Recht auf Löschung
 
-<span class="mark">\[Hier wird erwartet, dass die Umstände, unter denen
+[_Hier wird erwartet, dass die Umstände, unter denen
 Betroffene die Löschung ihrer Daten gem. Art. 17 DS-GVO beantragen können, 
 sowie die Prozesse der Organisation zur Löschung der Daten, einschließlich
 etwaiger Aufbewahrungsfristen, dargelegt werden. Nachfolgend ein
-Beispiel.\]</span>
+Beispiel._]
 
 Eine Löschung von personenbezogenen Daten der behandelten Person muss
 unter anderem dann erfolgen, wenn die Daten nicht mehr notwendig sind
@@ -574,10 +573,10 @@ Aufbewahrungsfristen.
 
 ## Recht auf Einschränkung der Verarbeitung
 
-<span class="mark">\[In diesem Abschnitt sollte beschrieben werden, ob
+[_In diesem Abschnitt sollte beschrieben werden, ob
 und wie Betroffene eine Einschränkung der Verarbeitung ihrer Daten gem.
 Art. 18 DS-GVO beantragen können und unter welchen Bedingungen dies 
-möglich ist. Nachfolgend ein Beispiel.\]</span>
+möglich ist. Nachfolgend ein Beispiel._]
 
 Die betroffenen Personen haben jederzeit die Möglichkeit, die
 Einschränkung der Verarbeitung ihrer Daten im Einzelfall zu verlangen.
@@ -589,10 +588,10 @@ aus.
 
 ## Recht auf Datenübertragbarkeit
 
-<span class="mark">\[Dieser Teil sollte darlegen, wie Betroffene ihr
+[_Dieser Teil sollte darlegen, wie Betroffene ihr
 Recht auf Übertragung gem. Art. 20 DS-GVO ausüben können, einschließlich
 der Verfahren zur Anforderung und Bereitstellung dieser Daten. 
-Nachfolgend ein Beispiel.\]</span>
+Nachfolgend ein Beispiel._]
 
 Im Fall eines berechtigten Herausgabeverlangens können die zu einer
 Person verarbeiteten Daten gedruckt und als formales Schreiben
@@ -604,11 +603,11 @@ Quellsystemen übereinstimmen, so dass diese auch als Quelle für eine
 
 ## Widerspruchsrecht
 
-<span class="mark">\[Hier sollte erläutert werden, ob und wenn ja, wie
+[_Hier sollte erläutert werden, ob und wenn ja, wie
 Betroffene Widerspruch gegen die Verarbeitung ihrer Daten gem. Art. 21 DS-GVO
 einlegen können, einschließlich der Bedingungen, unter denen ein solcher
 Widerspruch möglich ist, und der Schritte, die die Organisation in
-Reaktion darauf unternimmt. Nachfolgend ein Beispiel.\]</span>
+Reaktion darauf unternimmt. Nachfolgend ein Beispiel._]
 
 Da die personenbezogenen Daten auf Basis einer gesetzlichen
 Rechtsgrundlage verarbeitet wurden, haben Betroffene das Recht zum
