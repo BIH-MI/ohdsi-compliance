@@ -78,10 +78,10 @@ Datum:
 | Nr  | Titel                                                                                                                                                                                                                                   |
 |-----|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | A1  | Eintrag ins Verfahrensverzeichnis der Forschungsdatenbank OHDSI@[_Name der Organisation eintragen_]                                                                                                           |
-| A2  | Leitlinie zur Informationssicherheit der Organisation \[<span class="mark">Hier soll auf die entsprechenden allgemeine Regeln zur Informationssicherheit der Organisation verwiesen werden</span>\].                                    |
-| A3  | Zentrale technische und organisatorische Maßnahmen zur Gewährleistung des Datenschutzes. \[<span class="mark">Hier soll auf die entsprechenden allgemeine Regeln zur Informationssicherheit der Organisation verwiesen werden</span>\]. |
-| A4  | Berechtigungskonzept der Forschungsdatenbank OHDSI@\[<span class="mark">Name der Organisation eintragen</span>\].                                                                                                                       |
-| A5  | <span class="mark">\[Falls zutreffend\]</span> Auftragsdatenverarbeitungsverträge                                                                                                                                                       |
+| A2  | Leitlinie zur Informationssicherheit der Organisation [_Hier soll auf die entsprechenden allgemeine Regeln zur Informationssicherheit der Organisation verwiesen werden_].                                    |
+| A3  | Zentrale technische und organisatorische Maßnahmen zur Gewährleistung des Datenschutzes. \[_Hier soll auf die entsprechenden allgemeine Regeln zur Informationssicherheit der Organisation verwiesen werden_]. |
+| A4  | Berechtigungskonzept der Forschungsdatenbank OHDSI@\[_Name der Organisation eintragen_].                                                                                                                       |
+| A5  | [_Falls zutreffend_] Auftragsdatenverarbeitungsverträge                                                                                                                                                       |
 
 # Überblick und Zweck 
 
@@ -89,7 +89,7 @@ Datum:
 
 Das vorliegende Dokument beschreibt alle Datenschutzrelevanten Aspekte
 der Implementierung der unten beschriebenen Forschungsdatenbank in
-<span class="mark">\[*Name der Organisation*\]</span> - im Folgenden
+[_Name der Organisation_]- im Folgenden
 schlicht als „die Organisation“ bezeichnet.
 
 ## Überblick der Verarbeitungstätigkeit
@@ -156,39 +156,39 @@ ausschließlichem Austausch von aggregierten Auswertungsergebnissen im
 Sinne einer Meta-Analyse (d.h. Wahrung der Anonymität der Patientinnen
 und Patienten) auswerten. Diese fachliche Tätigkeit finden auf
 Projektbasis statt, so dass für jede Durchführung ein formales Projekt
-<span class="mark">\[Falls Ethikvotum notwendig: inklusive gesondertem
-Ethikantrag\]</span> definiert wird.
+[_Falls Ethikvotum notwendig: inklusive gesondertem
+Ethikantrag_] definiert wird.
 
 **Einordnung der Verarbeitungstätigkeit:** Die Verarbeitungstätigkeit
 setzt eine Anbindung an die Gesundheitsdaten verarbeitende Quellsysteme
 der Organisation voraus, die pseudonymisierte Daten für eine Nutzung in
-OMOP/OHDSI bereitstellen. <span class="mark">\[Hier kurz beschreiben,
+OMOP/OHDSI bereitstellen. [_Hier kurz beschreiben,
 wie die Verarbeitungstätigkeit im Kontext der IT der Organisation
 einzuordnen ist, bspw. „die Verarbeitungstätigkeit setzt auf bereits
 vorhandene Prozesse der vorhandenen IT-Zentralfunktion der Organisation
 auf“ oder „für die Verarbeitungstätigkeit wurden eigens Prozesse
-implementiert“, etc.\]</span>
+implementiert“, etc._]
 
-<span class="mark">\[Hier kurz beschreiben, ob andere
+[_Hier kurz beschreiben, ob andere
 Verarbeitungstätigkeiten der Organisation von der hier beschriebenen
-Verarbeitungstätigkeit abhängt.\]</span>
+Verarbeitungstätigkeit abhängt._]
 
 **Prozesseigner und -beteiligte:**
 
-<span class="mark">\[In diesem Abschnitt sind beteiligte Personen und
-ihre Rollen zu beschreiben. Dazu gehören bspw.:</span>
+[_In diesem Abschnitt sind beteiligte Personen und ihre Rollen zu 
+beschreiben. Dazu gehören bspw.:_
 
-- <span class="mark">Bereitsteller der technischen Infrastruktur und
-  ihre Rollen.</span>
+- _Bereitsteller der technischen Infrastruktur und ihre Rollen._
 
-- <span class="mark">Für Betrieb und Wartung verantwortliche und ihre
-  weiteren Rollen.</span>
+- _Für Betrieb und Wartung verantwortliche und ihre weiteren Rollen._
 
-- <span class="mark">Klinische Partner und ihre Rollen. Diese haben
-  häufig die Hoheit über die Verwendung der Daten in der
-  Forschungsdatenbank. Hier ist insbesondere zu beachten, dass Daten unterschiedlicher fachlich verantwortlicher Einrichtungen in einer OHDSI-Installation gespeichert werden können. Ein Zugriff soll dann getrennt pro Bereich erfolgen</span>
+- _Klinische Partner und ihre Rollen. Diese haben häufig die Hoheit
+  über die Verwendung der Daten in der Forschungsdatenbank. Hier ist
+  insbesondere zu beachten, dass Daten unterschiedlicher fachlich
+  verantwortlicher Einrichtungen in einer OHDSI-Installation gespeichert
+  werden können. Ein Zugriff soll dann getrennt pro Bereich erfolgen_
 
-- <span class="mark">Auftragnehmer und ihre Rollen.\]</span>
+- _Auftragnehmer und ihre Rollen._]
 
 ## Geltungsbereich der Verarbeitungstätigkeit
 
@@ -197,17 +197,16 @@ medizinischen Daten im mittels einzelner Systeme der Organisation durch
 entsprechendes Personal sowie die Pseudonymisierung und Bereitstellung
 der Daten aus dem Quellsystem für die Forschungsdatenbank.
 
-<span class="mark">\[Hier ist in wenigen Sätzen zu nennen, wo die
+[_Hier ist in wenigen Sätzen zu nennen, wo die
 Forschungsdatenbank betrieben wird. Dies kann bspw. im internen Netzwerk
 der Organisation, in einer demilitarisierten Zone, im offenen Netz oder
 auf dedizierter Hardware sein. Ein Verweis auf die entsprechend
 festgelegten technischen und organisatorischen Maßnahmen dieser
 Infrastruktur sollte ergänzt und in den Anhang aufgenommen
-werden.\]</span> Basierend auf einer Instanz des relationalen
-Datenbankmanagementsystems <span class="mark">\[Hier
-Datenbankmanagementsystems, z.B. PostgreSQL\]</span> werden verschieden
-Funktionalitäten durch verschiedene weitere open-source Werkzeuge
-bereitgestellt:
+werden._] Basierend auf einer Instanz des relationalen
+Datenbankmanagementsystems [_Hier Datenbankmanagementsystems, z.B. 
+PostgreSQL_] werden verschieden Funktionalitäten durch verschiedene 
+weitere open-source Werkzeuge bereitgestellt:
 
 - ATLAS ist ein webbasiertes Tool, das von der OHDSI-Gemeinschaft
   entwickelt wurde und das Design und die Durchführung von
@@ -253,52 +252,52 @@ die Nutzung der Forschungsdienste der Organisation beinhalten,
 Primärdaten gemäß *Good Scientific Practice* für 10 Jahre sicher zu
 archivieren. Die Daten in der Forschungsdatenbank selbst werden nur
 durch den Standard-Backup-Mechanismus der Betriebsumgebung der
-Forschungsdatenbank durch die <span class="mark">\[Verantwortliche
+Forschungsdatenbank durch die [_Verantwortliche
 Funktion für ein zentrales Backup in der entsprechenden Betriebsumgebung
-der Forschungsdatenbank nennen, bspw. IT-Zentralfunktion\]</span>
+der Forschungsdatenbank nennen, bspw. IT-Zentralfunktion_]
 gesichert. Für den Gesamtdatenbestand findet darüber hinaus keine
 Archivierung statt. Bei der Durchführung einzelner Forschungsvorhaben
 durch Forschende liegt die Verantwortung für die Archivierung der in der
 Studie genutzten Daten bei den Forschenden selbst und muss u.a. im
-Studienprotokoll <span class="mark">\[Falls Ethikvotum notwendig: bzw.
-im Ethikantrag</span>\] beschrieben werden. Es gelten also alle
+Studienprotokoll [_Falls Ethikvotum notwendig: bzw.
+im Ethikantrag_] beschrieben werden. Es gelten also alle
 Standardanforderungen der Organisation und es stehen die üblichen
 Dienste für die Durchführung entsprechender Studien zur Verfügung.
 
 ## Rahmendaten
 
-| Anzahl der an der Erstellung der Datenbank beteiligten Personen:       | Ca. <span class="mark">\[…\]</span> |
+| Anzahl der an der Erstellung der Datenbank beteiligten Personen:       | Ca. […] |
 |------------------------------------------------------------------------|-------------------------------------|
-| Anzahl der an der Administration der Datenbank beteiligten Personen:   | Ca. <span class="mark">\[…\]</span> |
-| Anzahl der Personen, die die Datenbank zu Forschungszwecken nutzen     | Ca. <span class="mark">\[…\]</span> |
-| Anzahl der betroffenen Patientinnen und Patienten/Personen/Fallzahlen: | Ca. <span class="mark">\[…\]</span> |
+| Anzahl der an der Administration der Datenbank beteiligten Personen:   | Ca. […] |
+| Anzahl der Personen, die die Datenbank zu Forschungszwecken nutzen     | Ca. […] |
+| Anzahl der betroffenen Patientinnen und Patienten/Personen/Fallzahlen: | Ca. […] |
 
 ## Beteiligte Personengruppen
 
-<span class="mark">\[Hier wird den jeweiligen beteiligten
-Personengruppen die entsprechenden Rollen in der Verarbeitungstätigkeit
-zugeordnet. Die „Rolle in der Verarbeitungstätigkeit“ beschreibt dabei,
-welche Art von Aufgaben hier aufgeführt werden sollen.\]</span>
+[_Hier wird den jeweiligen beteiligten Personengruppen die entsprechenden 
+Rollen in der Verarbeitungstätigkeit zugeordnet. Die „Rolle in der 
+Verarbeitungstätigkeit“ beschreibt dabei, welche Art von Aufgaben hier 
+aufgeführt werden sollen._]
 
 | Nr.                             | Bezeichnung der Personengruppe                 | Rolle in der Verarbeitungstätigkeit                                          |
 |---------------------------------|------------------------------------------------|------------------------------------------------------------------------------|
-| <span class="mark">1</span>     | <span class="mark">\[z.B. Administrierende\]</span> | <span class="mark">\[z.B. Systemdesign, Datenpflege\]</span>                 |
-| <span class="mark">2</span>     | <span class="mark">\[Personengruppe 2\]</span> | <span class="mark">\[z.B. Datenanalyse, Berichterstattung\]</span>           |
-| <span class="mark">3</span>     | <span class="mark">\[Personengruppe 3\]</span> | <span class="mark">\[z.B. Zugriffsverwaltung, Administration\]</span>        |
-| <span class="mark">4</span>     | <span class="mark">\[Personengruppe 4\]</span> | <span class="mark">\[z.B. Datenbereitstellung, Teilnahme an Studien\]</span> |
-| <span class="mark">\[…\]</span> | <span class="mark">\[…\]</span>                | <span class="mark">\[…\]</span>                                              |
+| 1     | [_Personengruppe 1_] | [_z.B. Systemdesign, Datenpflege_]                 |
+| 2     | [_Personengruppe 2_] | [_z.B. Datenanalyse, Berichterstattung_]           |
+| 3     | [_Personengruppe 3_] | [_z.B. Zugriffsverwaltung, Administration_]        |
+| 4     | [_Personengruppe 4_] | [_z.B. Datenbereitstellung, Teilnahme an Studien_] |
+| […] | […]                | […]                                             |
 
 ## Beteiligte Daten/Datenkategorie/Quelle/Rechtsgrundlage
 
 Im Rahmen des Projektes werden relevante Daten aus
-<span class="mark">\[hier relevante Systeme aufzuzählen, bspw.
-Krankenhausinformationssystem, Register, etc.\]</span> extrahiert, in
+[_Hier relevante Systeme aufzuzählen, bspw.
+Krankenhausinformationssystem, Register, etc._] extrahiert, in
 die Struktur von OMOP/OHDSI überführt und in der Forschungsdatenbank
 abgelegt werden. Es erfolgt ausschließlich eine Sekundärnutzung von
 bereits im Rahmen der Krankenversorgung erfassten Daten. Im Folgenden
 werden die Datenkategorien umfassend erläutert.
 
-<span class="mark">\[Im Folgenden sollen die Datenkategorien umfassend
+[_Im Folgenden sollen die Datenkategorien umfassend
 erläutert werden. Jede Kategorie erfordert eine präzise Beschreibung
 ihrer Inhalte, wobei konkrete Beispiele die Anschaulichkeit und das
 Verständnis verbessern. Es ist entscheidend, die Herkunft der Daten
@@ -306,38 +305,38 @@ exakt zu benennen, sei es aus internen Systemen der Patientenverwaltung
 oder externen Quellen wie Datenbanken öffentlicher Einrichtungen.
 Abschließend muss die rechtliche Grundlage für den Umgang mit diesen
 Daten dargelegt werden, um Konformität mit geltenden Datenschutzvorgaben
-sicherzustellen.\]</span>
+sicherzustellen._]
 
-1.  <span class="mark">\[z.B. Stammdaten\]</span>
+1.  [_z.B. Stammdaten_]
 
-    1.  <span class="mark">\[Beschreibung/Details/Spezifikation/Beispiele\]</span>
+    1.  [_Beschreibung/Details/Spezifikation/Beispiele_]
 
-    2.  <span class="mark">\[Quellsystem\]</span>
+    2.  [_Quellsystem_]
 
-    3.  <span class="mark">\[Rechtgrundlage der Verarbeitung\]</span>
+    3.  [_Rechtgrundlage der Verarbeitung_]
 
-2.  <span class="mark">\[Datenkategorie 2\]</span>
+2.  [_Datenkategorie 2_]
 
-    1.  <span class="mark">\[Beschreibung/Details/Spezifikation/Beispiele\]</span>
+    1.  [_Beschreibung/Details/Spezifikation/Beispiele_]
 
-    2.  <span class="mark">\[Quellsystem\]</span>
+    2.  [_Quellsystem_]
 
-    3.  <span class="mark">\[Rechtgrundlage\]</span>
+    3.  [_Rechtgrundlage_]
 
-3.  <span class="mark">\[…\]</span>
+3.  […]
 
 ## Einwilligung
 
-<span class="mark">\[Falls Rechtsgrundlage der Datenverarbeitung auf
-Einwilligung basiert hier Details nennen\]</span>
+[_Falls Rechtsgrundlage der Datenverarbeitung auf
+Einwilligung basiert hier Details nennen_]
 
 # Systematische Beschreibung der Verarbeitungstätigkeit
 
 ## Grafische Darstellung der Verarbeitungstätigkeit
 
-<span class="mark">\<\<\<Hier die Verarbeitungstätigkeit grafisch
-skizzieren, bspw. ist die Darstellung mithilfe eines *LINDDUN Data Flow
-Diagrams* zu empfehlen, nachfolgend ein grobes Beispiel: \>\>\></span>
+[_Hier die Verarbeitungstätigkeit grafisch skizzieren, bspw. ist die 
+Darstellung mithilfe eines LINDDUN Data Flow Diagrams zu empfehlen, 
+nachfolgend ein grobes Beispiel:_]
 
 <img src="./media/linddun-data-flow-1.png" style="width:6.3in;height:2.40069in" />
 
@@ -362,11 +361,11 @@ Folgenden gemeinsam beschrieben.
   automatisiert.
 
 - **Beteiligte Systeme (Hardware, Software):** Quelle:
-  <span class="mark">\[Name des Quellsystems\]</span>, Übertragung über
+  [_Name des Quellsystems_], Übertragung über
   sicheres Netzlaufwerk, Senke: OHDSI Forschungsdatenbank.
 
-- **Beteiligte Datenkategorien:** <span class="mark">\[Hier Nummern der
-  Datenkategorien aus 1.7 nennen\]</span>
+- **Beteiligte Datenkategorien:** [_Hier Nummern der
+  Datenkategorien aus 1.7 nennen_]
 
 ### Schritt 2: Nutzung der Analysetools
 
@@ -386,73 +385,71 @@ Folgenden gemeinsam beschrieben.
 
 ## IT-Infrastruktur, Systeme und Anwendung sowie Zugriffsberechtigungen
 
-<span class="mark">\[Hier relevante Hardware (z.B. Server) mit
-jeweiligen zugriffberechtigten Personen(-gruppe) auflisten.\]</span>
+[_Hier relevante Hardware (z.B. Server) mit
+jeweiligen zugriffberechtigten Personen(-gruppe) auflisten._]
 
 | Nr.                         | Hardware                                 | Zugriffsberechtigte (gem. 1.6 Beteiligte Personengruppen) |
 |-----------------------------|------------------------------------------|-----------------------------------------------------------|
-| <span class="mark">1</span> | <span class="mark">\[z.B. Server für Forschungsdatenbank\]</span> | <span class="mark">\[z.B. Administrirende\]</span>                                                         |
-| <span class="mark">2</span> | <span class="mark">\[Hardware 2\]</span> | <span class="mark">\[...\]</span>                                                           |
-| <span class="mark">3</span> | <span class="mark">\[Hardware 3\]</span> | <span class="mark">\[...\]</span>                                                           |                                                           |
-| <span class="mark">\[...\]</span> | <span class="mark">\[...\]</span> | <span class="mark">\[...\]</span>                                                           |                                                           |
+| 1 | [_z.B. Server für Forschungsdatenbank_] | [_z.B. Administrirende_]                                                         |
+| 2 | [_Hardware 2_] | [_..._]                                                           |
+| 3 | [_Hardware 3_] | [_..._]                                                           |                                                           |
+| [_..._] | [_..._] | [_..._]                                                           |                                                           |
 
 | Nr.                         | Software                                 | Zugriffsberechtigte (gem. 1.6 Beteiligte Personengruppen) |
 |-----------------------------|------------------------------------------|-----------------------------------------------------------|
-| <span class="mark">1</span> | <span class="mark">\[z.B. OHDSI-Forschungssoftware\]</span> | <span class="mark">\[z.B. Forschende\]</span>                                                          |
-| <span class="mark">2</span> | <span class="mark">\[Software 2\]</span> | <span class="mark">\[...\]</span>                                                           |                                                           |
-| <span class="mark">3</span> | <span class="mark">\[Software 3\]</span> | <span class="mark">\[...\]</span>                                                           |                                                          |
-| <span class="mark">\[...\]</span> | <span class="mark">\[...\]</span> | <span class="mark">\[...\]</span>                                                           |                                                          |
+| 1 | [_z.B. OHDSI-Forschungssoftware_] | [_z.B. Forschende_]                                                         |
+| 2 | [_Software 2_] | [_..._]                                                          |                                                           |
+| 3 | [_Software 3_] | [_..._]                                                           |                                                          |
+| [_..._] | [_..._] | [_..._]                                                           |                                                          |
 
 ## Datenfluss-Diagramm
 
-<span class="mark">\<\<\<Hier den Datenfluss grafisch skizzieren, bspw.
+[_Hier den Datenfluss grafisch skizzieren, bspw.
 ist die Darstellung mithilfe eines *LINDDUN Data Flow Diagrams* zu
-empfehlen, nachfolgend ein grobes Beispiel: \>\>\></span>
+empfehlen, nachfolgend ein grobes Beispiel:_]
 
 <img src="./media/linddun-data-flow-2.png" style="width:6.3in;height:1.01458in" />
 
 # Auftragsdatenverarbeitung
 
-<span class="mark">\[Im Falle einer Auftragsdatenverarbeitung sind
+[_Im Falle einer Auftragsdatenverarbeitung sind
 hier sämtliche Auftragsdatenverarbeiter detailliert aufzulisten. 
-Beipiele für  Auftragsdatenverarbeiter sind: 
-- **Firmen für Infrastrukturwartung**: Unternehmen, die für die regelmäßige
+Beipiele für  Auftragsdatenverarbeiter sind:_
+- _**Firmen für Infrastrukturwartung**: Unternehmen, die für die regelmäßige
   Wartung und Instandhaltung der IT-Infrastruktur, einschließlich Server
-  und Netzwerkkomponenten, zuständig sind.
-- **KMUs für Mapping und Datenintegration**: Kleinere und mittlere Unternehmen,
+  und Netzwerkkomponenten, zuständig sind._
+- _**KMUs für Mapping und Datenintegration**: Kleinere und mittlere Unternehmen,
   die spezialisiert sind auf das Mapping von Daten in die erforderlichen
-  Formate und die Integration verschiedener Datenquellen in die Forschungsdatenbank.
-- **Dienstleister für den Betrieb der Datenbank**: Unternehmen, die für
+  Formate und die Integration verschiedener Datenquellen in die Forschungsdatenbank._
+- _**Dienstleister für den Betrieb der Datenbank**: Unternehmen, die für
   den reibungslosen Betrieb der Forschungsdatenbank verantwortlich sind,
-  einschließlich der Gewährleistung von Zugriffsberechtigungen und Datenaktualisierungen.
+  einschließlich der Gewährleistung von Zugriffsberechtigungen und Datenaktualisierungen._
 
-Zu den relevanten Informationen gehören beispielsweise neben der 
+_Zu den relevanten Informationen gehören beispielsweise neben der 
 Bezeichnung (Name des Unternehmens, der Institution oder Organisation)
 auch die Angabe des Speicherorts der Daten, der Hintergrund/Zweck der 
 Verarbeitung. Die Beschreibung kann in Form einer Liste oder in 
-tabellarischer Form erfolgen.\]</span>
+tabellarischer Form erfolgen._]
 
 # Speicherung, Löschung und Weitergabe von Daten
 
 ## Speicherort, Speicherdauer und Löschung der Daten
 
-<span class="mark">\[Folgende Tabelleninhalten sind beispielhaft
-angegeben\]</span>
+[_Folgende Tabelleninhalten sind beispielhaft angegeben_]
 
 | Datenkategorie (gem. 1.7 Beteiligte Daten/Datenkategorie) | Angabe des Speicherorts                | Angabe der Speicherdauer und der entsprechenden Rechtsgrundlage | Beschreibung der Löschung                                              |
 |-----------------------------------------------------------|----------------------------------------|-----------------------------------------------------------------|------------------------------------------------------------------------|
-| <span class="mark">\[z.B. Stammdaten\]</span>            | <span class="mark">\[Server 1\]</span> | <span class="mark">\[gem. Projektdauer\]</span>                 | <span class="mark">\[regelmäßige automatische Löschung aus DB\]</span> |
-| <span class="mark">\[Datenkategorie 2\]</span>            | <span class="mark">\[Server 2\]</span> | <span class="mark">\[gem. Projektdauer\]</span>                 | <span class="mark">\[regelmäßige automatische Löschung aus DB\]</span> |
-| <span class="mark">\[Datenkategorie 3\]</span>            | <span class="mark">\[Server 3\]</span> | <span class="mark">\[gem. Projektdauer\]</span>                 | <span class="mark">\[regelmäßige manuelle Löschung aus DB\]</span>     |
-| <span class="mark">\[...\]</span>            | <span class="mark">\[...\]</span> | <span class="mark">\[...\]</span>                 | <span class="mark">\[...\]</span>     |
+| [_z.B. Stammdaten_]            | [_Server 1_] | [_gem. Projektdauer_]                 | [_regelmäßige automatische Löschung aus DB_] |
+| [_Datenkategorie 2_]            | [_Server 2_] | [_gem. Projektdauer_]                 | [_regelmäßige automatische Löschung aus DB_] |
+| [_Datenkategorie 3_]            | [_Server 3_] | [_gem. Projektdauer_]                 | [_regelmäßige manuelle Löschung aus DB_]     |
+| [_..._]            | [_..._] | [_..._]               | <[_..._]     |
 
 ## Empfänger der Daten
 
 ### Empfänger innerhalb der Organisation
 
-<span class="mark">\[Falls Daten an Empfänger innerhalb der
-Organisation weitergegeben werden, dann bitte folgende Tabelle 
-befüllen.\]</span>.
+[_Falls Daten an Empfänger innerhalb der Organisation weitergegeben werden, 
+dann bitte folgende Tabelle befüllen._]
 
 | Datenkategorie (gem. 1.7 Beteiligte Daten/Datenkategorie) | Angabe des Empfängers                     | Angabe des Zwecks und der entsprechenden Rechtsgrundlage |
 |-----------------------------------------------------------|-------------------------------------------|----------------------------------------------------------|
