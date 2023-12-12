@@ -7,7 +7,7 @@ Datum:
 
 # Inhaltsverzeichnis
 
-<span class="mark">1 Überblick und Zweck</span>
+**1 Überblick und Zweck**
 
 1.1 Zweck dieses Dokumentes
 
@@ -25,7 +25,7 @@ Datum:
 
 1.8 Einwilligung
 
-<span class="mark">2 Systematische Beschreibung der Verarbeitungstätigkeit</span>
+**2 Systematische Beschreibung der Verarbeitungstätigkeit**
 
 2.1 Grafische Darstellung der Verarbeitungstätigkeit
 
@@ -39,11 +39,11 @@ Datum:
 
 2.4 Datenfluss-Diagramm
 
-<span class="mark">3 Auftragsdatenverarbeitung</span>
+**3 Auftragsdatenverarbeitung**
 
-<span class="mark">4 Datenübermittlung an Drittländer</span>
+**4 Datenübermittlung an Drittländer**
 
-<span class="mark">5 Speicherung, Löschung und Weitergabe von Daten</span>
+**5 Speicherung, Löschung und Weitergabe von Daten**
 
 5.1 Speicherort, Speicherdauer und Löschung der Daten
 
@@ -53,7 +53,7 @@ Datum:
 
 5.2.2 Empfänger außerhalb der Organisation
 
-<span class="mark">6 Wahrung der Betroffenenrechte</span>
+**6 Wahrung der Betroffenenrechte**
 
 6.1 Information des Betroffenen
 
@@ -71,7 +71,7 @@ Datum:
 
 6.8 Widerspruchsrecht
 
-<span class="mark">7 Referenzen</span>
+**7 Referenzen**
 
 # Anlagenverzeichnis
 
