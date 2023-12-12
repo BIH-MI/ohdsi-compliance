@@ -10,33 +10,21 @@ Datum:
 1 Überblick und Zweck
 
 1.1 Zweck dieses Dokumentes
-
 1.2 Überblick der Verarbeitungstätigkeit
-
 1.3 Zweck der Verarbeitungstätigkeit
-
 1.4 Geltungsbereich der Verarbeitungstätigkeit
-
 1.5 Rahmendaten
-
 1.6 Beteiligte Personengruppen
-
 1.7 Beteiligte Daten/Datenkategorie/Quelle/Rechtsgrundlage
-
 1.8 Einwilligung
 
 2 Systematische Beschreibung der Verarbeitungstätigkeit
 
 2.1 Grafische Darstellung der Verarbeitungstätigkeit
-
 2.2 Beschreibung der Verarbeitungsschritte
-
 2.2.1 Schritt 1: Transformation und Laden
-
 2.2.2 Schritt 2: Nutzung der Analysetools
-
 2.3 IT-Infrastruktur, Systeme und Anwendung sowie Zugriffsberechtigungen
-
 2.4 Datenfluss-Diagramm
 
 3 Auftragsdatenverarbeitung
@@ -46,29 +34,19 @@ Datum:
 5 Speicherung, Löschung und Weitergabe von Daten
 
 5.1 Speicherort, Speicherdauer und Löschung der Daten
-
 5.2 Empfänger der Daten
-
 5.2.1 Empfänger innerhalb der Organisation
-
 5.2.2 Empfänger außerhalb der Organisation
 
 6 Wahrung der Betroffenenrechte
 
 6.1 Information des Betroffenen
-
 6.2 Widerruf der Einwilligung
-
 6.3 Auskunftsrecht
-
 6.4 Recht auf Berichtigung
-
 6.5 Recht auf Löschung
-
 6.6 Recht auf Einschränkung der Verarbeitung
-
 6.7 Recht auf Datenübertragbarkeit
-
 6.8 Widerspruchsrecht
 
 7 Referenzen
@@ -77,7 +55,7 @@ Datum:
 
 | Nr  | Titel                                                                                                                                                                                                                                   |
 |-----|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| A1  | Eintrag ins Verfahrensverzeichnis der Forschungsdatenbank OHDSI@\[<span class="mark">Name der Organisation eintragen</span>                                                                                                             |
+| A1  | Eintrag ins Verfahrensverzeichnis der Forschungsdatenbank OHDSI@\[<span class="mark">Name der Organisation eintragen\]</span>                                                                                                             |
 | A2  | Leitlinie zur Informationssicherheit der Organisation \[<span class="mark">Hier soll auf die entsprechenden allgemeine Regeln zur Informationssicherheit der Organisation verwiesen werden</span>\].                                    |
 | A3  | Zentrale technische und organisatorische Maßnahmen zur Gewährleistung des Datenschutzes. \[<span class="mark">Hier soll auf die entsprechenden allgemeine Regeln zur Informationssicherheit der Organisation verwiesen werden</span>\]. |
 | A4  | Berechtigungskonzept der Forschungsdatenbank OHDSI@\[<span class="mark">Name der Organisation eintragen</span>\].                                                                                                                       |
