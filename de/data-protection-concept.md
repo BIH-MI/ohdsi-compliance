@@ -10,21 +10,33 @@ Datum:
 <span class="mark">1 Überblick und Zweck</span>
 
 1.1 Zweck dieses Dokumentes
+
 1.2 Überblick der Verarbeitungstätigkeit
+
 1.3 Zweck der Verarbeitungstätigkeit
+
 1.4 Geltungsbereich der Verarbeitungstätigkeit
+
 1.5 Rahmendaten
+
 1.6 Beteiligte Personengruppen
+
 1.7 Beteiligte Daten/Datenkategorie/Quelle/Rechtsgrundlage
+
 1.8 Einwilligung
 
 <span class="mark">2 Systematische Beschreibung der Verarbeitungstätigkeit</span>
 
 2.1 Grafische Darstellung der Verarbeitungstätigkeit
+
 2.2 Beschreibung der Verarbeitungsschritte
+
 2.2.1 Schritt 1: Transformation und Laden
+
 2.2.2 Schritt 2: Nutzung der Analysetools
+
 2.3 IT-Infrastruktur, Systeme und Anwendung sowie Zugriffsberechtigungen
+
 2.4 Datenfluss-Diagramm
 
 <span class="mark">3 Auftragsdatenverarbeitung</span>
@@ -34,19 +46,29 @@ Datum:
 <span class="mark">5 Speicherung, Löschung und Weitergabe von Daten</span>
 
 5.1 Speicherort, Speicherdauer und Löschung der Daten
+
 5.2 Empfänger der Daten
+
 5.2.1 Empfänger innerhalb der Organisation
+
 5.2.2 Empfänger außerhalb der Organisation
 
 <span class="mark">6 Wahrung der Betroffenenrechte</span>
 
 6.1 Information des Betroffenen
+
 6.2 Widerruf der Einwilligung
+
 6.3 Auskunftsrecht
+
 6.4 Recht auf Berichtigung
+
 6.5 Recht auf Löschung
+
 6.6 Recht auf Einschränkung der Verarbeitung
+
 6.7 Recht auf Datenübertragbarkeit
+
 6.8 Widerspruchsrecht
 
 <span class="mark">7 Referenzen</span>
