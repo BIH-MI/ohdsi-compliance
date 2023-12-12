@@ -361,35 +361,33 @@ Folgenden gemeinsam beschrieben.
 
 ### 2.2.1 Schritt 1: Transformation und Laden
 
-- **Beschreibung des Prozessschrittes:** Die pseudonymisierten Daten
-  werden in das Schema des OMOP CDM transformiert und in die
-  Forschungsdatenbank geladen.
+- **Beschreibung des Prozessschrittes:** [_z.B. pseudonymisierten Daten
+  werden in das OMOP CDM Schema transformiert und anschließend in die
+  Forschungsdatenbank geladen_]
 
-- **Beteiligte Personengruppen:** Anfangs Entwickler. Anschließend
-  automatisiert.
+- **Beteiligte Personengruppen:** [_z.B. Entwickler_]
 
-- **Beteiligte Systeme (Hardware, Software):** Quelle:
-  [_Name des Quellsystems_], Übertragung über
-  sicheres Netzlaufwerk, Senke: OHDSI Forschungsdatenbank.
+- **Beteiligte Systeme (Hardware, Software):** [_z.B. Quelle:
+  [_Name des Quellsystems_], Übertragung über [...],
+  Senke: OHDSI Forschungsdatenbank._]
 
 - **Beteiligte Datenkategorien:** [_Hier Nummern der
   Datenkategorien aus 1.7 nennen_]
 
 ### 2.2.2 Schritt 2: Nutzung der Analysetools
 
-- **Beschreibung des Prozessschrittes:** Nutzung der pseudonymisierten
+- **Beschreibung des Prozessschrittes:** [_z.B.Nutzung der pseudonymisierten
   Daten und OHDSI-Datenanalysetools (ATLAS, HADES, DATA QUALITY
-  DASHBOARD, ACHILLES) zu Forschungszwecken.
+  DASHBOARD, ACHILLES) zu Forschungszwecken._]
 
-- **Beteiligte Personengruppen:** Berechtigte Forschende.
+- **Beteiligte Personengruppen:** [z.B. berechtigte Forschende_]
 
-- **Beteiligte Systeme (Hardware, Software):** Server mit Installation
-  des oben genannten Datenbankmanagementsystems, sowie den OHDSI-Tools
-  (ATLAS, HADES, DATA QUALITY DASHBOARD, ACHILLES) sowie Endgeräte der
-  Forscherinnen und Forscher nach zentralen Vorgaben der Organisation.
+- **Beteiligte Systeme (Hardware, Software):** [_z.B. Server mit
+  Datenbankmanagementsystem und den OHDSI-Tools
+  (ATLAS, HADES, DATA QUALITY DASHBOARD, ACHILLES)_]
 
-- **Beteiligte Datenkategorien:** <span class="mark">\[Hier Nummern der
-  Datenkategorien aus 1.7 nennen\]</span>
+- **Beteiligte Datenkategorien:** [_Hier Nummern der
+  Datenkategorien aus 1.7 nennen_]
 
 ## 2.3 IT-Infrastruktur, Systeme und Anwendung sowie Zugriffsberechtigungen
 
