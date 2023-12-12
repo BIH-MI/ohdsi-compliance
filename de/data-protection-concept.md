@@ -224,8 +224,7 @@ weitere open-source Werkzeuge bereitgestellt:
 - ACHILLES ist ein Software-Tool, das die Charakterisierung und
   Visualisierung einer CDM-konformen Datenbank ermöglicht.
 
-> Zur Administration und Beladung der Datenbank kommen weitere Werkzeuge
-> zum Einsatz:
+Zur Administration und Beladung der Datenbank kommen weitere Werkzeuge zum Einsatz:
 
 - ATHENA ermöglicht sowohl die Suche als auch das Laden von
   standardisierten Vokabularen.
