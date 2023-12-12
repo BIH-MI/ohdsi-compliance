@@ -41,37 +41,35 @@ Datum:
 
 **3 Auftragsdatenverarbeitung**
 
-**4 Datenübermittlung an Drittländer**
+**4 Speicherung, Löschung und Weitergabe von Daten**
 
-**5 Speicherung, Löschung und Weitergabe von Daten**
+4.1 Speicherort, Speicherdauer und Löschung der Daten
 
-5.1 Speicherort, Speicherdauer und Löschung der Daten
+4.2 Empfänger der Daten
 
-5.2 Empfänger der Daten
+4.2.1 Empfänger innerhalb der Organisation
 
-5.2.1 Empfänger innerhalb der Organisation
+4.2.2 Empfänger außerhalb der Organisation
 
-5.2.2 Empfänger außerhalb der Organisation
+**5 Wahrung der Betroffenenrechte**
 
-**6 Wahrung der Betroffenenrechte**
+5.1 Information des Betroffenen
 
-6.1 Information des Betroffenen
+5.2 Widerruf der Einwilligung
 
-6.2 Widerruf der Einwilligung
+5.3 Auskunftsrecht
 
-6.3 Auskunftsrecht
+5.4 Recht auf Berichtigung
 
-6.4 Recht auf Berichtigung
+5.5 Recht auf Löschung
 
-6.5 Recht auf Löschung
+5.6 Recht auf Einschränkung der Verarbeitung
 
-6.6 Recht auf Einschränkung der Verarbeitung
+5.7 Recht auf Datenübertragbarkeit
 
-6.7 Recht auf Datenübertragbarkeit
+5.8 Widerspruchsrecht
 
-6.8 Widerspruchsrecht
-
-**7 Referenzen**
+**6 Referenzen**
 
 # Anlagenverzeichnis
 
@@ -83,16 +81,16 @@ Datum:
 | A4  | Berechtigungskonzept der Forschungsdatenbank OHDSI@\[_Name der Organisation eintragen_].                                                                                                                       |
 | A5  | [_Falls zutreffend_] Auftragsdatenverarbeitungsverträge                                                                                                                                                       |
 
-# Überblick und Zweck 
+# 1 Überblick und Zweck 
 
-## Zweck dieses Dokumentes
+## 1.1 Zweck dieses Dokumentes
 
 Das vorliegende Dokument beschreibt alle Datenschutzrelevanten Aspekte
 der Implementierung der unten beschriebenen Forschungsdatenbank in
 [_Name der Organisation_]- im Folgenden
 schlicht als „die Organisation“ bezeichnet.
 
-## Überblick der Verarbeitungstätigkeit
+## 1.2 Überblick der Verarbeitungstätigkeit
 
 Die Verarbeitungstätigkeit umfasst eine Gesundheitsdatenbank auf Basis
 des Observational Medical Outcomes Partnership (OMOP) Common Data Model
@@ -141,7 +139,7 @@ Jahren 2019-2020 ca. 80 technische und medizinische Publikationen
 hervorgebracht hat. Die Organisation beraubt sich bei Nichtteilnahme
 einer großen Chance und erleidet Wettbewerbsnachteile.
 
-## Zweck der Verarbeitungstätigkeit
+## 1.3 Zweck der Verarbeitungstätigkeit
 
 **Fachliche Tätigkeiten:** Die zu etablierende Forschungsdatenbank
 bietet Forschenden der Organisation Funktionen zur wissenschaftlichen
@@ -190,7 +188,7 @@ beschreiben. Dazu gehören bspw.:_
 
 - _Auftragnehmer und ihre Rollen._]
 
-## Geltungsbereich der Verarbeitungstätigkeit
+## 1.4 Geltungsbereich der Verarbeitungstätigkeit
 
 Vorausgehenden Verarbeitungstätigkeiten (VT): Die Erfassung von
 medizinischen Daten im mittels einzelner Systeme der Organisation durch
@@ -263,7 +261,7 @@ im Ethikantrag_] beschrieben werden. Es gelten also alle
 Standardanforderungen der Organisation und es stehen die üblichen
 Dienste für die Durchführung entsprechender Studien zur Verfügung.
 
-## Rahmendaten
+## 1.5 Rahmendaten
 
 | Anzahl der an der Erstellung der Datenbank beteiligten Personen:       | Ca. […] |
 |------------------------------------------------------------------------|-------------------------------------|
@@ -271,7 +269,7 @@ Dienste für die Durchführung entsprechender Studien zur Verfügung.
 | Anzahl der Personen, die die Datenbank zu Forschungszwecken nutzen     | Ca. […] |
 | Anzahl der betroffenen Patientinnen und Patienten/Personen/Fallzahlen: | Ca. […] |
 
-## Beteiligte Personengruppen
+## 1.6 Beteiligte Personengruppen
 
 [_Hier wird den jeweiligen beteiligten Personengruppen die entsprechenden 
 Rollen in der Verarbeitungstätigkeit zugeordnet. Die „Rolle in der 
@@ -286,7 +284,7 @@ aufgeführt werden sollen._]
 | 4     | [_Personengruppe 4_] | [_z.B. Datenbereitstellung, Teilnahme an Studien_] |
 | […] | […]                | […]                                             |
 
-## Beteiligte Daten/Datenkategorie/Quelle/Rechtsgrundlage
+## 1.7 Beteiligte Daten/Datenkategorie/Quelle/Rechtsgrundlage
 
 Im Rahmen des Projektes werden relevante Daten aus
 [_Hier relevante Systeme aufzuzählen, bspw.
@@ -324,14 +322,14 @@ sicherzustellen._]
 
 3.  […]
 
-## Einwilligung
+## 1.8 Einwilligung
 
 [_Falls Rechtsgrundlage der Datenverarbeitung auf
 Einwilligung basiert hier Details nennen_]
 
-# Systematische Beschreibung der Verarbeitungstätigkeit
+# 2 Systematische Beschreibung der Verarbeitungstätigkeit
 
-## Grafische Darstellung der Verarbeitungstätigkeit
+## 2.1 Grafische Darstellung der Verarbeitungstätigkeit
 
 [_Hier die Verarbeitungstätigkeit grafisch skizzieren, bspw. hierfür
 eignet sich die Nutzung eines LINDDUN Data Flow Diagrams._
@@ -359,9 +357,9 @@ für jeden der Verarbeitungsprozesse sich nur in Details wie
 Beispielweise Transformationsregeln unterscheiden, werden sie im
 Folgenden gemeinsam beschrieben.
 
-## Beschreibung der Verarbeitungsschritte
+## 2.2 Beschreibung der Verarbeitungsschritte
 
-### Schritt 1: Transformation und Laden
+### 2.2.1 Schritt 1: Transformation und Laden
 
 - **Beschreibung des Prozessschrittes:** Die pseudonymisierten Daten
   werden in das Schema des OMOP CDM transformiert und in die
@@ -377,7 +375,7 @@ Folgenden gemeinsam beschrieben.
 - **Beteiligte Datenkategorien:** [_Hier Nummern der
   Datenkategorien aus 1.7 nennen_]
 
-### Schritt 2: Nutzung der Analysetools
+### 2.2.2 Schritt 2: Nutzung der Analysetools
 
 - **Beschreibung des Prozessschrittes:** Nutzung der pseudonymisierten
   Daten und OHDSI-Datenanalysetools (ATLAS, HADES, DATA QUALITY
@@ -393,7 +391,7 @@ Folgenden gemeinsam beschrieben.
 - **Beteiligte Datenkategorien:** <span class="mark">\[Hier Nummern der
   Datenkategorien aus 1.7 nennen\]</span>
 
-## IT-Infrastruktur, Systeme und Anwendung sowie Zugriffsberechtigungen
+## 2.3 IT-Infrastruktur, Systeme und Anwendung sowie Zugriffsberechtigungen
 
 [_Hier relevante Hardware (z.B. Server) mit
 jeweiligen zugriffberechtigten Personen(-gruppe) auflisten._]
@@ -412,7 +410,7 @@ jeweiligen zugriffberechtigten Personen(-gruppe) auflisten._]
 | 3 | [_Software 3_] | [_..._]                                                           |                                                          |
 | [_..._] | [_..._] | [_..._]                                                           |                                                          |
 
-## Datenfluss-Diagramm
+## 2.4 Datenfluss-Diagramm
 
 [_Hier den Datenfluss grafisch skizzieren, bspw.
 ist die Darstellung mithilfe eines *LINDDUN Data Flow Diagrams* zu
@@ -420,7 +418,7 @@ empfehlen, nachfolgend ein grobes Beispiel:_]
 
 <img src="./media/linddun-data-flow-2.png" style="width:6.3in;height:1.01458in" />
 
-# Auftragsdatenverarbeitung
+# 3 Auftragsdatenverarbeitung
 
 [_Im Falle einer Auftragsdatenverarbeitung sind
 hier sämtliche Auftragsdatenverarbeiter detailliert aufzulisten. 
@@ -441,9 +439,9 @@ auch die Angabe des Speicherorts der Daten, der Hintergrund/Zweck der
 Verarbeitung. Die Beschreibung kann in Form einer Liste oder in 
 tabellarischer Form erfolgen._]
 
-# Speicherung, Löschung und Weitergabe von Daten
+# 4 Speicherung, Löschung und Weitergabe von Daten
 
-## Speicherort, Speicherdauer und Löschung der Daten
+## 4.1 Speicherort, Speicherdauer und Löschung der Daten
 
 [_Folgende Tabelleninhalten sind beispielhaft angegeben_]
 
@@ -454,9 +452,9 @@ tabellarischer Form erfolgen._]
 | [_Datenkategorie 3_]            | [_Server 3_] | [_gem. Projektdauer_]                 | [_regelmäßige manuelle Löschung aus DB_]     |
 | [_..._]            | [_..._] | [_..._]               | [_..._]     |
 
-## Empfänger der Daten
+## 4.2 Empfänger der Daten
 
-### Empfänger innerhalb der Organisation
+### 4.2.1 Empfänger innerhalb der Organisation
 
 [_Falls Daten an Empfänger innerhalb der Organisation weitergegeben werden, 
 dann bitte folgende Tabelle befüllen._]
@@ -467,7 +465,7 @@ dann bitte folgende Tabelle befüllen._]
 | [_Datenkategorie 2_]            | [_Empfänger 2_] | [_Zweck 2, gem. § xy_]  |
 | [_..._]            | [_..._] | [_..._]  |
 
-### Empfänger außerhalb der Organisation 
+### 4.2.2 Empfänger außerhalb der Organisation 
 
 [_Falls Daten an Empfänger außerhalb der Organisation weitergegeben werden, 
 dann bitte folgende Tabelle befüllen._]
@@ -478,7 +476,7 @@ dann bitte folgende Tabelle befüllen._]
 | [_Datenkategorie 2_]            | [_Empfänger 2_] | [_Zweck 2, gem. § xy_]  |
 | [_..._]            | [_..._] | [_..._]  |
 
-# Wahrung der Betroffenenrechte
+# 5 Wahrung der Betroffenenrechte
 
 Patienten haben in der Regel eine Reihe von Rechten bezüglich ihrer 
 persönlichen Daten, die in unterschiedlichen rechtlichen Rahmenwerken 
@@ -501,7 +499,7 @@ Forschungsdatenbank wiederspiegeln. Nur in der Forschungsdatenbank
 gelöschte Einträge werden mit einem Flag auf Basis des Pseudonyms
 versehen, so dass diese nicht erneut geladen werden.
 
-## Information des Betroffenen
+## 5.1 Information des Betroffenen
 
 [_Hier sollte beschrieben werden, wie die
 Organisation Patientinnen und Patienten über die Verarbeitung ihrer
@@ -513,7 +511,7 @@ Die Patientinnen und Patienten werden im Rahmen der
 Patienteninformationen zur stationären und ambulanten Behandlung über
 retrospektive Studien der Organisation informiert.
 
-## Widerruf der Einwilligung
+## 5.2 Widerruf der Einwilligung
 
 [_In diesem Abschnitt ist darzulegen, wie Betroffene
 ihre Einwilligung zur Datenverarbeitung gem. Art. 7 Abs. 3 DS-GVO widerrufen 
@@ -535,7 +533,7 @@ unserer Webseite im Impressum_] zu finden. Nach Eingang des
 Widerrufs wird die Verarbeitung der Daten, die auf der Einwilligung
 beruht, umgehend eingestellt.
 
-## Auskunftsrecht
+## 5.3 Auskunftsrecht
 
 [_Es sollte beschrieben werden, wie Betroffene ihr
 Recht auf Auskunft gem. Art. 15 DS-GVO über die sie betreffenden 
@@ -551,7 +549,7 @@ Datenschutzbeauftragte in Abstimmung mit dem
 Durchführungsverantwortlichen innerhalb der gesetzlich vorgeschrieben
 Frist erteilt.
 
-## Recht auf Berichtigung
+## 5.4 Recht auf Berichtigung
 
 [_Dieser Punkt sollte erläutern, wie Betroffene die
 Berichtigung unrichtiger Daten gem. Art. 16 DS-GVO beantragen können, 
@@ -564,7 +562,7 @@ Datenaktualisierung. Nachfolgend ein Beispiel._]
 Berichtigungen in den Quellsystemen ändern über die Synchronisation
 automatisch die Daten in der Forschungsdatenbank.
 
-## Recht auf Löschung
+## 5.5 Recht auf Löschung
 
 [_Hier wird erwartet, dass die Umstände, unter denen
 Betroffene die Löschung ihrer Daten gem. Art. 17 DS-GVO beantragen können, 
@@ -581,7 +579,7 @@ Quellsystemen über die Synchronisation automatisch die Daten in der
 Forschungsdatenbank löschen. Es gelten die in Kapitel 4.1 genannten
 Aufbewahrungsfristen.
 
-## Recht auf Einschränkung der Verarbeitung
+## 5.6 Recht auf Einschränkung der Verarbeitung
 
 [_In diesem Abschnitt sollte beschrieben werden, ob
 und wie Betroffene eine Einschränkung der Verarbeitung ihrer Daten gem.
@@ -596,7 +594,7 @@ Falle einer Einschränkung in den Quellsystemen wirkt diese sich über die
 Synchronisation automatisch auf die Daten in der Forschungsdatenbank
 aus.
 
-## Recht auf Datenübertragbarkeit
+## 5.7 Recht auf Datenübertragbarkeit
 
 [_Dieser Teil sollte darlegen, wie Betroffene ihr
 Recht auf Übertragung gem. Art. 20 DS-GVO ausüben können, einschließlich
@@ -611,7 +609,7 @@ technischen Format vorliegen, semantisch jedoch mit den Daten in den
 Quellsystemen übereinstimmen, so dass diese auch als Quelle für eine
 Übertragung der Daten genutzt werden können.
 
-## Widerspruchsrecht
+## 5.8 Widerspruchsrecht
 
 [_Hier sollte erläutert werden, ob und wenn ja, wie
 Betroffene Widerspruch gegen die Verarbeitung ihrer Daten gem. Art. 21 DS-GVO
@@ -625,7 +623,7 @@ Widerspruch. Dies kann zur Löschung in den Quellsystemen oder
 ausschließlich in der Forschungsdatenbank erfolgen (siehe auch
 Löschung).
 
-# Referenzen
+# 6 Referenzen
 
 [1] Observational Health Data Sciences and Informatics, The Book of
 OHDSI, 2020.
