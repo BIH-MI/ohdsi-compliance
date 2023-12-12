@@ -77,7 +77,7 @@ Datum:
 
 | Nr  | Titel                                                                                                                                                                                                                                   |
 |-----|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| A1  | Eintrag ins Verfahrensverzeichnis der Forschungsdatenbank OHDSI@\[<span class="mark">Name der Organisation eintragen\]</span>                                                                                                             |
+| A1  | Eintrag ins Verfahrensverzeichnis der Forschungsdatenbank OHDSI@[_Name der Organisation eintragen_]                                                                                                           |
 | A2  | Leitlinie zur Informationssicherheit der Organisation \[<span class="mark">Hier soll auf die entsprechenden allgemeine Regeln zur Informationssicherheit der Organisation verwiesen werden</span>\].                                    |
 | A3  | Zentrale technische und organisatorische Maßnahmen zur Gewährleistung des Datenschutzes. \[<span class="mark">Hier soll auf die entsprechenden allgemeine Regeln zur Informationssicherheit der Organisation verwiesen werden</span>\]. |
 | A4  | Berechtigungskonzept der Forschungsdatenbank OHDSI@\[<span class="mark">Name der Organisation eintragen</span>\].                                                                                                                       |
