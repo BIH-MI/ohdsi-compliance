@@ -7,101 +7,71 @@ Datum:
 
 # Inhaltsverzeichnis
 
-[Überblick und Zweck](#überblick-und-zweck)
+1 Überblick und Zweck
 
-[1.1 Zweck dieses Dokumentes
-[2](#zweck-dieses-dokumentes)](#zweck-dieses-dokumentes)
+1.1 Zweck dieses Dokumentes
 
-[1.2 Überblick der Verarbeitungstätigkeit
-[2](#überblick-der-verarbeitungstätigkeit)](#überblick-der-verarbeitungstätigkeit)
+1.2 Überblick der Verarbeitungstätigkeit
 
-[1.3 Zweck der Verarbeitungstätigkeit
-[3](#zweck-der-verarbeitungstätigkeit)](#zweck-der-verarbeitungstätigkeit)
+1.3 Zweck der Verarbeitungstätigkeit
 
-[1.4 Geltungsbereich der Verarbeitungstätigkeit
-[3](#geltungsbereich-der-verarbeitungstätigkeit)](#geltungsbereich-der-verarbeitungstätigkeit)
+1.4 Geltungsbereich der Verarbeitungstätigkeit
 
-[1.5 Rahmendaten [4](#rahmendaten)](#rahmendaten)
+1.5 Rahmendaten
 
-[1.6 Beteiligte Personengruppen
-[5](#beteiligte-personengruppen)](#beteiligte-personengruppen)
+1.6 Beteiligte Personengruppen
 
-[1.7 Beteiligte Daten/Datenkategorie/Quelle/Rechtsgrundlage
-[5](#beteiligte-datendatenkategoriequellerechtsgrundlage)](#beteiligte-datendatenkategoriequellerechtsgrundlage)
+1.7 Beteiligte Daten/Datenkategorie/Quelle/Rechtsgrundlage
 
-[1.8 Einwilligung [5](#einwilligung)](#einwilligung)
+1.8 Einwilligung
 
-[2 Systematische Beschreibung der Verarbeitungstätigkeit
-[5](#systematische-beschreibung-der-verarbeitungstätigkeit)](#systematische-beschreibung-der-verarbeitungstätigkeit)
+2 Systematische Beschreibung der Verarbeitungstätigkeit
 
-[2.1 Grafische Darstellung der Verarbeitungstätigkeit
-[5](#grafische-darstellung-der-verarbeitungstätigkeit)](#grafische-darstellung-der-verarbeitungstätigkeit)
+2.1 Grafische Darstellung der Verarbeitungstätigkeit
 
-[2.2 Beschreibung der Verarbeitungsschritte
-[6](#beschreibung-der-verarbeitungsschritte)](#beschreibung-der-verarbeitungsschritte)
+2.2 Beschreibung der Verarbeitungsschritte
 
-[2.2.1 Schritt 1: Transformation und Laden
-[6](#schritt-1-transformation-und-laden)](#schritt-1-transformation-und-laden)
+2.2.1 Schritt 1: Transformation und Laden
 
-[2.2.2 Schritt 2: Nutzung der Analysetools
-[6](#schritt-2-nutzung-der-analysetools)](#schritt-2-nutzung-der-analysetools)
+2.2.2 Schritt 2: Nutzung der Analysetools
 
-[2.3 IT-Infrastruktur, Systeme und Anwendung sowie
-Zugriffsberechtigungen
-[6](#it-infrastruktur-systeme-und-anwendung-sowie-zugriffsberechtigungen)](#it-infrastruktur-systeme-und-anwendung-sowie-zugriffsberechtigungen)
+2.3 IT-Infrastruktur, Systeme und Anwendung sowie Zugriffsberechtigungen
 
-[2.4 Datenfluss-Diagramm
-[7](#datenfluss-diagramm)](#datenfluss-diagramm)
+2.4 Datenfluss-Diagramm
 
-[3 Auftragsdatenverarbeitung
-[7](#auftragsdatenverarbeitung)](#auftragsdatenverarbeitung)
+3 Auftragsdatenverarbeitung
 
-[4 Datenübermittlung an Drittländer
-[7](#datenübermittlung-an-drittländer)](#datenübermittlung-an-drittländer)
+4 Datenübermittlung an Drittländer
 
-[5 Speicherung, Löschung und Weitergabe von Daten
-[8](#speicherung-löschung-und-weitergabe-von-daten)](#speicherung-löschung-und-weitergabe-von-daten)
+5 Speicherung, Löschung und Weitergabe von Daten
 
-[5.1 Speicherort, Speicherdauer und Löschung der Daten
-[8](#speicherort-speicherdauer-und-löschung-der-daten)](#speicherort-speicherdauer-und-löschung-der-daten)
+5.1 Speicherort, Speicherdauer und Löschung der Daten
 
-[5.2 Empfänger der Daten
-[8](#empfänger-der-daten)](#empfänger-der-daten)
+5.2 Empfänger der Daten
 
-[5.2.1 Empfänger innerhalb der Organisation
-[8](#empfänger-innerhalb-der-organisation)](#empfänger-innerhalb-der-organisation)
+5.2.1 Empfänger innerhalb der Organisation
 
-[5.2.2 Empfänger außerhalb der Organisation
-[9](#empfänger-außerhalb-der-organisation)](#empfänger-außerhalb-der-organisation)
+5.2.2 Empfänger außerhalb der Organisation
 
-[6 Wahrung der Betroffenenrechte
-[9](#wahrung-der-betroffenenrechte)](#wahrung-der-betroffenenrechte)
+6 Wahrung der Betroffenenrechte
 
-[6.1 Information des Betroffenen (Art. 12 ff. DS-GVO)
-[9](#information-des-betroffenen-art.-12-ff.-ds-gvo)](#information-des-betroffenen-art.-12-ff.-ds-gvo)
+6.1 Information des Betroffenen
 
-[6.2 Widerruf der Einwilligung (Art. 7 Abs. 3 DS-GVO)
-[9](#widerruf-der-einwilligung-art.-7-abs.-3-ds-gvo)](#widerruf-der-einwilligung-art.-7-abs.-3-ds-gvo)
+6.2 Widerruf der Einwilligung
 
-[6.3 Auskunftsrecht (Art. 15 DS-GVO)
-[9](#auskunftsrecht-art.-15-ds-gvo)](#auskunftsrecht-art.-15-ds-gvo)
+6.3 Auskunftsrecht
 
-[6.4 Recht auf Berichtigung (Art. 16 DS-GVO)
-[10](#recht-auf-berichtigung-art.-16-ds-gvo)](#recht-auf-berichtigung-art.-16-ds-gvo)
+6.4 Recht auf Berichtigung
 
-[6.5 Recht auf Löschung (Art. 17 DS-GVO)
-[10](#recht-auf-löschung-art.-17-ds-gvo)](#recht-auf-löschung-art.-17-ds-gvo)
+6.5 Recht auf Löschung
 
-[6.6 Recht auf Einschränkung der Verarbeitung (Art. 18 DS-GVO)
-[10](#recht-auf-einschränkung-der-verarbeitung-art.-18-ds-gvo)](#recht-auf-einschränkung-der-verarbeitung-art.-18-ds-gvo)
+6.6 Recht auf Einschränkung der Verarbeitung
 
-[6.7 Recht auf Datenübertragbarkeit (Art. 20 DS-GVO)
-[10](#recht-auf-datenübertragbarkeit-art.-20-ds-gvo)](#recht-auf-datenübertragbarkeit-art.-20-ds-gvo)
+6.7 Recht auf Datenübertragbarkeit
 
-[6.8 Widerspruchsrecht (Art. 21 DS-GVO)
-[10](#widerspruchsrecht-art.-21-ds-gvo)](#widerspruchsrecht-art.-21-ds-gvo)
+6.8 Widerspruchsrecht
 
-[7 Referenzen [10](#referenzen)](#referenzen)
+7 Referenzen
 
 # Anlagenverzeichnis
 
