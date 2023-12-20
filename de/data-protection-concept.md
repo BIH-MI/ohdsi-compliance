@@ -1,4 +1,4 @@
-<H1> Eintrag ins Verfahrensverzeichnis: OHDSI-Implementierung </H1>
+# Eintrag ins Verfahrensverzeichnis: OHDSI-Implementierung
 
 Verantwortlich(e):  
 Autor(en):  
@@ -69,17 +69,7 @@ Datum:
 
 5.8 Widerspruchsrecht
 
-**6 Referenzen**
-
-# Anlagenverzeichnis
-
-| Nr  | Titel                                                                                                                                                                                                                                   |
-|-----|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| A1  | Eintrag ins Verfahrensverzeichnis der Forschungsdatenbank OHDSI@[_Name der Organisation eintragen_]                                                                                                           |
-| A2  | Leitlinie zur Informationssicherheit der Organisation [_Hier soll auf die entsprechenden allgemeine Regeln zur Informationssicherheit der Organisation verwiesen werden_].                                    |
-| A3  | Zentrale technische und organisatorische Maßnahmen zur Gewährleistung des Datenschutzes. \[_Hier soll auf die entsprechenden allgemeine Regeln zur Informationssicherheit der Organisation verwiesen werden_]. |
-| A4  | Berechtigungskonzept der Forschungsdatenbank OHDSI@\[_Name der Organisation eintragen_].                                                                                                                       |
-| A5  | [_Falls zutreffend_] Auftragsdatenverarbeitungsverträge                                                                                                                                                       |
+**6 Referenzen**                                                                                                                                                    |
 
 # 1 Überblick und Zweck 
 
@@ -343,16 +333,16 @@ LINDDUN-Diagramms ist empfehlenswert, da es dabei hilft, Datenschutzaspekte
 frühzeitig während der Systementwicklung zu berücksichtigen und effektive 
 Gegenmaßnahmen zu planen. Dies trägt wesentlich zur Einhaltung von 
 Datenschutzvorschriften und zur Erhöhung des Vertrauens der Nutzer in das System bei.
-Weitere Informationen finden Sie unter [2].
+Weitere Informationen finden Sie unter \[2\].
 Nachfolgend ein Beispiel:_]
 
 <img src="./media/linddun-data-flow-1.png" style="width:6.3in;height:2.40069in" />
 
 Die Grafik illustriert, dass für jeden der semantisch getrennten Daten (im Beispiel drei fachlich verantwortliche Einrichtungen) ein
-getrennter Verarbeitungsprozess stattfindet. Auch in der Nutzung der
+getrennter Verarbeitungsprozess stattfindet. \[Falls Daten mehr als einer fachlich verantwortlichen Einrichtung verarbeitet werden kank hinzugefügt werden: Auch in der Nutzung der
 Forschungsdatenbank findet eine Mandantentrennung statt, so dass
 berechtigte Forschende nur Zugriff auf Daten jeweils einer fachlich
-verantwortlichen Einrichtung erhalten (näheres siehe die Anlage A4). Da die Schritte
+verantwortlichen Einrichtung erhalten (näheres siehe \[3\]) \]. Da die Schritte
 für jeden der Verarbeitungsprozesse sich nur in Details wie
 Beispielweise Transformationsregeln unterscheiden, werden sie im
 Folgenden gemeinsam beschrieben.
@@ -623,9 +613,11 @@ Löschung).
 
 # 6 Referenzen
 
-[1] Observational Health Data Sciences and Informatics, The Book of
+\[1\] Observational Health Data Sciences and Informatics, The Book of
 OHDSI, 2020.
 
-[2] Deng, M., Wuyts, K., Scandariato, R., Preneel, B., & Joosen, W. (2011). 
-A privacy threat analysis framework: supporting the elicitation and fulfillment
-of privacy requirements. Requirements Engineering, 16(1), 3-32.
+\[2\] Deng, M., Wuyts, K., Scandariato, R., Preneel, B., & Joosen, W. (2011). A privacy threat analysis framework: supporting the elicitation and fulfillment of privacy requirements. Requirements Engineering, 16(1), 3-32.
+
+\[3\] Berechtigungskonzept der Forschungsdatenbank OHDSI@[Name der Organisation eintragen].
+
+\[4\] [_Falls zutreffend_] Auftragsdatenverarbeitungsverträge    
