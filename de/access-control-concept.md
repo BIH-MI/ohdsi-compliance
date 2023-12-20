@@ -49,7 +49,7 @@ geprüft und nach Bedarf angepasst werden!**\]
 
 # Prozesse
 
-# Beantragung eines Zugangs durch Forschende
+## Beantragung eines Zugangs durch Forschende
 
 Um eine Studie mit der Datenbank durchführen zu können ist zunächst die
 Zustimmung der betroffenen fachliche Verantwortlichen einzuholen. Im Anschluss daran sind
