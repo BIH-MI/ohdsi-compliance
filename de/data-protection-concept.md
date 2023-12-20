@@ -619,5 +619,3 @@ OHDSI, 2020.
 \[2\] Deng, M., Wuyts, K., Scandariato, R., Preneel, B., & Joosen, W. (2011). A privacy threat analysis framework: supporting the elicitation and fulfillment of privacy requirements. Requirements Engineering, 16(1), 3-32.
 
 \[3\] Berechtigungskonzept der Forschungsdatenbank OHDSI@[Name der Organisation eintragen].
-
-\[4\] [_Falls zutreffend_] Auftragsdatenverarbeitungsverträge    
