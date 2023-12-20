@@ -1,4 +1,4 @@
-# Eintrag ins Verfahrensverzeichnis: OHDSI-Implementierung
+# Eintrag ins Verfahrensverzeichnis für die OHDSI-Forschungsdatenbank
 
 Verantwortlich(e):  
 Autor(en):  
