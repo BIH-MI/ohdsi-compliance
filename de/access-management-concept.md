@@ -110,5 +110,5 @@ durch die Administrierenden statt.
 # Referenzen
 \[1\] Standardprozess für Einrichtung von Zugängen zur OHDSI-Forschungsdatenbank  
 \[2\] Betriebskonzept  
-\[3\] \[ Verweis auf Passwortrichtlinien der Organisation\]
+\[3\] \[ Verweis auf Passwortrichtlinien der Organisation\]  
 \[4\] Sicherheitskonfiguration von OHDSI WebAPI. https://github.com/OHDSI/webapi-wiki/blob/master/Security-Configuration.md
