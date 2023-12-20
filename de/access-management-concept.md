@@ -5,7 +5,7 @@ Autor(en):
 Version:  
 Datum:  
 
-# Inhalt
+# Inhaltsverzeichnis
 
 ToDo
 
