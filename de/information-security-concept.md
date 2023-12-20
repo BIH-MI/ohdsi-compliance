@@ -162,7 +162,7 @@ Prozesse \[4\]).
 Eckpunkte für die Risikoanalyse ergeben sich aus den zu betrachtenden
 Gewährleistungszielen, Gefährdungen und Schutzmaßnahmen. Die
 wesentlichen Ziele der Informationssicherheit sowie wesentliche
-identifizierte Gefährdungen dieser Ziele sind in Tabelle 2 dargestellt.
+identifizierte Gefährdungen dieser Ziele sind in Tabelle 2 dargestellt \[1\].
 
 | Gewährleistungsziel | Gefährdung                                |
 |---------------------|-------------------------------------------|
@@ -289,10 +289,10 @@ Die Leitlinie zur Informationssicherheit der Organisation (siehe \[5\]) spezifiz
 Informationssicherheitsmaßnahmen bzgl. der in Tabelle 2 genannten
 Schutzziele Vertraulichkeit, Integrität und Verfügbarkeit ergriffen
 werden sollen. Dazu wurde eine Reihe von Maßnahmen definiert, die in den
-folgenden Abschnitten genauer beschrieben werden. Die
-Forschungsdatenbank wird im stark geschützten internen Netzwerk der
+folgenden Abschnitten genauer beschrieben werden. \[ Hier kann beispielweise kann beschrieben werden, dass die
+Forschungsdatenbank  im stark geschützten internen Netzwerk der
 Organisation unter Nutzung zentral betriebener Ressourcen (insb.
-virtueller Maschinen) betrieben. Insofern greifen die zentralen
+virtueller Maschinen) betrieben wird.\] Es greifen die zentralen
 technischen und organisatorischen Maßnahmen der Organisation, die
 bereits einen starken grundlegenden Schutz bieten (siehe Anlage \[6\]).
 Dieses Dokument listet ausschließlich projektspezifische technische und
