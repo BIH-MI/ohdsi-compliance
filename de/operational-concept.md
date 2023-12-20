@@ -1,4 +1,4 @@
-# Betriebskonzept
+# Betriebskonzept der OHDSI-Forschungsdatenbank
 
 Verantwortlich(e):  
 Autor(en):  
