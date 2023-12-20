@@ -297,9 +297,7 @@ technischen und organisatorischen Maßnahmen der Organisation, die
 bereits einen starken grundlegenden Schutz bieten (siehe Anlage \[6\]).
 Dieses Dokument listet ausschließlich projektspezifische technische und
 organisatorische Maßnahmen, deren Strukturierung im Folgenden
-beschrieben wird.
-
-## Bausteine des BSI IT-Grundschutzes
+beschrieben wird. \[In diesem Abschnitt wird beschrieben, welche Vorgehensweise genutzt wird um Maßnahmen zur Absicherung zu strukturieren. Im folgenden wird als Beispiel der deutsche IT-Grundschutz genutzt \]
 
 Der deutsche BSI-IT-Grundschutz \[2\] fasst gängige Sicherheitsmaßnahmen
 in verschiedene Bausteine zusammen, von denen die für die
@@ -339,41 +337,11 @@ Forschungsdatenbank wichtigsten im Folgenden Kurz umrissen werden:
   Sicherheitsmaßnahmen für die Infrastruktur wie etwa allgemein für
   Gebäude (INF.1) oder Rechenzentren sowie Serverraum (INF.2).
 
-## Model 2: Ebenenmodell zur Sicherheitskonzeption von Webanwendungen
+# Gewährleistungsziele
 
-Die in der Forschungsdatendatenbank eingesetzten Komponenten sind
-verschieden und reichen von Lösungen zur Datenextraktion über
-Transformationsprozesse bis zu webbasierten Oberflächen für die
-Datennutzung. Aus diesem Grund findet bei der Sicherheitskonzeption eine
-Orientierung am Modell des deutschen BSI-IT-Grundschutzes für
-Webanwendungen \[2\] statt, um die Auswahl relevanter Maßnahmen für
-Teilaspekte der Datenbank zu erleichtern und eine Zuordnung einzelner
-Teilaufgaben bei der Sicherheitskonzeption und Realisierung zu
-Organisationsbereichen zu gewährleisten. Die sechs Ebenen des Modells
-sind wie folgt definiert:
+\[In diesem Abschnitt wird beschrieben, welche Gewährleistungsziele unter Nutzung welcher Maßnahmen für Installation erreicht werden. Im folgenden wird als Beispiel das deutsche Bundesdatenschutzgesetz genutzt \]
 
-- **Ebene 0 „Netzwerk & Host“:** Ziel ist die Absicherung des Netzwerks,
-  der Server-Hardware und des (Server-)Betriebssystems.
-
-- **Ebene 1 „System“:** Diese Ebene soll die Absicherung der Programme
-  sicherstellen, die das Funktionieren der Webanwendung gewährleisten.
-
-- **Ebene 2 „Technologie“:** Ziel ist der korrekte Einsatz der für den
-  jeweiligen Einsatzzweck am besten geeigneten Technologie.
-
-- **Ebene 3 „Implementierung“:** Ebene 3 soll die Vermeidung von Fehlern
-  in der Programmierung, die zu sicherheitskritischen Schwachstellen
-  führen, sicherstellen.
-
-- **Ebene 4 „Logik“:** Die Absicherung der ganzheitlichen Ablauflogik
-  innerhalb der Webanwendung, sowie die Benutzerinteraktion mit dieser
-  soll in dieser Ebene sichergestellt werden.
-
-- **Ebene 5 „Semantik“:** Die fünfte Ebene dient dem Schutz vor
-  Täuschung und Betrug zum Beispiel durch Social-Engineering-Angriffe.
-  Dazu ist eine unternehmensübergreifende Betrachtung notwendig.
-
-# Zugangskontrolle
+## Zugangskontrolle
 
 Es kommen unter anderem Maßnahmen der folgenden Bausteine zum Einsatz:
 Identitäts- und Berechtigungsmanagement (ORP.4) sowie Active Directory
@@ -381,40 +349,28 @@ Identitäts- und Berechtigungsmanagement (ORP.4) sowie Active Directory
 Datenbank sowie die Web-Oberfläche wird ein zentrales Gruppenkonzept
 verwendet. Die Gruppen verfügen über differenzierte Berechtigungen für
 Lesen, Löschen und Bearbeiten, sowie differenzierte Berechtigungen für
-das Betriebssystem, die Datenbank sowie die Web-Oberfläche (Ebenen 0, 1
-und 2 nach BSI IT-Grundschutz). Die Implementation dieses Konzeptes zum
+das Betriebssystem, die Datenbank sowie die Web-Oberfläche. Die Implementation dieses Konzeptes zum
 Zugriff auf Betriebssystem und Web-Oberfläche findet unter Nutzung von
-Active Directory statt (Ebenen 1, 2 und 2 nach BSI IT-Grundschutz). Die
+Active Directory statt. Die
 Zugriffsrechte werden projektintern dokumentiert und nur persönlich
-vergeben (Ebene 5 nach BSI IT-Grundschutz). Weiterhin gelten die
+vergeben. Weiterhin gelten die
 zentralen technischen und organisatorischen Maßnahmen (siehe \[6\]).
 
-# Zutrittskontrolle
-
-Es kommen unter anderem Maßnahmen der folgenden Bausteine zum Einsatz:
-Allgemeines Gebäude (INF.1) sowie Rechenzentrum und Serverraum (INF.2).
-Für die Forschungsdatenbank ist kein physischer Zutritt zu
-Verarbeitungsanlagen nötig. Es gelten also insbesondere die zentralen
-technischen und organisatorischen Maßnahmen der Organisation (siehe
-siehe \[6\]).
-
-# Datenträgerkontrolle
+## Datenträgerkontrolle
 
 Es kommen unter anderem Maßnahmen der folgenden Bausteine zum Einsatz:
 Datensicherungskonzept (CON.3) sowie Speicherlösungen (SYS.18). Für die
 Speicherinfrastruktur der Forschungsdatenbank werden ausschließlich die
-zentral bereitgestellten Services genutzt (Ebenen 0, 1, 2 und 3 nach BSI
-IT-Grundschutz). Nicht-elektronische Datenträger sind für die Datenbank
+zentral bereitgestellten Services genutzt. Nicht-elektronische Datenträger sind für die Datenbank
 nicht vorgesehen. Weiterhin gelten die zentralen technischen und
 organisatorischen Maßnahmen (siehe \[6\]).
 
-# Speicherkontrolle
+## Speicherkontrolle
 
 Es kommen unter anderem Maßnahmen der folgenden Bausteine zum Einsatz:
 Datensicherungskonzept (CON.3) sowie Speicherlösungen (SYS.18). Für die
 Speicherinfrastruktur der Forschungsdatenbank werden ausschließlich die
-zentral bereitgestellten Dienste genutzt (Ebenen 0, und 2 des
-IT-Grundschutz des BSI). Zugriff auf die für die Forschungsdatenbank
+zentral bereitgestellten Dienste genutzt. Zugriff auf die für die Forschungsdatenbank
 relevanten Speicher erfolgt nur für Berechtigte Forscherinnen und
 Forscher sowie Administratorinnen und Administratoren auf strenger
 „need-to-know“ Basis. Eine Pseudonymisierung der Daten erfolgt bereits
@@ -422,7 +378,7 @@ in einem dieser Verarbeitungstätigkeit vorhergehenden Schritt. Weiterhin
 gelten die zentralen technischen und organisatorischen Maßnahmen (siehe
 siehe \[6\]).
 
-# Benutzerkontrolle
+## Benutzerkontrolle
 
 Es kommen unter anderem Maßnahmen der folgenden Bausteine zum Einsatz:
 Identitäts- und Berechtigungsmanagement (ORP.4) sowie Protokollierung
@@ -430,15 +386,12 @@ Identitäts- und Berechtigungsmanagement (ORP.4) sowie Protokollierung
 Zugangskontrollen beschriebenen für dieses Schutzziel ebenfalls
 relevant. Ferner werden folgende Maßnahmen ergriffen: Zur
 Benutzerkontrolle verfügt die Forschungsdatenbank über Protokolle für
-das Hinzufügen und Löschen von Nutzern (Ebenen 0 und 1 nach BSI
-IT-Grundschutz). Zugriff erfolgt nur auf Antragsbasis (Ebene 1 nach BSI
-IT-Grundschutz). Weiterhin gelten die zentralen technischen und
+das Hinzufügen und Löschen von Nutzern . Zugriff erfolgt nur auf Antragsbasis. Weiterhin gelten die zentralen technischen und
 organisatorischen Maßnahmen (siehe \[6\]) wie etwa das Sperren von
 Benutzeraccounts für Anwendungen mit Kenntnisnahme des Ausscheidens oder
-bei Kompromittieren des Accounts (Ebenen 1 und 3 nach BSI
-IT-Grundschutz) sowie die zentrale Passwortrichtlinie.
+bei Kompromittieren des Accounts sowie die zentrale Passwortrichtlinie.
 
-# Zugriffskontrolle
+## Zugriffskontrolle
 
 Es kommen unter anderem Maßnahmen der folgenden Bausteine zum Einsatz:
 Sensibilisierung und Schulung zur Informationssicherheit (ORP.4) sowie
@@ -450,17 +403,15 @@ ebenfalls relevant. Ferner werden folgende Maßnahmen implementiert:
 Berechtigungen werden feingranular vergeben und der Zugriff auf
 personenbezogene Daten auf das notwendige Maß zu reduziert
 („need-to-know“); Es wird ein definierter On- und Offboarding-Prozess
-für Zugänge zur Forschungsdatenbank eingerichtet (Ebene 1 nach BSI
-IT-Grundschutz). Weiterhin wird In Abhängigkeit von den Nutzergruppen
+für Zugänge zur Forschungsdatenbank eingerichtet. Weiterhin wird In Abhängigkeit von den Nutzergruppen
 zusätzlich eine explizite schriftliche Verpflichtung zur
-Verschwiegenheit eingeholt (Ebene 5 nach BSI IT-Grundschutz). Auch
+Verschwiegenheit eingeholt. Auch
 findet eine Trennung der Rollen in Administrierende und Nutzende statt.
 Nutzende besitzen lediglich Benutzerrechte, Administrierende nutzen die
-administrativen Rechte nur für diesbezügliche Tätigkeiten (Ebenen 0, 1
-und 3 nach BSI IT-Grundschutz). Weiterhin gelten die zentralen
+administrativen Rechte nur für diesbezügliche Tätigkeiten. Weiterhin gelten die zentralen
 technischen und organisatorischen Maßnahmen (siehe \[6\]).
 
-# Übertragungskontrolle
+## Übertragungskontrolle
 
 Es kommen unter anderem Maßnahmen der folgenden Bausteine zum Einsatz:
 Protokollierung (OPS.1.1.5) sowie Kryptoschutz (CON.1). In der
@@ -469,70 +420,65 @@ Protokollierung (OPS.1.1.5) sowie Kryptoschutz (CON.1). In der
 übertragen hat. Es werden folgende Maßnahmen implementiert, um dies zu
 gewährleisten: Die Übertragung der personenbezogenen Daten erfolgt nur
 an definierten Verarbeitungssystemen. Die Übertragung zwischen diesen
-Systemen findet stets verschlüsselt statt (Ebenen 0, 1 und 2 nach BSI
-IT-Grundschutz). Zugriffe auf die Systeme werden automatisch
+Systemen findet stets verschlüsselt statt. Zugriffe auf die Systeme werden automatisch
 dokumentiert und für einen anwendungsspezifischen Aufbewahrungszeitraum
 aufbewahrt („Audit Trail“). Die betrifft sowohl den automatischen
 Austausch zwischen Systemen („ETL-Prozess“), als auch Anfrage von
-Nutzenden (Ebenen 0, 1 und 4 nach BSI IT-Grundschutz). Es findet keine
+Nutzenden. Es findet keine
 Weitergabe von Daten statt, die über die definierten Wege für Forschende
 zur Datenanalyse hinausgeht. Weiterhin gelten die zentralen technischen
 und organisatorischen Maßnahmen (siehe \[6\]).
 
-# Eingabekontrolle
+## Eingabekontrolle
 
 Es kommen unter anderem Maßnahmen der folgenden Bausteine zum Einsatz:
 Protokollierung (OPS.1.1.5) sowie ordnungsgemäße IT-Administration
 (OPS.1.1.2). Eine Dateneingabe findet ausschließlich automatisch
-zwischen Systemen statt („ETL-Prozess“) (Ebene 0 und 1 nach BSI
-IT-Grundschutz). Änderungen der Daten werden in entsprechenden
+zwischen Systemen statt („ETL-Prozess“). Änderungen der Daten werden in entsprechenden
 Audit-Trails beschrieben und der Zugriff auf Änderungen der ETL-Prozesse
 unterliegt strengen Zugriffsregeln (siehe Abschnitt 3.1). Weiterhin
 gelten die zentralen technischen und organisatorischen Maßnahmen (siehe
 siehe \[6\]).
 
-# Transportkontrolle
+## Transportkontrolle
 
 Es kommen unter anderem Maßnahmen der folgenden Bausteine zum Einsatz:
 Kryptoschutz (CON.1) sowie Netzmanagement (NET.1.2). Zur Sicherstellung
 der Vertraulichkeit erfolgt eine Datenübertragung stets verschlüsselt.
 Es werden Serverzertifikate eingesetzt, um die Authentizität der zu
-erstellenden Server sicherzustellen (Ebene 0, 1 und 2 nach BSI
-IT-Grundschutz). Ein physischer Transport von Datenträgern ist nicht
+erstellenden Server sicherzustellen. Ein physischer Transport von Datenträgern ist nicht
 vorgesehen. Weiterhin gelten die zentralen technischen und
 organisatorischen Maßnahmen (siehe \[6\]) wie etwa der
 Erreichbarkeit der Server nur aus dem Netz der Organisation oder durch
 eine VPN-Verbindung.
 
-# Wiederherstellbarkeit
+## Wiederherstellbarkeit
 
 Es kommen unter anderem Maßnahmen der folgenden Bausteine zum Einsatz:
 Datensicherheitskonzept (CON.3) sowie Archivierung (OPS.1.2.2). Es wird
 der zentrale Backup-Dienst der virtuellen Serverumgebung genutzt.
 Darüber hinaus definiert ein systemspezifisches Betriebskonzept (siehe
 \[7\]) wie die Wiederherstellung aus den Sicherungen der zentrale
-Backup-Dienst erfolgen kann (Ebenen 0, 1 und 4 nach BSI IT-Grundschutz).
+Backup-Dienst erfolgen kann.
 Weiterhin gelten die zentralen technischen und organisatorischen
 Maßnahmen (siehe \[6\]).
 
-# Zuverlässigkeit
+## Zuverlässigkeit
 
 Es kommen unter anderem Maßnahmen der folgenden Bausteine zum Einsatz:
 Patch- und Änderungsmanagement (OPS.1.1.3) sowie Behandlung von
 Sicherheitsvorfällen (DER 2.1). Die Forschungsdatenbank ist so
 konfiguriert, dass Sicherheitspatches regelmäßig automatisch eingespielt
 werden, um zum Beispiel Systemausfälle durch die Behebung eines
-Sicherheitsvorfalls zu minimieren (Ebenen 0, 1, 2, 3 und 4 nach BSI
-IT-Grundschutz). Details regelt das Betriebskonzept (siehe \[7\])
+Sicherheitsvorfalls zu minimieren. Details regelt das Betriebskonzept (siehe \[7\])
 der Forschungsdatenbank. Auch wird der zentrale Backup-Dienst der
 virtuellen Serverumgebung genutzt. Weiterhin gelten die zentralen
 technischen und organisatorischen Maßnahmen (siehe \[6\]) wie etwa
 die automatische Überwachung der Systeme mit geeigneten Tools sowie die
 Absicherung der Rechenzentren mit unterbrechungsfreien Stromversorgungen
-und Notstromaggregaten (Ebenen 0, 1, 2, 3 und 4 nach BSI
-IT-Grundschutz).
+und Notstromaggregaten.
 
-# Datenintegrität
+## Datenintegrität
 
 Es kommen unter anderem Maßnahmen der folgenden Bausteine zum Einsatz:
 Virtualisierung (SYS.1.5) sowie Speicherlösungen (SYS.1.8). Aus den
@@ -541,13 +487,13 @@ beschriebenen für dieses Schutzziel ebenfalls relevant. Weiterhin werden
 auf Datenbankebene ausschließlich transaktionssichere Systeme verwendet
 werden. Zusätzlich werden fehlertolerante Übertragungsprotokolle
 eingesetzt, sodass bei einer fehlgeschlagenen Übertragung Daten erneut
-versendet werden können (Ebenen 0, 1, 3 und 4 nach BSI IT-Grundschutz).
+versendet werden können.
 Weiterhin gelten die zentralen technischen und organisatorischen
 Maßnahmen (siehe \[6\]) wie etwa die Minimierung von Fehlfunktionen
 auf Server-/Hardwareebene durch die Nutzung der virtuellen Infrastruktur
 oder die Nutzung einer sicheren zentralen Speicherung.
 
-# Auftragskontrolle
+## Auftragskontrolle
 
 Es kommen unter anderem Maßnahmen der folgenden Bausteine zum Einsatz:
 Fernwartung (OPS.1.2.5) sowie Outsourcing an externe Dienstleister
@@ -555,17 +501,16 @@ Fernwartung (OPS.1.2.5) sowie Outsourcing an externe Dienstleister
 Eingabekontrolle beschriebenen für dieses Schutzziel ebenfalls relevant.
 \[Falls zutreffend: Weiterhin wird die Unterstützung
 und Zugriffe durch Dienstleister im Rahmen der Pilotierung über einen
-Auftragsverarbeitungsvertrag geregelt (Ebenen 3 und 5 nach BSI
-IT-Grundschutz).\] Externe Mitarbeitenden können nur mittelbar
+Auftragsverarbeitungsvertrag geregelt.\] Externe Mitarbeitenden können nur mittelbar
 durch eine Sicherhheitssoftware Zugriff auf die personenbezogenen Daten
 erhalten. Somit sind keine direkten (physischen) Serverzugriffe möglich.
 Auch wird die Wartungsverbindung durch einen benannten Mitarbeiter zur
-Kontrolle freigeschaltet (Ebenen 0, 1, 3 und 5 nach BSI IT-Grundschutz).
+Kontrolle freigeschaltet.
 Details für die Einbeziehung externer Dienstleister sind im
 Betriebskonzept (siehe \[7\]) zu finden. Weiterhin gelten die
 zentralen technischen und organisatorischen Maßnahmen (siehe \[6\]).
 
-# Verfügbarkeitskontrolle
+## Verfügbarkeitskontrolle
 
 Es kommen unter anderem Maßnahmen der folgenden Bausteine zum Einsatz:
 Virtualisierung (OPS.1.5) sowie Notfallmanagement (DER.4). Die
@@ -576,11 +521,11 @@ einschließlich der dafür notwendigen Rechenzentren und
 Netzwerkinfrastruktur bilden die Basis dafür. Ein Berechtigungskonzept
 trägt ebenfalls zur Verfügbarkeitskontrolle bei, da durch dieses die
 unbeabsichtigte Löschung oder Zerstörung von personenbezogenen Daten
-verhindert wird (Ebenen 3 und 5 nach BSI IT-Grundschutz). Weiterhin
+verhindert wird. Weiterhin
 gelten die zentralen technischen und organisatorischen Maßnahmen (siehe
 siehe \[6\]).
 
-# Trennbarkeit
+## Trennbarkeit
 
 Es kommen unter anderem Maßnahmen der folgenden Bausteine zum Einsatz:
 Datenschutz (CON.2) sowie Entwicklung von Webanwendungen (CON.10). Aus
@@ -588,8 +533,7 @@ den bislang beschriebenen Maßnahmen sind die im Abschnitt
 Zugangskontrolle beschriebenen ebenfalls für dieses Schutzziel relevant.
 Weiterhin werden die Informationen logisch getrennt gespeichert. Dies
 geschieht anhand der Krankheitsbilder. Auch ein Zugriff auf die Daten
-erfolgt nur getrennt durch eine Mandantentrennung (Ebenen 0, 1, 2, 3 und
-4 nach BSI IT-Grundschutz). Die Verarbeitung der Daten erfolgt
+erfolgt nur getrennt durch eine Mandantentrennung. Die Verarbeitung der Daten erfolgt
 zweckgebunden, da die Datenbank ausschließlich für Forschungszwecke
 genutzt wird. Ebenfalls findet eine Pseudonymisierung der Daten bereits
 im Vorfeld statt. Weiterhin gelten die zentralen technischen und
