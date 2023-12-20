@@ -128,9 +128,20 @@ müssen verschiedene Aspekte, wie die gegebenen Umstände, bisherige
 organisations- oder unternehmensspezifische Erfahrungen, sowie
 allgemeine Statistiken berücksichtigt werden \[1\].
 
-\<\<\<Hier die Verarbeitungstätigkeit grafisch
-skizzieren, bspw. ist die Darstellung mithilfe eines *LINDDUN Data Flow
-Diagrams* zu empfehlen, nachfolgend ein grobes Beispiel: \>\>\>
+[_Hier die Verarbeitungstätigkeit grafisch skizzieren, bspw. hierfür
+eignet sich die Nutzung eines LINDDUN Data Flow Diagrams._
+
+_Ein LINDDUN-Diagramm ist eine spezialisierte Form eines Datenflussdiagramms, 
+das speziell für die Analyse und Visualisierung von Datenschutzrisiken in 
+Softwarearchitekturen entwickelt wurde. Es identifiziert systematisch 
+Datenschutzbedrohungen und Schwachstellen, indem es die Datenflüsse zwischen 
+verschiedenen Komponenten eines Systems abbildet. Die Verwendung eines 
+LINDDUN-Diagramms ist empfehlenswert, da es dabei hilft, Datenschutzaspekte 
+frühzeitig während der Systementwicklung zu berücksichtigen und effektive 
+Gegenmaßnahmen zu planen. Dies trägt wesentlich zur Einhaltung von 
+Datenschutzvorschriften und zur Erhöhung des Vertrauens der Nutzer in das System bei.
+Weitere Informationen finden Sie unter \[3\].
+Nachfolgend ein Beispiel:_]
 
 <img src="./media/linddun-data-flow-1.png" style="width:6.3in;height:2.40069in" />
 
@@ -146,7 +157,7 @@ Transformationsregeln unterscheiden, werden sie im Folgenden gemeinsam
 beschrieben: (1) der Prozess der Datentransformation und des Datenladens
 sowie (2) der Prozess der Datennutzung (siehe Eintrag ins
 Verfahrensverzeichnis für die Forschungsdatenbank für eine detaillierte Darstellung der
-Prozesse \[3\]).
+Prozesse \[4\]).
 
 Eckpunkte für die Risikoanalyse ergeben sich aus den zu betrachtenden
 Gewährleistungszielen, Gefährdungen und Schutzmaßnahmen. Die
@@ -274,7 +285,7 @@ insgesamt zu einem niedrigen Schutzbedarf.
 
 # Strukturierung von Maßnahmen
 
-Die Leitlinie zur Informationssicherheit der Organisation (siehe \[4\]) spezifiziert, dass
+Die Leitlinie zur Informationssicherheit der Organisation (siehe \[5\]) spezifiziert, dass
 Informationssicherheitsmaßnahmen bzgl. der in Tabelle 2 genannten
 Schutzziele Vertraulichkeit, Integrität und Verfügbarkeit ergriffen
 werden sollen. Dazu wurde eine Reihe von Maßnahmen definiert, die in den
@@ -283,7 +294,7 @@ Forschungsdatenbank wird im stark geschützten internen Netzwerk der
 Organisation unter Nutzung zentral betriebener Ressourcen (insb.
 virtueller Maschinen) betrieben. Insofern greifen die zentralen
 technischen und organisatorischen Maßnahmen der Organisation, die
-bereits einen starken grundlegenden Schutz bieten (siehe Anlage \[5\]).
+bereits einen starken grundlegenden Schutz bieten (siehe Anlage \[6\]).
 Dieses Dokument listet ausschließlich projektspezifische technische und
 organisatorische Maßnahmen, deren Strukturierung im Folgenden
 beschrieben wird.
@@ -376,7 +387,7 @@ Zugriff auf Betriebssystem und Web-Oberfläche findet unter Nutzung von
 Active Directory statt (Ebenen 1, 2 und 2 nach BSI IT-Grundschutz). Die
 Zugriffsrechte werden projektintern dokumentiert und nur persönlich
 vergeben (Ebene 5 nach BSI IT-Grundschutz). Weiterhin gelten die
-zentralen technischen und organisatorischen Maßnahmen (siehe \[5\]).
+zentralen technischen und organisatorischen Maßnahmen (siehe \[6\]).
 
 # Zutrittskontrolle
 
@@ -385,7 +396,7 @@ Allgemeines Gebäude (INF.1) sowie Rechenzentrum und Serverraum (INF.2).
 Für die Forschungsdatenbank ist kein physischer Zutritt zu
 Verarbeitungsanlagen nötig. Es gelten also insbesondere die zentralen
 technischen und organisatorischen Maßnahmen der Organisation (siehe
-siehe \[5\]).
+siehe \[6\]).
 
 # Datenträgerkontrolle
 
@@ -395,7 +406,7 @@ Speicherinfrastruktur der Forschungsdatenbank werden ausschließlich die
 zentral bereitgestellten Services genutzt (Ebenen 0, 1, 2 und 3 nach BSI
 IT-Grundschutz). Nicht-elektronische Datenträger sind für die Datenbank
 nicht vorgesehen. Weiterhin gelten die zentralen technischen und
-organisatorischen Maßnahmen (siehe \[5\]).
+organisatorischen Maßnahmen (siehe \[6\]).
 
 # Speicherkontrolle
 
@@ -409,7 +420,7 @@ Forscher sowie Administratorinnen und Administratoren auf strenger
 „need-to-know“ Basis. Eine Pseudonymisierung der Daten erfolgt bereits
 in einem dieser Verarbeitungstätigkeit vorhergehenden Schritt. Weiterhin
 gelten die zentralen technischen und organisatorischen Maßnahmen (siehe
-siehe \[5\]).
+siehe \[6\]).
 
 # Benutzerkontrolle
 
@@ -422,7 +433,7 @@ Benutzerkontrolle verfügt die Forschungsdatenbank über Protokolle für
 das Hinzufügen und Löschen von Nutzern (Ebenen 0 und 1 nach BSI
 IT-Grundschutz). Zugriff erfolgt nur auf Antragsbasis (Ebene 1 nach BSI
 IT-Grundschutz). Weiterhin gelten die zentralen technischen und
-organisatorischen Maßnahmen (siehe \[5\]) wie etwa das Sperren von
+organisatorischen Maßnahmen (siehe \[6\]) wie etwa das Sperren von
 Benutzeraccounts für Anwendungen mit Kenntnisnahme des Ausscheidens oder
 bei Kompromittieren des Accounts (Ebenen 1 und 3 nach BSI
 IT-Grundschutz) sowie die zentrale Passwortrichtlinie.
@@ -447,7 +458,7 @@ findet eine Trennung der Rollen in Administrierende und Nutzende statt.
 Nutzende besitzen lediglich Benutzerrechte, Administrierende nutzen die
 administrativen Rechte nur für diesbezügliche Tätigkeiten (Ebenen 0, 1
 und 3 nach BSI IT-Grundschutz). Weiterhin gelten die zentralen
-technischen und organisatorischen Maßnahmen (siehe \[5\]).
+technischen und organisatorischen Maßnahmen (siehe \[6\]).
 
 # Übertragungskontrolle
 
@@ -466,7 +477,7 @@ Austausch zwischen Systemen („ETL-Prozess“), als auch Anfrage von
 Nutzenden (Ebenen 0, 1 und 4 nach BSI IT-Grundschutz). Es findet keine
 Weitergabe von Daten statt, die über die definierten Wege für Forschende
 zur Datenanalyse hinausgeht. Weiterhin gelten die zentralen technischen
-und organisatorischen Maßnahmen (siehe \[5\]).
+und organisatorischen Maßnahmen (siehe \[6\]).
 
 # Eingabekontrolle
 
@@ -478,7 +489,7 @@ IT-Grundschutz). Änderungen der Daten werden in entsprechenden
 Audit-Trails beschrieben und der Zugriff auf Änderungen der ETL-Prozesse
 unterliegt strengen Zugriffsregeln (siehe Abschnitt 3.1). Weiterhin
 gelten die zentralen technischen und organisatorischen Maßnahmen (siehe
-siehe \[5\]).
+siehe \[6\]).
 
 # Transportkontrolle
 
@@ -489,7 +500,7 @@ Es werden Serverzertifikate eingesetzt, um die Authentizität der zu
 erstellenden Server sicherzustellen (Ebene 0, 1 und 2 nach BSI
 IT-Grundschutz). Ein physischer Transport von Datenträgern ist nicht
 vorgesehen. Weiterhin gelten die zentralen technischen und
-organisatorischen Maßnahmen (siehe \[5\]) wie etwa der
+organisatorischen Maßnahmen (siehe \[6\]) wie etwa der
 Erreichbarkeit der Server nur aus dem Netz der Organisation oder durch
 eine VPN-Verbindung.
 
@@ -499,10 +510,10 @@ Es kommen unter anderem Maßnahmen der folgenden Bausteine zum Einsatz:
 Datensicherheitskonzept (CON.3) sowie Archivierung (OPS.1.2.2). Es wird
 der zentrale Backup-Dienst der virtuellen Serverumgebung genutzt.
 Darüber hinaus definiert ein systemspezifisches Betriebskonzept (siehe
-\[6\]) wie die Wiederherstellung aus den Sicherungen der zentrale
+\[7\]) wie die Wiederherstellung aus den Sicherungen der zentrale
 Backup-Dienst erfolgen kann (Ebenen 0, 1 und 4 nach BSI IT-Grundschutz).
 Weiterhin gelten die zentralen technischen und organisatorischen
-Maßnahmen (siehe \[5\]).
+Maßnahmen (siehe \[6\]).
 
 # Zuverlässigkeit
 
@@ -512,10 +523,10 @@ Sicherheitsvorfällen (DER 2.1). Die Forschungsdatenbank ist so
 konfiguriert, dass Sicherheitspatches regelmäßig automatisch eingespielt
 werden, um zum Beispiel Systemausfälle durch die Behebung eines
 Sicherheitsvorfalls zu minimieren (Ebenen 0, 1, 2, 3 und 4 nach BSI
-IT-Grundschutz). Details regelt das Betriebskonzept (siehe \[6\])
+IT-Grundschutz). Details regelt das Betriebskonzept (siehe \[7\])
 der Forschungsdatenbank. Auch wird der zentrale Backup-Dienst der
 virtuellen Serverumgebung genutzt. Weiterhin gelten die zentralen
-technischen und organisatorischen Maßnahmen (siehe \[5\]) wie etwa
+technischen und organisatorischen Maßnahmen (siehe \[6\]) wie etwa
 die automatische Überwachung der Systeme mit geeigneten Tools sowie die
 Absicherung der Rechenzentren mit unterbrechungsfreien Stromversorgungen
 und Notstromaggregaten (Ebenen 0, 1, 2, 3 und 4 nach BSI
@@ -532,7 +543,7 @@ werden. Zusätzlich werden fehlertolerante Übertragungsprotokolle
 eingesetzt, sodass bei einer fehlgeschlagenen Übertragung Daten erneut
 versendet werden können (Ebenen 0, 1, 3 und 4 nach BSI IT-Grundschutz).
 Weiterhin gelten die zentralen technischen und organisatorischen
-Maßnahmen (siehe \[5\]) wie etwa die Minimierung von Fehlfunktionen
+Maßnahmen (siehe \[6\]) wie etwa die Minimierung von Fehlfunktionen
 auf Server-/Hardwareebene durch die Nutzung der virtuellen Infrastruktur
 oder die Nutzung einer sicheren zentralen Speicherung.
 
@@ -551,8 +562,8 @@ erhalten. Somit sind keine direkten (physischen) Serverzugriffe möglich.
 Auch wird die Wartungsverbindung durch einen benannten Mitarbeiter zur
 Kontrolle freigeschaltet (Ebenen 0, 1, 3 und 5 nach BSI IT-Grundschutz).
 Details für die Einbeziehung externer Dienstleister sind im
-Betriebskonzept (siehe \[6\]) zu finden. Weiterhin gelten die
-zentralen technischen und organisatorischen Maßnahmen (siehe \[5\]).
+Betriebskonzept (siehe \[7\]) zu finden. Weiterhin gelten die
+zentralen technischen und organisatorischen Maßnahmen (siehe \[6\]).
 
 # Verfügbarkeitskontrolle
 
@@ -567,7 +578,7 @@ trägt ebenfalls zur Verfügbarkeitskontrolle bei, da durch dieses die
 unbeabsichtigte Löschung oder Zerstörung von personenbezogenen Daten
 verhindert wird (Ebenen 3 und 5 nach BSI IT-Grundschutz). Weiterhin
 gelten die zentralen technischen und organisatorischen Maßnahmen (siehe
-siehe \[5\]).
+siehe \[6\]).
 
 # Trennbarkeit
 
@@ -582,7 +593,7 @@ erfolgt nur getrennt durch eine Mandantentrennung (Ebenen 0, 1, 2, 3 und
 zweckgebunden, da die Datenbank ausschließlich für Forschungszwecke
 genutzt wird. Ebenfalls findet eine Pseudonymisierung der Daten bereits
 im Vorfeld statt. Weiterhin gelten die zentralen technischen und
-organisatorischen Maßnahmen (siehe \[5\]).
+organisatorischen Maßnahmen (siehe \[6\]).
 
 # Referenzen
 
@@ -590,10 +601,12 @@ organisatorischen Maßnahmen (siehe \[5\]).
 
 \[2\] Bundesamt für Sicherheit und Informationstechnik, Informationssicherheit und IT-Grundschutz, Bonn: Reguvis Fachmedien, 2017.
 
-\[3\] Eintrag ins Verfahrensverzeichnis der Forschungsdatenbank
+\[3\] Deng, M., Wuyts, K., Scandariato, R., Preneel, B., & Joosen, W. (2011). A privacy threat analysis framework: supporting the elicitation and fulfillment of privacy requirements. Requirements Engineering, 16(1), 3-32.
 
-\[4\] \[Hier soll auf die entsprechenden allgemeine Regeln zur Informationssicherheit der Organisation verwiesen werden\]
+\[4\] Eintrag ins Verfahrensverzeichnis der Forschungsdatenbank
 
-\[5\] Zentrale technische und organisatorische Maßnahmen zur Gewährleistung des Datenschutzes. \[Hier soll auf die entsprechenden allgemeine Maßnahmen der Organisation verwiesen werden\].
+\[5\] \[Hier soll auf die entsprechenden allgemeine Regeln zur Informationssicherheit der Organisation verwiesen werden\]
 
-\[6\] Betriebskonzept der Forschungsdatenbank OHDSI@\[Name der Organisation eintragen\].
+\[6\] Zentrale technische und organisatorische Maßnahmen zur Gewährleistung des Datenschutzes. \[Hier soll auf die entsprechenden allgemeine Maßnahmen der Organisation verwiesen werden\].
+
+\[7\] Betriebskonzept der Forschungsdatenbank OHDSI@\[Name der Organisation eintragen\].
