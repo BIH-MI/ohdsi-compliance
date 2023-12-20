@@ -1,4 +1,4 @@
-# Informationssicherheitskonzept dr OHDSI-Forschungsdatenbank
+# Informationssicherheitskonzept der OHDSI-Forschungsdatenbank
 
 Verantwortlich(e):  
 Autor(en):  
