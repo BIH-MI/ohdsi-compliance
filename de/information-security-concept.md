@@ -1,4 +1,4 @@
-Informationssicherheitskonzept
+# Informationssicherheitskonzept
 
 Verantwortlich(e):  
 Autor(en):  
