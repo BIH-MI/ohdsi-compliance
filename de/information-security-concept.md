@@ -66,27 +66,27 @@ Datum:
 
 [19 Referenzen [10](#referenzen)](#referenzen)
 
-<span class="mark">\[**Bitte nehmen Sie sich die Zeit, alle dargelegten
+\[**Bitte nehmen Sie sich die Zeit, alle dargelegten
 Punkte sorgfältig zu lesen und passen Sie die Beschreibungen gemäß Ihren
-individuellen Anforderungen an.\]**</span>
+individuellen Anforderungen an.\]**
 
 # Hintergrund
 
-Im Projekt OHDSI@<span class="mark">\[Name der Organisation\]</span>
+Im Projekt OHDSI@\[Name der Organisation\]
 wird eine Forschungsdatenbank erstellt, welche besondere Kategorien
 personenbezogener Daten, nämlich Gesundheitsdaten, verarbeitet. Ziel
 dieses Dokumentes ist es die technischen und organisatorischen Maßnahmen
 zu beschreiben, die ergriffen wurden, um die Sicherheitsziele
 Vertraulichkeit, Integrität sowie Verfügbarkeit in
-<span class="mark">\[Name der Organisation\]</span> - im Folgenden
+\[Name der Organisation\] - im Folgenden
 schlicht als „die Organisation“ bezeichnet - zu gewährleisten
-<span class="mark">\[Hier kann ein Verweis auf Anforderungen aus einer
+\[Hier kann ein Verweis auf Anforderungen aus einer
 unternehmensinternen Leitlinien/Richtlinie zur Aufrechterhaltung der
-Informationssicherheit eingebaut werden\]</span>.
+Informationssicherheit eingebaut werden\].
 
 # Feststellung des Schutzbedarfs
 
-<span class="mark">\[In diesem Abschnitt soll eine Methodik für die
+\[In diesem Abschnitt soll eine Methodik für die
 Risikoanalyse zur Feststellung des Schutzbedarfs und die Ermittlung
 notwendiger Maßnahmen für die Implementierung von OHDSI in der
 Organisation beschrieben werden. Hierfür kann ein individuell geeigneter
@@ -97,7 +97,7 @@ sich zu prüfen, welche unternehmensinterne Methodik empfohlen oder
 verpflichtend zu nutzen ist. Sollte Methodik keine vorliegen, kann eine
 Methodik auch selbst definiert werden. Im Folgenden wird auf die
 Risikobewertungs-Methodik der Agentur der Europäischen Union für
-Cybersicherheit (ENISA) referenziert.\]</span>
+Cybersicherheit (ENISA) referenziert.\]
 
 Bei der Durchführung der Risikoanalyse zur Feststellung des
 Schutzbedarfs und notwendiger Maßnahmen für die Forschungsdatenbank
@@ -128,9 +128,9 @@ müssen verschiedene Aspekte, wie die gegebenen Umstände, bisherige
 organisations- oder unternehmensspezifische Erfahrungen, sowie
 allgemeine Statistiken berücksichtigt werden \[1\].
 
-<span class="mark">\<\<\<Hier die Verarbeitungstätigkeit grafisch
+\<\<\<Hier die Verarbeitungstätigkeit grafisch
 skizzieren, bspw. ist die Darstellung mithilfe eines *LINDDUN Data Flow
-Diagrams* zu empfehlen, nachfolgend ein grobes Beispiel: \>\>\></span>
+Diagrams* zu empfehlen, nachfolgend ein grobes Beispiel: \>\>\>
 
 <img src="./media/linddun-data-flow-1.png" style="width:6.3in;height:2.40069in" />
 
@@ -138,9 +138,9 @@ Abbildung 1:Architekturübersicht und wesentliche fachliche Tätigkeiten.
 
 Die Bewertung der Risiken wird auf Ebene der wesentlichen durch die
 Lösung unterstützen fachlichen Tätigkeiten, wie in Abbildung 1
-dargestellt, vorgenommen. <span class="mark">\[Hier ist kurz zu
+dargestellt, vorgenommen. \[Hier ist kurz zu
 beschreiben, welche Daten in der Datenbank verarbeitet werden
-sollen.\]</span>. Da die Schritte für jeden der nach fachlich verantwortlichen Einrichtungen
+sollen.\]. Da die Schritte für jeden der nach fachlich verantwortlichen Einrichtungen
 getrennten Verarbeitungsprozesse sich nur in Details wie Beispielweise
 Transformationsregeln unterscheiden, werden sie im Folgenden gemeinsam
 beschrieben: (1) der Prozess der Datentransformation und des Datenladens
@@ -182,15 +182,15 @@ Vertraulichkeit.
 ## Risikoanalyse für Prozess 1: Datentransformation und -laden
 
 In diesem Prozess werden die bereits an der Quelle
-(<span class="mark">\[Name/Bezeichnung der Quelle/des
-Quellsystems\]</span>) pseudonymisierten Daten in das Schema des OMOP
+(\[Name/Bezeichnung der Quelle/des
+Quellsystems\]) pseudonymisierten Daten in das Schema des OMOP
 Common Data Model (CDM) transformiert und in die Forschungsdatenbank
 geladen.
 
 - **Verfügbarkeit**: Eine Einschränkung der Verfügbarkeit der
   Forschungsdatenbank ist beispielsweise durch Wartungsarbeiten relativ
   häufig möglich. Geplant ist eine Mindesterreichbarkeit von Montag bis
-  Freitag von <span class="mark">\[xx:yy – xx:yy Uhr\]</span>. Ein sich
+  Freitag von \[xx:yy – xx:yy Uhr\]. Ein sich
   aus der Nicht-Verfügbarkeit der Datenbank oder der
   Datenübernahmeprozesse ergebender Schaden ist vernachlässigbar, da
   ausschließlich nicht-kritische Prozesse im Forschungskontext
@@ -232,7 +232,7 @@ Tabelle 4: Bewertung der aus Prozess 1 resultierenden Risiken.
 - **Verfügbarkeit:** Eine Einschränkung der Verfügbarkeit der
   Forschungsdatenbank ist beispielsweise durch Wartungsarbeiten relativ
   häufig möglich. Geplant ist eine Mindesterreichbarkeit von Montag bis
-  Freitag von <span class="mark">\[xx:yy – xx:yy Uhr\]</span>. Ein sich
+  Freitag von \[xx:yy – xx:yy Uhr\]. Ein sich
   aus der Nicht-Verfügbarkeit der Datenbank ergebender Schaden ist
   vernachlässigbar, da diese nur für ausgewählte Forschungszwecke
   genutzt wird. Dies führt unter Berücksichtigung von Tabelle 1 zu einem
@@ -542,10 +542,10 @@ Es kommen unter anderem Maßnahmen der folgenden Bausteine zum Einsatz:
 Fernwartung (OPS.1.2.5) sowie Outsourcing an externe Dienstleister
 (OPS.3.1). Aus den bislang beschriebenen Maßnahmen sind die im Abschnitt
 Eingabekontrolle beschriebenen für dieses Schutzziel ebenfalls relevant.
-<span class="mark">\[Falls zutreffend: Weiterhin wird die Unterstützung
+\[Falls zutreffend: Weiterhin wird die Unterstützung
 und Zugriffe durch Dienstleister im Rahmen der Pilotierung über einen
 Auftragsverarbeitungsvertrag geregelt (Ebenen 3 und 5 nach BSI
-IT-Grundschutz).\]</span> Externe Mitarbeitenden können nur mittelbar
+IT-Grundschutz).\] Externe Mitarbeitenden können nur mittelbar
 durch eine Sicherhheitssoftware Zugriff auf die personenbezogenen Daten
 erhalten. Somit sind keine direkten (physischen) Serverzugriffe möglich.
 Auch wird die Wartungsverbindung durch einen benannten Mitarbeiter zur
@@ -597,8 +597,3 @@ organisatorischen Maßnahmen (siehe \[5\]).
 \[5\] Zentrale technische und organisatorische Maßnahmen zur Gewährleistung des Datenschutzes. \[Hier soll auf die entsprechenden allgemeine Maßnahmen der Organisation verwiesen werden\].
 
 \[6\] Betriebskonzept der Forschungsdatenbank OHDSI@\[Name der Organisation eintragen\].
-
-=======
-ToDo
-=======
-
