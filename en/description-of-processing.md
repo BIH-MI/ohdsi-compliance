@@ -8,7 +8,7 @@
 ## Contents
 
 1. Overview
-   * 1.1 Purpose of the Procedure
+   * 1.1 Purpose of the Processing Activity
    * 1.2 Technical, Organizational, and Personnel Components
    * 1.3 Data, Sources, and Legal Bases
 2. Systematic Description
