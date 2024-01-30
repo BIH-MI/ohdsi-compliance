@@ -66,7 +66,7 @@ All these components operate on a virtual machine within the highly protected in
 
 [_Note: The previous paragraph can be adapted if needed. Alternatively, the research database may also be operated in a demilitarized zone or a research network and may use dedicated hardware. Technical access options might be regulated differently at your institution. It is recommended to include a reference to the respective technical and organizational safeguards implemented. Technical differences, such as using database management systems other than PostgreSQL, may also require corresponding adjustments._]
 
-he dissemination of the results of analyses, for example in the form of publications, takes place, following the use of the OHDSI tools. This process is the responsibility of the researchers and may include the use of the organization's research services for archiving primary data. The data in the research database itself is secured by the standard backup mechanism of the underlying virtual machine environment. Thus, the setup complies with all policies of the organization.
+The dissemination of the results of analyses, for example in the form of publications, takes place, following the use of the OHDSI tools. This process is the responsibility of the researchers and may include the use of the organization's research services for archiving primary data. The data in the research database itself is secured by the standard backup mechanism of the underlying virtual machine environment. Thus, the setup complies with all policies of the organization.
 
 [_Note: Specifics, such as details about the responsibility for the underlying infrastructure, and institutional specifics, for example in regards to archiving, should be described here._]
 
