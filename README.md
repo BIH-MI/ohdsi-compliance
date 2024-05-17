@@ -13,4 +13,5 @@ The documents are licensed under the Apache License 2.0. The full text is access
 # Cite as
 
 If you want to cite our work, you can use the following citation:
+
   Wirth FN, Abu Attieh H, Prasser F. OHDSI-Compliance: A set of document templates facilitating the implementation and operation of a software stack for real-world evidence generation. Front. Med. 2024;11. [https://doi.org/10.3389/fmed.2024.1378866](https://doi.org/10.3389/fmed.2024.1378866)
